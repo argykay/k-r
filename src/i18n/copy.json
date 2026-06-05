@@ -61,6 +61,16 @@
     }
   },
   "hero": {
+    "title": {
+      "en": "Konstantina + Rihards",
+      "el": "Konstantina + Rihards",
+      "lv": "Konstantina + Rihards"
+    },
+    "subtitle": {
+      "en": "are getting married",
+      "el": "παντρεύονται",
+      "lv": "kājas"
+    },
     "pauseVideo": {
       "en": "Pause video",
       "el": "Παύση βίντεο",

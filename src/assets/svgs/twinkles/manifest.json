@@ -1,0 +1,416 @@
+[
+  {
+    "id": "twinkle-1-01",
+    "file": "twinkle-1-01.svg",
+    "source": "twinkle-1",
+    "width": 79,
+    "height": 152.3,
+    "normX": 0.098,
+    "normY": 0.674
+  },
+  {
+    "id": "twinkle-1-02",
+    "file": "twinkle-1-02.svg",
+    "source": "twinkle-1",
+    "width": 76.1,
+    "height": 135.8,
+    "normX": 0.867,
+    "normY": 0.262
+  },
+  {
+    "id": "twinkle-1-03",
+    "file": "twinkle-1-03.svg",
+    "source": "twinkle-1",
+    "width": 62.7,
+    "height": 150.1,
+    "normX": 0.864,
+    "normY": 0.894
+  },
+  {
+    "id": "twinkle-1-04",
+    "file": "twinkle-1-04.svg",
+    "source": "twinkle-1",
+    "width": 34.6,
+    "height": 37.1,
+    "normX": 0.934,
+    "normY": 0.463
+  },
+  {
+    "id": "twinkle-1-05",
+    "file": "twinkle-1-05.svg",
+    "source": "twinkle-1",
+    "width": 28.7,
+    "height": 28.9,
+    "normX": 0.566,
+    "normY": 0.403
+  },
+  {
+    "id": "twinkle-1-06",
+    "file": "twinkle-1-06.svg",
+    "source": "twinkle-1",
+    "width": 31,
+    "height": 31.4,
+    "normX": 0.443,
+    "normY": 0.248
+  },
+  {
+    "id": "twinkle-1-07",
+    "file": "twinkle-1-07.svg",
+    "source": "twinkle-1",
+    "width": 30.1,
+    "height": 29.9,
+    "normX": 0.299,
+    "normY": 0.48
+  },
+  {
+    "id": "twinkle-1-08",
+    "file": "twinkle-1-08.svg",
+    "source": "twinkle-1",
+    "width": 25.7,
+    "height": 29.8,
+    "normX": 0.691,
+    "normY": 0.152
+  },
+  {
+    "id": "twinkle-1-09",
+    "file": "twinkle-1-09.svg",
+    "source": "twinkle-1",
+    "width": 22.6,
+    "height": 22.6,
+    "normX": 0.562,
+    "normY": 0.306
+  },
+  {
+    "id": "twinkle-1-10",
+    "file": "twinkle-1-10.svg",
+    "source": "twinkle-1",
+    "width": 21.6,
+    "height": 22.3,
+    "normX": 0.985,
+    "normY": 0.098
+  },
+  {
+    "id": "twinkle-1-11",
+    "file": "twinkle-1-11.svg",
+    "source": "twinkle-1",
+    "width": 20.1,
+    "height": 18.7,
+    "normX": 0.244,
+    "normY": 0.008
+  },
+  {
+    "id": "twinkle-1-12",
+    "file": "twinkle-1-12.svg",
+    "source": "twinkle-1",
+    "width": 19.2,
+    "height": 18.8,
+    "normX": 0.639,
+    "normY": 0.78
+  },
+  {
+    "id": "twinkle-1-13",
+    "file": "twinkle-1-13.svg",
+    "source": "twinkle-1",
+    "width": 18.2,
+    "height": 19.5,
+    "normX": 0.788,
+    "normY": 0.665
+  },
+  {
+    "id": "twinkle-1-14",
+    "file": "twinkle-1-14.svg",
+    "source": "twinkle-1",
+    "width": 17.9,
+    "height": 18.7,
+    "normX": 0.461,
+    "normY": 0.877
+  },
+  {
+    "id": "twinkle-1-15",
+    "file": "twinkle-1-15.svg",
+    "source": "twinkle-1",
+    "width": 17.2,
+    "height": 19.4,
+    "normX": 0.455,
+    "normY": 0.448
+  },
+  {
+    "id": "twinkle-1-16",
+    "file": "twinkle-1-16.svg",
+    "source": "twinkle-1",
+    "width": 16.5,
+    "height": 17.3,
+    "normX": 0.266,
+    "normY": 0.229
+  },
+  {
+    "id": "twinkle-1-17",
+    "file": "twinkle-1-17.svg",
+    "source": "twinkle-1",
+    "width": 16.5,
+    "height": 16.6,
+    "normX": 0.212,
+    "normY": 0.315
+  },
+  {
+    "id": "twinkle-1-18",
+    "file": "twinkle-1-18.svg",
+    "source": "twinkle-1",
+    "width": 15.6,
+    "height": 17.6,
+    "normX": 0.962,
+    "normY": 0.154
+  },
+  {
+    "id": "twinkle-1-19",
+    "file": "twinkle-1-19.svg",
+    "source": "twinkle-1",
+    "width": 16.3,
+    "height": 16.4,
+    "normX": 0.733,
+    "normY": 0.333
+  },
+  {
+    "id": "twinkle-1-20",
+    "file": "twinkle-1-20.svg",
+    "source": "twinkle-1",
+    "width": 16.2,
+    "height": 16.3,
+    "normX": 0.7,
+    "normY": 0.415
+  },
+  {
+    "id": "twinkle-1-21",
+    "file": "twinkle-1-21.svg",
+    "source": "twinkle-1",
+    "width": 15.6,
+    "height": 15.7,
+    "normX": 0.476,
+    "normY": 0.59
+  },
+  {
+    "id": "twinkle-1-22",
+    "file": "twinkle-1-22.svg",
+    "source": "twinkle-1",
+    "width": 15.1,
+    "height": 16.5,
+    "normX": 0.962,
+    "normY": 0.78
+  },
+  {
+    "id": "twinkle-1-23",
+    "file": "twinkle-1-23.svg",
+    "source": "twinkle-1",
+    "width": 16,
+    "height": 15.5,
+    "normX": 0.03,
+    "normY": 0.566
+  },
+  {
+    "id": "twinkle-1-24",
+    "file": "twinkle-1-24.svg",
+    "source": "twinkle-1",
+    "width": 15.1,
+    "height": 15.6,
+    "normX": 0.612,
+    "normY": 0.587
+  },
+  {
+    "id": "twinkle-1-25",
+    "file": "twinkle-1-25.svg",
+    "source": "twinkle-1",
+    "width": 14.3,
+    "height": 15.8,
+    "normX": 0.592,
+    "normY": 0.165
+  },
+  {
+    "id": "twinkle-1-26",
+    "file": "twinkle-1-26.svg",
+    "source": "twinkle-1",
+    "width": 13.9,
+    "height": 13.9,
+    "normX": 0.586,
+    "normY": 0.125
+  },
+  {
+    "id": "twinkle-1-27",
+    "file": "twinkle-1-27.svg",
+    "source": "twinkle-1",
+    "width": 14,
+    "height": 14.2,
+    "normX": 0.318,
+    "normY": 0.7
+  },
+  {
+    "id": "twinkle-1-28",
+    "file": "twinkle-1-28.svg",
+    "source": "twinkle-1",
+    "width": 12.1,
+    "height": 12.2,
+    "normX": 0.004,
+    "normY": 0.538
+  },
+  {
+    "id": "twinkle-1-29",
+    "file": "twinkle-1-29.svg",
+    "source": "twinkle-1",
+    "width": 11.5,
+    "height": 11.8,
+    "normX": 0.923,
+    "normY": 0.81
+  },
+  {
+    "id": "twinkle-2-01",
+    "file": "twinkle-2-01.svg",
+    "source": "twinkle-2",
+    "width": 157.7,
+    "height": 242.1,
+    "normX": 0.537,
+    "normY": 0.331
+  },
+  {
+    "id": "twinkle-2-02",
+    "file": "twinkle-2-02.svg",
+    "source": "twinkle-2",
+    "width": 101.5,
+    "height": 202.1,
+    "normX": 0.861,
+    "normY": 0.554
+  },
+  {
+    "id": "twinkle-2-03",
+    "file": "twinkle-2-03.svg",
+    "source": "twinkle-2",
+    "width": 98,
+    "height": 167.4,
+    "normX": 0.107,
+    "normY": 0.901
+  },
+  {
+    "id": "twinkle-2-04",
+    "file": "twinkle-2-04.svg",
+    "source": "twinkle-2",
+    "width": 31.6,
+    "height": 31.6,
+    "normX": 0.53,
+    "normY": 0.867
+  },
+  {
+    "id": "twinkle-2-05",
+    "file": "twinkle-2-05.svg",
+    "source": "twinkle-2",
+    "width": 28.1,
+    "height": 30.7,
+    "normX": 0.544,
+    "normY": 0.606
+  },
+  {
+    "id": "twinkle-2-06",
+    "file": "twinkle-2-06.svg",
+    "source": "twinkle-2",
+    "width": 23.6,
+    "height": 25,
+    "normX": 0.981,
+    "normY": 0.117
+  },
+  {
+    "id": "twinkle-2-07",
+    "file": "twinkle-2-07.svg",
+    "source": "twinkle-2",
+    "width": 22.4,
+    "height": 25.4,
+    "normX": 0.796,
+    "normY": 0.748
+  },
+  {
+    "id": "twinkle-2-08",
+    "file": "twinkle-2-08.svg",
+    "source": "twinkle-2",
+    "width": 22.7,
+    "height": 23.8,
+    "normX": 0.93,
+    "normY": 0.01
+  },
+  {
+    "id": "twinkle-2-09",
+    "file": "twinkle-2-09.svg",
+    "source": "twinkle-2",
+    "width": 20.6,
+    "height": 24.5,
+    "normX": 0.186,
+    "normY": 0.757
+  },
+  {
+    "id": "twinkle-2-10",
+    "file": "twinkle-2-10.svg",
+    "source": "twinkle-2",
+    "width": 20.8,
+    "height": 21.1,
+    "normX": 0.372,
+    "normY": 0.654
+  },
+  {
+    "id": "twinkle-2-11",
+    "file": "twinkle-2-11.svg",
+    "source": "twinkle-2",
+    "width": 19.6,
+    "height": 24.8,
+    "normX": 0.373,
+    "normY": 0.475
+  },
+  {
+    "id": "twinkle-2-12",
+    "file": "twinkle-2-12.svg",
+    "source": "twinkle-2",
+    "width": 19.5,
+    "height": 19.8,
+    "normX": 0.374,
+    "normY": 0.854
+  },
+  {
+    "id": "twinkle-2-13",
+    "file": "twinkle-2-13.svg",
+    "source": "twinkle-2",
+    "width": 19.5,
+    "height": 19.4,
+    "normX": 0.713,
+    "normY": 0.081
+  },
+  {
+    "id": "twinkle-2-14",
+    "file": "twinkle-2-14.svg",
+    "source": "twinkle-2",
+    "width": 18.2,
+    "height": 18,
+    "normX": 0.679,
+    "normY": 0.628
+  },
+  {
+    "id": "twinkle-2-15",
+    "file": "twinkle-2-15.svg",
+    "source": "twinkle-2",
+    "width": 17,
+    "height": 17.3,
+    "normX": 0.526,
+    "normY": 0.752
+  },
+  {
+    "id": "twinkle-2-16",
+    "file": "twinkle-2-16.svg",
+    "source": "twinkle-2",
+    "width": 16.7,
+    "height": 17.3,
+    "normX": 0.631,
+    "normY": 0.522
+  },
+  {
+    "id": "twinkle-2-17",
+    "file": "twinkle-2-17.svg",
+    "source": "twinkle-2",
+    "width": 16.4,
+    "height": 16.5,
+    "normX": 0.493,
+    "normY": 0.963
+  }
+]

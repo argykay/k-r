@@ -190,19 +190,19 @@ const TimelineIconSlot = ({
 };
 
 const TIMELINE_ROW_GRID =
-  'grid w-full grid-cols-4 items-start gap-2 md:grid-cols-6 md:gap-6 lg:grid-cols-12 lg:gap-6';
+  'grid w-full grid-cols-4 items-center gap-2 md:grid-cols-6 md:gap-6 lg:grid-cols-12 lg:gap-6';
 
 /**
  * Base (4 cols): icon 1 + star 1 + text 2.
- * md (6 cols): 5-col block centered → icon @ 2, star @ 3, text @ 4–6.
- * lg (12 cols): 7-col block centered → icon @ 3–4, star @ 5, text @ 6–9.
+ * md (6 cols): icon @ 1, star @ 2, text @ 3–5.
+ * lg (12 cols): icon @ 4–5, star @ 6, text @ 7–10.
  */
 const TIMELINE_ICON_COL =
-  'col-span-1 flex justify-center self-center md:col-start-2 lg:col-span-2 lg:col-start-3';
+  'col-span-1 flex justify-center self-center md:col-start-1 lg:col-span-2 lg:col-start-4';
 const TIMELINE_STAR_COL =
-  'timeline-star-column relative col-span-1 flex self-stretch items-center justify-center md:col-start-3 lg:col-start-5';
+  'timeline-star-column relative col-span-1 flex self-stretch items-center justify-center md:col-start-2 lg:col-start-6';
 const TIMELINE_TEXT_COL =
-  'col-span-2 min-w-0 md:col-start-4 md:col-span-3 lg:col-span-4 lg:col-start-6';
+  'col-span-2 min-w-0 md:col-start-3 md:col-span-3 lg:col-span-3 lg:col-start-7';
 
 const TimelineSpineRail = () => (
   <div
@@ -322,7 +322,7 @@ const TimelineRow = ({ entry, staggerIndex, starRef }: TimelineRowProps) => {
         </div>
         <div className={TIMELINE_STAR_COL}>
           <TimelineStarSlot
-            Star={TIMELINE_STAR_SVGS[staggerIndex % 1]}
+            Star={TIMELINE_STAR_SVGS[staggerIndex % 2]}
             starRef={starRef}
           />
         </div>
