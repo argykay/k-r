@@ -19,7 +19,7 @@ export const FaqPage = () => {
             <h1 className="text-style-cursive-title text-xl text-center text-cream lg:text-4xl">
               {t('faq.title')}
             </h1>
-            <IntroReveal className="w-full max-w-sm mx-auto">
+            <div className="w-full max-w-xs mx-auto">
               <AnimatedVector
                 Svg={FlowersSvg2Svg}
                 className="w-full"
@@ -29,7 +29,7 @@ export const FaqPage = () => {
                   effect: 'stroke',
                 }}
               />
-            </IntroReveal>
+            </div>
             <FaqAccordion items={FAQ_ITEMS} />
           </div>
         </GridContainer>

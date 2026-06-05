@@ -1,36 +1,42 @@
 import React from 'react';
 import { TwinkleOverlay } from '@components/TwinkleOverlay/TwinkleOverlay';
 
-/** Center column — whimsical art, title, and accordion. */
-const CONTENT_EXCLUSION = {
-  xMin: 0.16,
-  xMax: 0.84,
-  yMin: 0.08,
-  yMax: 0.96,
+/**
+ * Content column on lg (`col-start-4` + `col-span-6` of 12).
+ * Full viewport height — sparkles fill the side gutters only.
+ */
+const CONTENT_COLUMN = {
+  xMin: 0.24,
+  xMax: 0.76,
+  yMin: 0,
+  yMax: 1,
 };
 
-/** Hand-placed sparkles in the side and corner margins. */
-const MARGIN_EXTRAS: ReadonlyArray<{
+/** Sparse hand-placed sparkles along left and right margins, full height. */
+const SIDE_EXTRAS: ReadonlyArray<{
   assetIndex: number;
   normX: number;
   normY: number;
 }> = [
-  { assetIndex: 10, normX: 0.05, normY: 0.06 },
-  { assetIndex: 5, normX: 0.94, normY: 0.08 },
-  { assetIndex: 28, normX: 0.04, normY: 0.22 },
-  { assetIndex: 27, normX: 0.96, normY: 0.2 },
-  { assetIndex: 4, normX: 0.06, normY: 0.42 },
-  { assetIndex: 25, normX: 0.95, normY: 0.44 },
-  { assetIndex: 9, normX: 0.05, normY: 0.62 },
-  { assetIndex: 14, normX: 0.94, normY: 0.64 },
-  { assetIndex: 18, normX: 0.07, normY: 0.82 },
-  { assetIndex: 22, normX: 0.93, normY: 0.86 },
+  { assetIndex: 3, normX: 0.1, normY: 0.12 },
+  { assetIndex: 8, normX: 0.9, normY: 0.22 },
+  { assetIndex: 14, normX: 0.12, normY: 0.34 },
+  { assetIndex: 20, normX: 0.88, normY: 0.42 },
+  { assetIndex: 11, normX: 0.09, normY: 0.54 },
+  { assetIndex: 16, normX: 0.91, normY: 0.62 },
+  { assetIndex: 6, normX: 0.11, normY: 0.74 },
+  { assetIndex: 21, normX: 0.89, normY: 0.82 },
 ];
 
 export const FaqSparkles = () => (
   <TwinkleOverlay
-    exclusionZones={[CONTENT_EXCLUSION]}
-    extras={MARGIN_EXTRAS}
-    extraIdPrefix="faq-sparkle-margin"
+    className="hidden md:block"
+    exclusionZones={[CONTENT_COLUMN]}
+    omitZones={[CONTENT_COLUMN]}
+    extras={SIDE_EXTRAS}
+    extraIdPrefix="faq-sparkle-side"
+    position="fixed"
+    extrasOnly
+    minSparkleGapNorm={0.028}
   />
 );
