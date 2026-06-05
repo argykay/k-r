@@ -1,0 +1,141 @@
+/**
+ * Composite text styles from Figma node 1:26 (Styles).
+ * Mobile-first: default below 768px; md+ uses *-desktop tokens in tailwind.config.js.
+ * All styles use font-cardo (Cardo). Set text color separately.
+ */
+@layer components {
+  .text-style-header-1 {
+    @apply font-cardo text-header-1 tracking-header-1 lowercase text-black;
+  }
+
+  .text-style-header-2 {
+    @apply font-cardo text-header-2 text-black;
+  }
+
+  .text-style-header-3 {
+    @apply font-cardo font-normal text-header-3 uppercase text-black;
+  }
+
+  .text-style-header-4 {
+    @apply font-cardo text-header-4 tracking-header-4 text-black;
+  }
+
+  .text-style-header-5 {
+    @apply font-cardo font-medium text-header-5 tracking-header-5 text-black;
+  }
+
+  .text-style-paragraph-1 {
+    @apply font-cardo font-normal text-paragraph-1;
+  }
+
+  .text-style-paragraph-2 {
+    @apply font-cardo font-normal text-paragraph-2 tracking-paragraph-2;
+  }
+
+  .text-style-paragraph-3 {
+    @apply font-cardo font-normal text-paragraph-3 tracking-paragraph-3;
+  }
+
+  .text-style-caption {
+    @apply font-cardo font-medium text-caption tracking-caption text-center text-black;
+  }
+
+  .text-style-button {
+    @apply font-cardo font-normal text-button tracking-button text-center text-black;
+  }
+
+  .text-style-link {
+    @apply font-cardo font-normal text-link tracking-link uppercase text-center text-black underline;
+  }
+
+  @screen md {
+    .text-style-header-1 {
+      @apply text-header-1-desktop tracking-header-1-desktop;
+    }
+
+    .text-style-header-2 {
+      @apply text-header-2-desktop;
+    }
+
+    .text-style-header-3 {
+      @apply text-header-3-desktop;
+    }
+
+    .text-style-header-4 {
+      @apply text-header-4-desktop tracking-header-4-desktop;
+    }
+
+    .text-style-header-5 {
+      @apply text-header-5-desktop tracking-header-5-desktop;
+    }
+
+    .text-style-paragraph-1 {
+      @apply text-paragraph-1-desktop;
+    }
+
+    .text-style-paragraph-2 {
+      @apply text-paragraph-2-desktop tracking-paragraph-2-desktop;
+    }
+
+    .text-style-paragraph-3 {
+      @apply text-paragraph-3-desktop tracking-paragraph-3-desktop;
+    }
+
+    .text-style-caption {
+      @apply text-caption-desktop tracking-caption-desktop;
+    }
+
+    .text-style-button {
+      @apply text-button-desktop tracking-button-desktop;
+    }
+
+    .text-style-link {
+      @apply text-link-desktop tracking-link-desktop;
+    }
+
+    /* Raw `text-*` utilities use the same smaller desktop scale */
+    .text-header-1 {
+      @apply text-header-1-desktop tracking-header-1-desktop;
+    }
+
+    .text-header-2 {
+      @apply text-header-2-desktop;
+    }
+
+    .text-header-3 {
+      @apply text-header-3-desktop;
+    }
+
+    .text-header-4 {
+      @apply text-header-4-desktop tracking-header-4-desktop;
+    }
+
+    .text-header-5 {
+      @apply text-header-5-desktop tracking-header-5-desktop;
+    }
+
+    .text-paragraph-1 {
+      @apply text-paragraph-1-desktop;
+    }
+
+    .text-paragraph-2 {
+      @apply text-paragraph-2-desktop tracking-paragraph-2-desktop;
+    }
+
+    .text-paragraph-3 {
+      @apply text-paragraph-3-desktop tracking-paragraph-3-desktop;
+    }
+
+    .text-caption {
+      @apply text-caption-desktop tracking-caption-desktop;
+    }
+
+    .text-button {
+      @apply text-button-desktop tracking-button-desktop;
+    }
+
+    .text-link {
+      @apply text-link-desktop tracking-link-desktop;
+    }
+  }
+}

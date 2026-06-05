@@ -1,0 +1,44 @@
+/**
+ * Cursive accent typography (Homemade Apple) — optional script display layer alongside Cardo.
+ * Mobile-first; md+ uses *-desktop tokens in tailwind.config.js.
+ * Set text color on the element (e.g. text-burgundy).
+ */
+@layer components {
+  .text-style-cursive-section {
+    @apply font-cursive font-normal text-cursive-section tracking-cursive-section;
+  }
+
+  .text-style-cursive-title {
+    @apply font-cursive font-normal text-cursive-title tracking-cursive-title;
+  }
+
+  .text-style-cursive-time {
+    @apply font-cursive font-normal text-cursive-time tracking-cursive-time;
+  }
+
+  @screen md {
+    .text-style-cursive-section {
+      @apply text-cursive-section-desktop tracking-cursive-section-desktop;
+    }
+
+    .text-style-cursive-title {
+      @apply text-cursive-title-desktop tracking-cursive-title-desktop;
+    }
+
+    .text-style-cursive-time {
+      @apply text-cursive-time-desktop tracking-cursive-time-desktop;
+    }
+
+    .text-cursive-section {
+      @apply text-cursive-section-desktop tracking-cursive-section-desktop;
+    }
+
+    .text-cursive-title {
+      @apply text-cursive-title-desktop tracking-cursive-title-desktop;
+    }
+
+    .text-cursive-time {
+      @apply text-cursive-time-desktop tracking-cursive-time-desktop;
+    }
+  }
+}

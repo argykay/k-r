@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "siteTitle": {
+      "en": "K & R",
+      "el": "K & R",
+      "lv": "K & R"
+    }
+  },
+  "navigation": {
+    "label": {
+      "en": "Main navigation",
+      "el": "Κύρια πλοήγηση",
+      "lv": "Galvenā navigācija"
+    },
+    "home": {
+      "en": "Home",
+      "el": "Αρχική",
+      "lv": "Sākums"
+    },
+    "ourStory": {
+      "en": "Our Story",
+      "el": "Η ιστορία μας",
+      "lv": "Mūsu stāsts"
+    },
+    "details": {
+      "en": "Details",
+      "el": "Λεπτομέρειες",
+      "lv": "Informācija"
+    },
+    "rsvp": {
+      "en": "RSVP",
+      "el": "RSVP",
+      "lv": "RSVP"
+    },
+    "date": {
+      "en": "Sunday the 13th of September 2026",
+      "el": "Κυριακή, 13η Σεπτεμβρίου 2026",
+      "lv": "2026. gada 13. septembra, svētdiena"
+    }
+  },
+  "languages": {
+    "label": {
+      "en": "Language",
+      "el": "Γλώσσα",
+      "lv": "Valoda"
+    },
+    "en": {
+      "en": "English",
+      "el": "Αγγλικά",
+      "lv": "Angļu"
+    },
+    "el": {
+      "en": "Greek",
+      "el": "Ελληνικά",
+      "lv": "Grieķu"
+    },
+    "lv": {
+      "en": "Latvian",
+      "el": "Λετονικά",
+      "lv": "Latviešu"
+    }
+  },
+  "hero": {
+    "pauseVideo": {
+      "en": "Pause video",
+      "el": "Παύση βίντεο",
+      "lv": "Pauzēt video"
+    },
+    "playVideo": {
+      "en": "Play video",
+      "el": "Αναπαραγωγή βίντεο",
+      "lv": "Atskaņot video"
+    }
+  },
+  "home": {
+    "welcome": {
+      "en": "Welcome",
+      "el": "Καλώς ήρθατε",
+      "lv": "Laipni lūdzam"
+    },
+    "date": {
+      "en": "12th of September 2026",
+      "el": "12η Σεπτεμβρίου 2026",
+      "lv": "2026. gada 12. septembris"
+    }
+  },
+  "welcome": {
+    "message": {
+      "en": "We're gathering our favourite people for a day of love, laughter, good food, and dancing beneath the trees",
+      "el": "Συγκεντρωνόμαστε τους αγαπημένους μας για μια μέρα γεμάτη αγάπη, γέλιο, καλό φαγητό και χορό κάτω από τα δέντρα",
+      "lv": "Sapulcām savus mīļākos cilvēkus dienai, kas pilna ar mīlestību, smiekliem, labu ēdienu un dejām zem kokiem"
+    },
+    "location": {
+      "en": "Join us in the beautiful forests of Lejre, where we'll celebrate beside the lake, surrounded by nature and the people we love most.",
+      "el": "Ελάτε μαζί μας στα όμορφα δάση του Lejre, όπου θα γιορτάσουμε δίπλα στη λίμνη, περιτριγυρισμένοι από τη φύση και τους ανθρώπους που αγαπάμε περισσότερο.",
+      "lv": "Pievienojieties mums Lejres skaistajos mežos, kur svinēsim ezera malā, dabas un mūsu mīļāko cilvēku vidū."
+    },
+    "closing": {
+      "en": "We can't wait to spend this special day with you!",
+      "el": "Ανυπομονούμε να περάσουμε αυτή την ξεχωριστή μέρα μαζί σας!",
+      "lv": "Nevaram sagaidīt, kad šo īpašo dienu pavadīsim kopā ar jums!"
+    }
+  },
+  "countdown": {
+    "title": {
+      "en": "Counting down to our day",
+      "el": "Μετράμε αντίστροφα μέχρι τη μέρα μας",
+      "lv": "Skaitām līdz mūsu dienai"
+    },
+    "ariaLabel": {
+      "en": "Time until the wedding",
+      "el": "Χρόνος μέχρι τον γάμο",
+      "lv": "Laiks līdz kāzām"
+    },
+    "days": {
+      "en": "days",
+      "el": "ημέρες",
+      "lv": "dienas"
+    },
+    "hours": {
+      "en": "hours",
+      "el": "ώρες",
+      "lv": "stundas"
+    },
+    "minutes": {
+      "en": "minutes",
+      "el": "λεπτά",
+      "lv": "minūtes"
+    },
+    "seconds": {
+      "en": "seconds",
+      "el": "δευτερόλεπτα",
+      "lv": "sekundes"
+    }
+  },
+  "timeline": {
+    "title": {
+      "en": "The day",
+      "el": "Η μέρα",
+      "lv": "Diena"
+    },
+    "intro1": {
+      "en": "A whimsical day in the forest",
+      "el": "Μια μαγική μέρα στο δάσος",
+      "lv": "Spontāna diena mežā"
+    },
+    "intro2": {
+      "en": "here is how we hope the celebration will unfold.",
+      "el": "έτσι ελπίζουμε να εξελιχθεί η γιορτή.",
+      "lv": "tā mēs ceram, ka svinības izvērsīsies."
+    },
+    "footnote": {
+      "en": "Times are approximate and may shift slightly so we can savour each moment together.",
+      "el": "Οι ώρες είναι κατά προσέγγιση και μπορεί να μετακινηθούν ελαφρώς, ώστε να απολαύσουμε κάθε στιγμή μαζί.",
+      "lv": "Laiki ir aptuveni un var nedaudz mainīties, lai mēs visi kopā varētu baudīt katru mirkli."
+    },
+    "gettingThereBody": {
+      "en": "Buses depart from central Copenhagen (exact pickup location to be confirmed). Guests who prefer may drive directly to the venue.",
+      "el": "Τα λεωφορεία αναχωρούν από το κέντρο της Κοπενχάγης (η ακριβής τοποθεσία παραλαβής θα επιβεβαιωθεί). Όποιοι προτιμούν μπορούν να οδηγήσουν απευθείας στον χώρο.",
+      "lv": "Autobusi dodas prom no Kopenhāgenas centra (precīza izkāpšanas vieta tiks precizēta). Var braukt tieši uz norises vietu."
+    },
+    "arriveBodyBefore": {
+      "en": "Everyone arrives at ",
+      "el": "Όλοι φτάνουν στο ",
+      "lv": "Visi ierodas "
+    },
+    "arriveVenue": {
+      "en": "Restaurant Herthadalen, Slangealleen 1, 4320 Lejre",
+      "el": "Restaurant Herthadalen, Slangealleen 1, 4320 Lejre",
+      "lv": "Restaurant Herthadalen, Slangealleen 1, 4320 Lejre"
+    },
+    "arriveBodyAfter": {
+      "en": ".",
+      "el": ".",
+      "lv": "."
+    },
+    "arriveMapsAria": {
+      "en": "Restaurant Herthadalen on Google Maps (opens in new tab)",
+      "el": "Restaurant Herthadalen στο Google Maps (ανοίγει σε νέα καρτέλα)",
+      "lv": "Restaurant Herthadalen Google Maps (atveras jaunā cilnē)"
+    },
+    "ceremonyBody": {
+      "en": "Wedding ceremony by the lake beneath the trees.",
+      "el": "Γάμος δίπλα στη λίμνη, κάτω από τα δέντρα.",
+      "lv": "Kāzu ceremonija ezera krastā zem kokiem."
+    },
+    "drinksBody": {
+      "en": "Welcome drinks, canapés, and cake on the terrace. Afterwards, photos in the gardens and surrounding grounds.",
+      "el": "Καλωσορίσματα, καναπεδάκια και τούρτα στη βεράντα. Στη συνέχεια, φωτογραφίες στους κήπους και τους γύρω χώρους.",
+      "lv": "Uzņemšanas dzērieni, uzkodas un kūka uz terases. Pēc tam — fotoattēli dārzos un apkārtējās teritorijās."
+    },
+    "dinnerBody": {
+      "en": "Dinner is served indoors.",
+      "el": "Το δείπνο σερβίρεται σε εσωτερικό χώρο.",
+      "lv": "Vakariņas tiek pasniegtas telpās."
+    },
+    "partyBody": {
+      "en": "The party begins in the tent. Dancing, drinks, light snacks, and celebrations.",
+      "el": "Το πάρτι ξεκινά στη σκηνή. Χορός, ποτά, ελαφριά σνακ και γιορτές.",
+      "lv": "Ballīte sākas teltī. Dejas, dzērieni, vieglas uzkodas un svinēšana."
+    },
+    "returnBusesBody": {
+      "en": "Buses return to central Copenhagen.",
+      "el": "Τα λεωφορεία επιστρέφουν στο κέντρο της Κοπενχάγης.",
+      "lv": "Autobusi atgriežas Kopenhāgenas centrā."
+    }
+  }
+}

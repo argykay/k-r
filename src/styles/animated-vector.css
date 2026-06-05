@@ -1,0 +1,7 @@
+/* Hand-drawn effect uses an SVG filter on the root (see animatedVector.ts). */
+.animated-vector--stroke {
+  overflow: visible;
+  shape-rendering: geometricPrecision;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}

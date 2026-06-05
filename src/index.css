@@ -1,3 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import './styles/typography.css';
+@import './styles/typography-cursive.css';
+@import './styles/animated-vector.css';
+
+@layer base {
+  html {
+    font-family: 'Cardo', serif;
+  }
+}
+
+@layer components {
+  .hero-intro-overlay {
+    --fade: 0;
+    --solid: 0;
+    background-color: rgb(0 0 0 / var(--solid));
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, calc(var(--fade) * 0.12)) 20%,
+      rgba(0, 0, 0, calc(var(--fade) * 0.45)) 55%,
+      rgba(0, 0, 0, calc(var(--fade) * 0.82)) 82%,
+      rgba(0, 0, 0, var(--fade)) 100%
+    );
+    will-change: background, background-color;
+  }
+
+  .rolling-digit {
+    height: 1.15em;
+    line-height: 1.15;
+  }
+
+  .rolling-digit-strip {
+    will-change: transform;
+  }
+
+  .rolling-digit-cell {
+    height: 1.15em;
+    min-width: 0.62em;
+  }
+
+  .countdown-unit-value .rolling-digit-cell {
+    min-width: 0.5em;
+  }
+
+  @screen md {
+    .countdown-unit-value .rolling-digit-cell {
+      min-width: 0.62em;
+    }
+  }
+
+  .timeline-list {
+    --timeline-gap: 0.5rem;
+  }
+
+  @screen md {
+    .timeline-list {
+      --timeline-gap: 1.5rem;
+    }
+  }
+
+  .timeline-list-wrap {
+    --timeline-spine-top: 0px;
+    --timeline-spine-bottom: 0px;
+  }
+
+  .timeline-spine-rail {
+    top: var(--timeline-spine-top);
+    bottom: var(--timeline-spine-bottom);
+  }
+
+  .timeline-star-column {
+    --timeline-star-size: 2rem;
+  }
+
+  @screen md {
+    .timeline-star-column {
+      --timeline-star-size: 2.5rem;
+    }
+  }
+
+  .timeline-star-slot {
+    height: var(--timeline-star-size);
+    width: var(--timeline-star-size);
+  }
+
+  .timeline-spine-line {
+    stroke: rgb(124 142 95 / 0.55);
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-dasharray: 2 5;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .timeline-spine-line {
+      animation: none !important;
+    }
+  }
+
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
