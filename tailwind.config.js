@@ -50,7 +50,7 @@ module.exports = {
        * | Style        | Mobile | md+ (desktop) |
        * |--------------|--------|---------------|
        * | header-1     | 56px   | 112px         |
-       * | header-2     | 36px   | 32px          |
+       * | header-2     | 32px   | 32px          |
        * | header-3     | 28px   | 26px          |
        * | header-4     | 24px   | 26px          |
        * | header-5     | 20px   | 20px          |
@@ -64,7 +64,7 @@ module.exports = {
       fontSize: {
         'header-1': ['56px', '1.17'],
         'header-1-desktop': ['112px', '1.17'],
-        'header-2': ['36px', '1.2'],
+        'header-2': ['32px', '1.2'],
         'header-2-desktop': ['32px', '1.2'],
         'header-3': ['28px', '1.2'],
         'header-3-desktop': ['26px', '1.2'],

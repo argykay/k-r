@@ -3,7 +3,7 @@ import { DEFAULT_LOCALE, type Locale } from '@i18n';
 /** Path segments after the locale prefix (no leading slash). */
 export const ROUTE_SEGMENTS = {
   home: '',
-  ourStory: 'our-story',
+  faq: 'faq',
   details: 'details',
   rsvp: 'rsvp',
 } as const;

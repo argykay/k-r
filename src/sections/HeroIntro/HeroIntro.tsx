@@ -225,7 +225,7 @@ export const HeroIntro = () => {
                 </p>
                 <AnimatedVector
                   Svg={HeartSvg}
-                  className="mt-8 w-8 shrink-0 md:w-9"
+                  className="mt-8 w-6 shrink-0"
                   svgClassName="block h-auto w-full text-cream"
                   animationOptions={HERO_HEART_ANIMATION}
                 />

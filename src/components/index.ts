@@ -1,4 +1,5 @@
 export { AnimatedVector } from './AnimatedVector/AnimatedVector';
+export { FaqAccordion } from './FaqAccordion/FaqAccordion';
 export { CountdownTimer } from './CountdownTimer/CountdownTimer';
 export type { CountdownTimerProps } from './CountdownTimer/CountdownTimer';
 export { IntroReveal } from './IntroReveal/IntroReveal';
