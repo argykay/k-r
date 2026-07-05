@@ -215,6 +215,7 @@
       "lv": "Autobusi atgriežas Kopenhāgenas centrā."
     }
   },
+  "gate": {
     "title": {
       "en": "Welcome",
       "el": "Καλώς ήρθατε",
@@ -249,7 +250,8 @@
       "en": "The password was included in your invitation.",
       "el": "Ο κωδικός περιλαμβάνεται στην πρόσκλησή σας.",
       "lv": "Parole ir norādīta jūsu ielūgumā."
-    },
+    }
+  },
   "faq": {
     "title": {
       "en": "Frequently Asked Questions",
@@ -512,3 +514,4 @@
       "lv": "Organizētie autobusi aties plkst. 01:00."
     }
   }
+}
