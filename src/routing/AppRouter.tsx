@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { HomePage } from '@pages';
+import { HomePage, RsvpPage } from '@pages';
 import { LocaleLayout } from './LocaleLayout';
 
 export const AppRouter = () => {
@@ -9,12 +9,13 @@ export const AppRouter = () => {
       {/* `/` = English (default) */}
       <Route path="/" element={<LocaleLayout />}>
         <Route index element={<HomePage />} />
+        <Route path="rsvp" element={<RsvpPage />} />
       </Route>
 
       {/* `/en`, `/el`, `/lv`, and nested routes */}
       <Route path="/:locale" element={<LocaleLayout />}>
         <Route index element={<HomePage />} />
-        {/* Add more routes, e.g. <Route path="our-story" element={<OurStoryPage />} /> */}
+        <Route path="rsvp" element={<RsvpPage />} />
       </Route>
     </Routes>
   );
