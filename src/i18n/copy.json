@@ -17,10 +17,10 @@
       "el": "Αρχική",
       "lv": "Sākums"
     },
-    "ourStory": {
-      "en": "Our Story",
-      "el": "Η ιστορία μας",
-      "lv": "Mūsu stāsts"
+    "faq": {
+      "en": "FAQ",
+      "el": "FAQ",
+      "lv": "BUJ"
     },
     "details": {
       "en": "Details",
@@ -61,6 +61,16 @@
     }
   },
   "hero": {
+    "title": {
+      "en": "Konstantina + Rihards",
+      "el": "Konstantina + Rihards",
+      "lv": "Konstantina + Rihards"
+    },
+    "subtitle": {
+      "en": "are getting married",
+      "el": "παντρεύονται",
+      "lv": "kājas"
+    },
     "pauseVideo": {
       "en": "Pause video",
       "el": "Παύση βίντεο",
@@ -205,7 +215,6 @@
       "lv": "Autobusi atgriežas Kopenhāgenas centrā."
     }
   },
-  "gate": {
     "title": {
       "en": "Welcome",
       "el": "Καλώς ήρθατε",
@@ -240,6 +249,266 @@
       "en": "The password was included in your invitation.",
       "el": "Ο κωδικός περιλαμβάνεται στην πρόσκλησή σας.",
       "lv": "Parole ir norādīta jūsu ielūgumā."
+    },
+  "faq": {
+    "title": {
+      "en": "Frequently Asked Questions",
+      "el": "Συχνές Ερωτήσεις",
+      "lv": "Biežāk uzdotie jautājumi"
+    },
+    "whatToWearQuestion": {
+      "en": "What should I wear?",
+      "el": "Τι να φορέσω;",
+      "lv": "Ko vilkt mugurā?"
+    },
+    "whatToWearP1": {
+      "en": "Whatever makes you feel wonderful.",
+      "el": "Ό,τι σας κάνει να νιώθετε υπέροχα.",
+      "lv": "To, kas liek jums justies lieliski."
+    },
+    "whatToWearP2": {
+      "en": "Our celebration is relaxed rather than formal, so please wear something you'll feel comfortable celebrating, eating, and dancing in.",
+      "el": "Ο γάμος μας θα είναι χαλαρός και ανεπίσημος, οπότε φορέστε κάτι με το οποίο θα αισθάνεστε άνετα να γιορτάσετε, να φάτε και να χορέψετε.",
+      "lv": "Mūsu svinības būs nepiespiestas, tāpēc izvēlieties apģērbu, kurā jutīsieties ērti svinot, ēdot un dejojot."
+    },
+    "whatToWearP3": {
+      "en": "A small practical note: the ceremony takes place outdoors by the lake, and we'll be walking on grass, gravel, and forest paths throughout the day. We recommend avoiding thin stilettos unless you're particularly talented at navigating nature in them.",
+      "el": "Μια πρακτική σημείωση: η τελετή θα πραγματοποιηθεί δίπλα στη λίμνη και θα περπατήσουμε σε γρασίδι, χαλίκι και δασικά μονοπάτια. Συνιστούμε να αποφύγετε τα πολύ λεπτά τακούνια.",
+      "lv": "Praktiska piezīme: ceremonija notiks pie ezera, un dienas laikā pārvietosimies pa zāli, grants celiņiem un meža takām. Iesakām izvairīties no ļoti smalkiem augstpapēžu apaviem."
+    },
+    "whatToWearP4": {
+      "en": "September weather can be unpredictable, so bringing a jacket is a good idea. An umbrella might not be the worst idea either — this is Denmark, after all.",
+      "el": "Ο καιρός του Σεπτεμβρίου μπορεί να είναι απρόβλεπτος, γι’ αυτό καλό είναι να έχετε μαζί σας ένα σακάκι. Μια ομπρέλα ίσως φανεί επίσης χρήσιμη — είμαστε στη Δανία, άλλωστε.",
+      "lv": "Septembra laikapstākļi var būt neparedzami, tāpēc iesakām paņemt līdzi jaku. Arī lietussargs var noderēt — galu galā esam Dānijā."
+    },
+    "registryQuestion": {
+      "en": "Do you have a wedding registry?",
+      "el": "Έχετε λίστα γάμου;",
+      "lv": "Vai jums ir dāvanu saraksts?"
+    },
+    "registryP1": {
+      "en": "Your presence is genuinely the greatest gift.",
+      "el": "Η παρουσία σας είναι πραγματικά το μεγαλύτερο δώρο.",
+      "lv": "Jūsu klātbūtne ir pati lielākā dāvana."
+    },
+    "registryP2": {
+      "en": "Many of our guests are travelling to celebrate with us, and we do not expect gifts. We're simply grateful you're making the journey and spending the day with us.",
+      "el": "Πολλοί από τους καλεσμένους μας ταξιδεύουν για να γιορτάσουν μαζί μας και δεν περιμένουμε δώρα. Είμαστε απλώς ευγνώμονες που θα είστε εκεί μαζί μας.",
+      "lv": "Daudzi mūsu viesi mēros tālu ceļu, lai svinētu kopā ar mums, tāpēc dāvanas mēs negaidām. Mēs vienkārši priecājamies, ka būsiet kopā ar mums šajā dienā."
+    },
+    "registryP3": {
+      "en": "If you'd still like to give something, we'll share a few ideas closer to the date.",
+      "el": "Αν θέλετε ακόμα να προσφέρετε κάτι, θα μοιραστούμε ιδέες πιο κοντά στην ημερομηνία.",
+      "lv": "Ja tomēr vēlaties kaut ko uzdāvināt, tuvāk datumam dalīsimies ar dažām idejām."
+    },
+    "gettingThereQuestion": {
+      "en": "How do I get to the wedding?",
+      "el": "Πώς θα φτάσω στον γάμο;",
+      "lv": "Kā nokļūt uz kāzām?"
+    },
+    "gettingThereP1": {
+      "en": "We're arranging buses from central Copenhagen.",
+      "el": "Θα διαθέσουμε λεωφορεία από το κέντρο της Κοπεγχάγης.",
+      "lv": "Mēs nodrošināsim autobusus no Kopenhāgenas centra."
+    },
+    "gettingThereLi1": {
+      "en": "Departure from Copenhagen: 12:00",
+      "el": "Αναχώρηση από την Κοπεγχάγη: 12:00",
+      "lv": "Izbraukšana no Kopenhāgenas: 12:00"
+    },
+    "gettingThereLi2": {
+      "en": "Departure from the venue: 01:00",
+      "el": "Αναχώρηση από τον χώρο της δεξίωσης: 01:00",
+      "lv": "Izbraukšana no svinību vietas: 01:00"
+    },
+    "gettingThereP2": {
+      "en": "The drive takes approximately one hour each way.",
+      "el": "Η διαδρομή διαρκεί περίπου μία ώρα.",
+      "lv": "Brauciens ilgst aptuveni vienu stundu."
+    },
+    "gettingThereP3": {
+      "en": "You're also very welcome to drive yourself if you prefer.",
+      "el": "Φυσικά, μπορείτε επίσης να έρθετε με το δικό σας αυτοκίνητο.",
+      "lv": "Protams, jūs varat arī ierasties ar savu automašīnu."
+    },
+    "gettingThereP4": {
+      "en": "If you miss the bus, want to leave earlier, or simply prefer another option, taxis and Uber are available.",
+      "el": "Αν χάσετε το λεωφορείο ή θελήσετε να φύγετε νωρίτερα, μπορείτε να καλέσετε ταξί ή Uber.",
+      "lv": "Ja nokavējat autobusu vai vēlaties doties prom agrāk, iespējams izmantot taksometru vai Uber."
+    },
+    "parkingQuestion": {
+      "en": "Is there parking at the venue?",
+      "el": "Υπάρχει χώρος στάθμευσης στον χώρο του γάμου;",
+      "lv": "Vai pie svinību vietas ir autostāvvieta?"
+    },
+    "parkingP1": {
+      "en": "Yes — plenty of it!",
+      "el": "Ναι, και μάλιστα άφθονος!",
+      "lv": "Jā, un vietas ir pietiekami daudz!"
+    },
+    "parkingP2": {
+      "en": "If you're driving, there is ample parking available at the venue.",
+      "el": "Αν έρθετε με αυτοκίνητο, υπάρχει άνετος χώρος στάθμευσης στον χώρο της εκδήλωσης.",
+      "lv": "Ja plānojat ierasties ar automašīnu, pie svinību vietas ir plaša autostāvvieta."
+    },
+    "whereToStayQuestion": {
+      "en": "Where should I stay?",
+      "el": "Πού να μείνω;",
+      "lv": "Kur palikt pa nakti?"
+    },
+    "whereToStayP1": {
+      "en": "Anywhere you'd like.",
+      "el": "Όπου σας βολεύει.",
+      "lv": "Jebkur, kur jums ir ērti."
+    },
+    "whereToStayP2": {
+      "en": "For guests who would like to stay in Copenhagen, we have arranged a discount at Hotel Ottilia.",
+      "el": "Για όσους επιθυμούν να μείνουν στην Κοπεγχάγη, έχουμε εξασφαλίσει έκπτωση στο Hotel Ottilia.",
+      "lv": "Viesiem, kuri vēlas palikt Kopenhāgenā, esam sarūpējuši atlaidi Hotel Ottilia."
+    },
+    "whereToStayP3": {
+      "en": "Promo code: KANDR",
+      "el": "Κωδικός προσφοράς: KANDR",
+      "lv": "Atlaides kods: KANDR"
+    },
+    "whereToStayLi1": {
+      "en": "15% off \"Full Flexible Including Breakfast\" rates",
+      "el": "15% έκπτωση στην τιμή \"Full Flexible Including Breakfast\"",
+      "lv": "15% atlaidi tarifam \"Full Flexible Including Breakfast\""
+    },
+    "whereToStayLi2": {
+      "en": "Flexible cancellation until 12:00 on the day of arrival",
+      "el": "Δυνατότητα ακύρωσης έως τις 12:00 την ημέρα της άφιξης",
+      "lv": "Bezmaksas atcelšanu līdz plkst. 12:00 ierašanās dienā"
+    },
+    "whereToStayLi3": {
+      "en": "Breakfast included",
+      "el": "Πρωινό συμπεριλαμβάνεται",
+      "lv": "Brokastis iekļautas cenā"
+    },
+    "whereToStayLi4": {
+      "en": "Valid on all room categories (subject to availability)",
+      "el": "Ισχύει για όλες τις κατηγορίες δωματίων, ανάλογα με τη διαθεσιμότητα",
+      "lv": "Attiecas uz visām numuru kategorijām, atkarībā no pieejamības"
+    },
+    "whereToStayP4": {
+      "en": "No rooms are being held, so we recommend booking early if you'd like to stay there.",
+      "el": "Δεν έχουν δεσμευτεί δωμάτια, επομένως συνιστούμε έγκαιρη κράτηση.",
+      "lv": "Numuri nav rezervēti iepriekš, tāpēc iesakām rezervēt savlaicīgi."
+    },
+    "whereToStayP5": {
+      "en": "If you've booked the flexible rate using our promo code, reservations can be cancelled up until 12:00 on the day of arrival.",
+      "el": "Αν έχετε κλείσει με την ευέλικτη τιμή χρησιμοποιώντας τον κωδικό προσφοράς μας, η κράτηση μπορεί να ακυρωθεί έως τις 12:00 την ημέρα της άφιξης.",
+      "lv": "Ja esat rezervējis elastīgo tarifu, izmantojot mūsu atlaides kodu, rezervāciju var atcelt līdz plkst. 12:00 ierašanās dienā."
+    },
+    "outdoorsQuestion": {
+      "en": "Will the wedding be outdoors?",
+      "el": "Θα είναι ο γάμος σε εξωτερικό χώρο;",
+      "lv": "Vai kāzas notiks ārā?"
+    },
+    "outdoorsP1": {
+      "en": "Partly.",
+      "el": "Εν μέρει.",
+      "lv": "Daļēji."
+    },
+    "outdoorsP2": {
+      "en": "The ceremony will take place by the lake beneath the trees, followed by drinks and celebrations outdoors. Dinner will be served indoors, and the evening party will continue in the tent.",
+      "el": "Η τελετή θα γίνει δίπλα στη λίμνη, κάτω από τα δέντρα, ενώ τα ποτά και μέρος του εορτασμού θα πραγματοποιηθούν σε εξωτερικό χώρο. Το δείπνο θα σερβιριστεί σε εσωτερικό χώρο και το πάρτι θα συνεχιστεί στη σκηνή.",
+      "lv": "Ceremonija notiks pie ezera zem kokiem, pēc tam sekos dzērieni un svinības brīvā dabā. Vakariņas tiks pasniegtas iekštelpās, bet vakara ballīte turpināsies teltī."
+    },
+    "outdoorsP3": {
+      "en": "In other words: expect a little bit of forest, a little bit of fresh air, and hopefully plenty of sunshine.",
+      "el": "Με λίγα λόγια: λίγη φύση, λίγος καθαρός αέρας και, ελπίζουμε, αρκετή λιακάδα.",
+      "lv": "Īsāk sakot: mazliet meža, svaiga gaisa un, cerams, daudz saules."
+    },
+    "rainQuestion": {
+      "en": "What happens if it rains?",
+      "el": "Τι γίνεται αν βρέξει;",
+      "lv": "Kas notiks, ja līs?"
+    },
+    "rainP1": {
+      "en": "This is Denmark, after all.",
+      "el": "Είμαστε στη Δανία, άλλωστε.",
+      "lv": "Galu galā tās ir Dānijas kāzas."
+    },
+    "rainP2": {
+      "en": "As the Danes say: there's no such thing as bad weather, only bad clothing.",
+      "el": "Όπως λένε οι Δανοί, δεν υπάρχει κακός καιρός, μόνο ακατάλληλα ρούχα.",
+      "lv": "Kā saka dāņi — nav sliktu laikapstākļu, ir tikai nepiemērots apģērbs."
+    },
+    "rainP3": {
+      "en": "The venue has a backup plan in case the weather decides not to cooperate, but we'd still recommend bringing a jacket and an umbrella, just in case.",
+      "el": "Ο χώρος διαθέτει εναλλακτικό σχέδιο σε περίπτωση βροχής, αλλά σας προτείνουμε να έχετε μαζί σας ένα σακάκι και μια ομπρέλα, για καλό και για κακό.",
+      "lv": "Svinību vietai ir rezerves plāns gadījumam, ja laikapstākļi nebūs labvēlīgi, tomēr iesakām paņemt līdzi jaku un lietussargu katram gadījumam."
+    },
+    "dietaryQuestion": {
+      "en": "What if I have dietary requirements?",
+      "el": "Τι γίνεται αν έχω διατροφικές απαιτήσεις;",
+      "lv": "Ko darīt, ja man ir īpašas uztura prasības?"
+    },
+    "dietaryP1": {
+      "en": "Please let us know when you RSVP, and we'll make sure you're well looked after.",
+      "el": "Παρακαλούμε ενημερώστε μας κατά το RSVP και θα φροντίσουμε να καλυφθούν.",
+      "lv": "Lūdzu, informējiet mūs RSVP laikā, un mēs par visu parūpēsimies."
+    },
+    "childrenQuestion": {
+      "en": "Can I bring my children?",
+      "el": "Μπορώ να φέρω τα παιδιά μου;",
+      "lv": "Vai drīkstu ņemt līdzi bērnus?"
+    },
+    "childrenP1": {
+      "en": "Yes, of course!",
+      "el": "Φυσικά!",
+      "lv": "Protams!"
+    },
+    "childrenP2": {
+      "en": "Just remember to let us know when you RSVP.",
+      "el": "Απλώς θυμηθείτε να μας ενημερώσετε όταν απαντήσετε στο RSVP.",
+      "lv": "Tikai neaizmirstiet to norādīt savā RSVP atbildē."
+    },
+    "childrenP3": {
+      "en": "If your little one doesn't require a meal (for example, if they're still breastfeeding), please let us know that too.",
+      "el": "Αν το παιδί σας δεν χρειάζεται γεύμα (για παράδειγμα, αν θηλάζει ακόμη), παρακαλούμε ενημερώστε μας και γι’ αυτό.",
+      "lv": "Ja jūsu bērnam maltīte nav nepieciešama (piemēram, ja viņš vai viņa vēl tiek barots ar krūti), lūdzu, informējiet mūs arī par to."
+    },
+    "childrenP4": {
+      "en": "Please note that we won't have any organised activities or childcare during the day, so you'll need to plan for entertainment, naps, and everything else that comes with bringing your tiny favourite humans along.",
+      "el": "Λάβετε υπόψη ότι δεν θα υπάρχουν οργανωμένες δραστηριότητες ή υπηρεσίες φύλαξης παιδιών κατά τη διάρκεια της ημέρας, οπότε θα χρειαστεί να φροντίσετε εσείς για τη διασκέδαση, τον ύπνο και οτιδήποτε άλλο χρειάζονται οι μικροί σας αγαπημένοι.",
+      "lv": "Lūdzu, ņemiet vērā, ka bērniem netiks organizētas īpašas aktivitātes vai pieskatīšana, tāpēc par izklaidi, diendusām un visu pārējo būs jāparūpējas pašiem vecākiem."
+    },
+    "photosQuestion": {
+      "en": "Can I take photos during the ceremony?",
+      "el": "Μπορώ να βγάζω φωτογραφίες κατά τη διάρκεια της τελετής;",
+      "lv": "Vai ceremonijas laikā drīkst fotografēt?"
+    },
+    "photosP1": {
+      "en": "Absolutely!",
+      "el": "Φυσικά!",
+      "lv": "Protams!"
+    },
+    "photosP2": {
+      "en": "We'd love for you to capture moments throughout the day, and we'd be delighted if you shared them with us afterwards.",
+      "el": "Θα χαρούμε πολύ να απαθανατίσετε στιγμές της ημέρας και ακόμη περισσότερο αν τις μοιραστείτε μαζί μας μετά.",
+      "lv": "Mēs priecāsimies, ja iemūžināsiet skaistus dienas mirkļus, un vēl vairāk priecāsimies, ja pēc tam dalīsities ar tiem arī ar mums."
+    },
+    "photosP3": {
+      "en": "We've also hired two photographers to document the celebrations, so there will be plenty of beautiful photos for everyone to enjoy.",
+      "el": "Έχουμε επίσης προσλάβει δύο επαγγελματίες φωτογράφους για να καταγράψουν τη γιορτή, οπότε θα υπάρχουν πολλές όμορφες φωτογραφίες για όλους.",
+      "lv": "Esam nolīguši arī divus profesionālus fotogrāfus, lai iemūžinātu svinības, tāpēc skaistu fotogrāfiju netrūks nevienam."
+    },
+    "partyEndQuestion": {
+      "en": "What time does the party end?",
+      "el": "Μέχρι τι ώρα θα διαρκέσει το πάρτι;",
+      "lv": "Cikos beigsies ballīte?"
+    },
+    "partyEndP1": {
+      "en": "We'll keep dancing for as long as people are dancing.",
+      "el": "Θα συνεχίσουμε να χορεύουμε όσο υπάρχει κόσμος στην πίστα.",
+      "lv": "Mēs dejosim tik ilgi, kamēr būs dejotāji."
+    },
+    "partyEndP2": {
+      "en": "The organised return buses leave at 01:00, and the celebration will wrap up no later than then.",
+      "el": "Τα οργανωμένα λεωφορεία επιστρέφουν στην Κοπεγχάγη στη 01:00.",
+      "lv": "Organizētie autobusi aties plkst. 01:00."
     }
   }
-}

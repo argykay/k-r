@@ -1,6 +1,15 @@
 import { useReducedMotion } from 'framer-motion';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { ReactComponent as HeartSvg } from '@assets/svgs/heart.svg';
+import { AnimatedVector, GridContainer } from '@components';
 import { useTranslation } from '@i18n';
+import { HeroSparkles } from './HeroSparkles';
+
+const HERO_HEART_ANIMATION = {
+  intensity: 'subtle' as const,
+  effect: 'stroke' as const,
+  filterDisplayWidthPx: 30,
+};
 
 const FOREST_VIDEO = `${process.env.PUBLIC_URL}/assets/videos/forest.mp4`;
 
@@ -84,7 +93,9 @@ export const HeroIntro = () => {
 
   useEffect(() => {
     const video = videoRef.current;
-    if (!video || prefersReducedMotion === true) return;
+    if (!video || prefersReducedMotion !== false) {
+      return;
+    }
 
     const tick = () => {
       const overlay = overlayRef.current;
@@ -115,19 +126,28 @@ export const HeroIntro = () => {
     };
 
     const handleEnded = () => {
+      if (loopPhaseRef.current !== 'playing') {
+        return;
+      }
+
       loopPhaseRef.current = 'hold-black';
       setOverlayFade(overlayRef.current, 1);
       video.currentTime = 0;
-      void video.play();
 
-      if (holdTimerRef.current) {
-        window.clearTimeout(holdTimerRef.current);
-      }
-
-      holdTimerRef.current = window.setTimeout(() => {
+      const startFadeOut = () => {
         loopPhaseRef.current = 'fading-out';
         fadeOutStartRef.current = performance.now();
-      }, HOLD_AT_BLACK_MS);
+      };
+
+      const scheduleFadeOut = () => {
+        if (holdTimerRef.current) {
+          window.clearTimeout(holdTimerRef.current);
+        }
+
+        holdTimerRef.current = window.setTimeout(startFadeOut, HOLD_AT_BLACK_MS);
+      };
+
+      void video.play().then(scheduleFadeOut).catch(scheduleFadeOut);
     };
 
     rafRef.current = requestAnimationFrame(tick);
@@ -142,7 +162,7 @@ export const HeroIntro = () => {
         window.clearTimeout(holdTimerRef.current);
       }
     };
-  }, [prefersReducedMotion, isPaused]);
+  }, [prefersReducedMotion]);
 
   const togglePlayback = useCallback(() => {
     const video = videoRef.current;
@@ -166,23 +186,54 @@ export const HeroIntro = () => {
       className="relative h-screen w-full overflow-hidden bg-black"
       aria-label="Introduction"
     >
-      <video
-        ref={videoRef}
-        className="absolute inset-0 h-full w-full object-cover"
-        src={FOREST_VIDEO}
-        autoPlay
-        muted
-        loop={prefersReducedMotion === true}
-        playsInline
-        aria-hidden
-      />
+      <div className="absolute inset-0 z-0">
+        <video
+          ref={videoRef}
+          className="absolute inset-0 h-full w-full object-cover"
+          src={FOREST_VIDEO}
+          autoPlay
+          muted
+          loop={prefersReducedMotion === true}
+          playsInline
+          aria-hidden
+        />
 
-      <div
-        ref={overlayRef}
-        className="hero-intro-overlay pointer-events-none absolute inset-0 z-[5]"
-        style={{ '--fade': 0, '--solid': 0 } as React.CSSProperties}
-        aria-hidden
-      />
+        <div
+          className="pointer-events-none absolute inset-0 bg-black/60"
+          aria-hidden
+        />
+
+        <div
+          ref={overlayRef}
+          className="hero-intro-overlay pointer-events-none absolute inset-0"
+          style={{ '--fade': 0, '--solid': 0 } as React.CSSProperties}
+          aria-hidden
+        />
+      </div>
+
+      <div className="pointer-events-none absolute inset-0 z-[8]">
+        <HeroSparkles />
+        <div className="relative z-[1] flex h-full items-center md:pt-10">
+          <GridContainer className="w-full">
+            <div className="col-span-4 flex flex-col items-center gap-3 text-center md:col-span-6 md:gap-4 lg:col-span-12">
+              <h1 className="text-style-cursive-section text-cream text-balance md:text-5xl">
+                {t('hero.title')}
+              </h1>
+              <div className="flex flex-col items-center gap-2 py-1">
+                <p className="font-cardo font-normal text-header-4 text-cream lowercase">
+                  {t('hero.subtitle')}
+                </p>
+                <AnimatedVector
+                  Svg={HeartSvg}
+                  className="mt-8 w-6 shrink-0"
+                  svgClassName="block h-auto w-full text-cream"
+                  animationOptions={HERO_HEART_ANIMATION}
+                />
+              </div>
+            </div>
+          </GridContainer>
+        </div>
+      </div>
 
       <button
         type="button"

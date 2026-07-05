@@ -102,6 +102,19 @@
     }
   }
 
+  .faq-divider-line {
+    stroke: #e1dbcb;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-dasharray: 2 5;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .faq-divider-line {
+      animation: none !important;
+    }
+  }
+
 }
 
 @layer utilities {
