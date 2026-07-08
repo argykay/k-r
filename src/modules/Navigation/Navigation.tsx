@@ -1,12 +1,12 @@
 import { motion, useReducedMotion } from 'framer-motion';
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { useTranslation } from '@i18n';
 import { LocaleLink } from '@routing';
 import type { RouteId } from '@routing/paths';
 
-const NAV_ROUTES: { route: RouteId; labelKey: 'navigation.home' | 'navigation.ourStory' | 'navigation.details' | 'navigation.rsvp' }[] = [
+const NAV_ROUTES: { route: RouteId; labelKey: 'navigation.home' | 'navigation.faq' | 'navigation.details' | 'navigation.rsvp' }[] = [
   { route: 'home', labelKey: 'navigation.home' },
-  { route: 'ourStory', labelKey: 'navigation.ourStory' },
+  { route: 'faq', labelKey: 'navigation.faq' },
   { route: 'details', labelKey: 'navigation.details' },
   { route: 'rsvp', labelKey: 'navigation.rsvp' },
 ];
@@ -18,9 +18,30 @@ export type NavigationProps = {
 export const Navigation = ({ isVisible }: NavigationProps) => {
   const { t } = useTranslation();
   const prefersReducedMotion = useReducedMotion();
+  const headerRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const header = headerRef.current;
+    if (!header) return;
+
+    const syncHeaderHeight = () => {
+      document.documentElement.style.setProperty(
+        '--header-height',
+        `${header.getBoundingClientRect().height}px`,
+      );
+    };
+
+    syncHeaderHeight();
+
+    const observer = new ResizeObserver(syncHeaderHeight);
+    observer.observe(header);
+
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <motion.header
+      ref={headerRef}
       className="fixed left-0 right-0 top-0 z-50 bg-background-moss-green shadow-md"
       initial={false}
       animate={{ y: isVisible ? 0 : '-100%' }}

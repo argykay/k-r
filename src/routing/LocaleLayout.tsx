@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { Navigate, Outlet, useParams } from 'react-router-dom';
 import { DEFAULT_LOCALE, isLocale, LocaleProvider } from '@i18n';
+import { SiteAccessGate } from '@modules';
+import { Footer } from '@modules';
 
 export const LocaleLayout = () => {
   const { locale: localeParam } = useParams<{ locale: string }>();
@@ -17,7 +19,10 @@ export const LocaleLayout = () => {
 
   return (
     <LocaleProvider locale={locale}>
-      <Outlet />
+      <SiteAccessGate>
+        <Outlet />
+      </SiteAccessGate>
+      <Footer />
     </LocaleProvider>
   );
 }

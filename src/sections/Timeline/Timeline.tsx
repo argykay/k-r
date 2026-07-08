@@ -56,7 +56,6 @@ type TimelineEntry = {
   icon?: React.FC<React.SVGProps<SVGSVGElement>>;
   iconAnimated?: boolean;
   iconAnimationOptions?: AnimatedVectorOptions;
-  highlight?: boolean;
 };
 
 const TIMELINE_ENTRIES: TimelineEntry[] = [
@@ -91,7 +90,6 @@ const TIMELINE_ENTRIES: TimelineEntry[] = [
     title: 'Ceremony',
     bodyKey: 'timeline.ceremonyBody',
     dateTime: '2026-09-12T13:15',
-    highlight: true,
     icon: HandsSvg,
     ...TIMELINE_ICON_ANIMATION,
   },
@@ -118,7 +116,6 @@ const TIMELINE_ENTRIES: TimelineEntry[] = [
     title: 'Party',
     bodyKey: 'timeline.partyBody',
     dateTime: '2026-09-12T20:00',
-    highlight: true,
     icon: TentSvg,
     ...TIMELINE_ICON_ANIMATION,
   },
@@ -137,7 +134,6 @@ type TimelineIconSlotProps = {
   iconAnimated?: boolean;
   iconAnimationOptions?: AnimatedVectorOptions;
   label: string;
-  highlight?: boolean;
 };
 
 const TimelineIconSlot = ({
@@ -145,28 +141,22 @@ const TimelineIconSlot = ({
   iconAnimated = false,
   iconAnimationOptions,
   label,
-  highlight = false,
 }: TimelineIconSlotProps) => {
   if (Icon) {
-    const sizeClass = highlight
-      ? 'h-24 w-24 md:h-32 md:w-32'
-      : 'h-20 w-20 md:h-24 md:w-24';
-
     return (
       <div
-        className={`timeline-icon-slot relative z-10 shrink-0 ${sizeClass}`}
+        className="timeline-icon-slot relative z-10 h-24 w-24 shrink-0 md:h-32 md:w-32"
         aria-hidden
       >
         {iconAnimated ? (
           <AnimatedVector
             Svg={Icon}
-            className="h-full w-full"
             svgClassName="block h-full w-full text-moss-green"
             animationOptions={
               iconAnimationOptions ?? {
-                intensity: 'subtle',
+                intensity: 'medium',
                 effect: 'stroke',
-                filterDisplayWidthPx: highlight ? 128 : 96,
+                filterDisplayWidthPx: 128,
               }
             }
           />
@@ -190,7 +180,7 @@ const TimelineIconSlot = ({
 };
 
 const TIMELINE_ROW_GRID =
-  'grid w-full grid-cols-4 items-center gap-2 md:grid-cols-6 md:gap-6 lg:grid-cols-12 lg:gap-6';
+  'grid w-full grid-cols-4 items-center gap-2 md:grid-cols-6 md:gap-6 lg:grid-cols-12 lg:gap-10';
 
 /**
  * Base (4 cols): icon 1 + star 1 + text 2.
@@ -202,7 +192,7 @@ const TIMELINE_ICON_COL =
 const TIMELINE_STAR_COL =
   'timeline-star-column relative col-span-1 flex self-stretch items-center justify-center md:col-start-2 lg:col-start-6';
 const TIMELINE_TEXT_COL =
-  'col-span-2 min-w-0 md:col-start-3 md:col-span-3 lg:col-span-3 lg:col-start-7';
+  'col-span-2 min-w-0 ml-1 md:col-start-3 md:col-span-3 lg:col-span-4 lg:col-start-7 lg:pl-16';
 
 const TimelineSpineRail = () => (
   <div
@@ -249,7 +239,7 @@ const TimelineStarSlot = ({ Star, starRef }: TimelineStarSlotProps) => (
     <AnimatedVector
       Svg={Star}
       className="h-full w-full"
-      svgClassName="block h-full w-full text-moss-green"
+      svgClassName="block h-full w-full text-blood-orange"
       animationOptions={TIMELINE_STAR_ANIMATION}
     />
   </div>
@@ -265,7 +255,7 @@ const TIMELINE_TIME_CLASS = 'text-style-cursive-time text-xxl shrink-0 text-moss
 const TIMELINE_TITLE_CLASS =
   'text-style-cursive-title text-xl text-moss-green text-balance';
 const TIMELINE_BODY_CLASS =
-  'text-style-paragraph-3 leading-relaxed text-burgundy text-balance';
+  'text-style-paragraph-3 leading-relaxed text-stone/60 text-balance';
 
 const timelineLinkClassName =
   'text-inherit underline underline transition-colors hover:text-moss-green';
@@ -317,7 +307,6 @@ const TimelineRow = ({ entry, staggerIndex, starRef }: TimelineRowProps) => {
             iconAnimated={entry.iconAnimated}
             iconAnimationOptions={entry.iconAnimationOptions}
             label={rowLabel}
-            highlight={entry.highlight}
           />
         </div>
         <div className={TIMELINE_STAR_COL}>
@@ -423,7 +412,7 @@ export const Timeline = () => {
   return (
     <section
       id="timeline"
-      className="bg-cream text-burgundy"
+      className="bg-cream text-stone/60"
       aria-labelledby="timeline-heading"
     >
       <GridContainer className="py-20 md:py-28 lg:py-32">
@@ -431,14 +420,14 @@ export const Timeline = () => {
 
           <IntroReveal
             as="h2"
-            className="text-style-cursive-title mx-auto mb-12 max-w-lg text-center text-stone md:mb-8 md:max-w-xl"
+            className="text-style-cursive-title mx-auto mb-12 max-w-lg text-center text-blood-orange md:mb-8 md:max-w-xl"
           >
             {t('timeline.intro1')}
           </IntroReveal>
 
           <IntroReveal
             as="p"
-            className="text-style-paragraph-3 mx-auto mb-12 max-w-lg text-center text-burgundy md:mb-16 md:max-w-xl"
+            className="text-style-paragraph-3 mx-auto mb-12 max-w-lg text-center text-stone/60 md:mb-16 md:max-w-xl"
           >
             {t('timeline.intro2')}
           </IntroReveal>
@@ -447,7 +436,7 @@ export const Timeline = () => {
 
           <IntroReveal
             as="p"
-            className="text-style-caption mx-auto mt-14 max-w-md text-center text-stone/90 md:mt-16 text-balance"
+            className="text-style-caption mx-auto mt-14 max-w-md text-center text-stone/60 md:mt-16 text-balance"
           >
             {t('timeline.footnote')}
           </IntroReveal>

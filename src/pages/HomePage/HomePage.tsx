@@ -10,8 +10,8 @@ export const HomePage = () => {
     <main>
       <Navigation isVisible={showNavigation} />
       <HeroIntro />
-      <Welcome />
       <WeddingCountdown />
+      <Welcome />
       <Timeline />
       <div className="min-h-[40vh] bg-background-off-white" aria-hidden />
     </main>
