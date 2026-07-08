@@ -220,6 +220,293 @@
       "lv": "Autobusi atgriežas Kopenhāgenas centrā."
     }
   },
+  "rsvp": {
+    "title": {
+      "en": "RSVP",
+      "el": "Επιβεβαίωση",
+      "lv": "Apstiprinājums"
+    },
+    "intro": {
+      "en": "Please let us know if you can join us by filling out the form below.",
+      "el": "Παρακαλούμε ενημερώστε μας αν μπορείτε να παρευρεθείτε συμπληρώνοντας την παρακάτω φόρμα.",
+      "lv": "Lūdzu, paziņojiet mums, vai varat piedalīties, aizpildot zemāk esošo formu."
+    },
+    "stepContact": {
+      "en": "Your details",
+      "el": "Τα στοιχεία σας",
+      "lv": "Jūsu dati"
+    },
+    "stepAttending": {
+      "en": "Can you attend?",
+      "el": "Μπορείτε να παρευρεθείτε;",
+      "lv": "Vai varat piedalīties?"
+    },
+    "stepDeclined": {
+      "en": "We're sorry you can't make it! We'll miss you.",
+      "el": "Λυπούμαστε που δεν μπορείτε να έρθετε! Θα μας λείψετε.",
+      "lv": "Žēl, ka nevarat ierasties! Mums jūs pietrūks."
+    },
+    "stepPlusOne": {
+      "en": "Plus one",
+      "el": "Συνοδός",
+      "lv": "Pavadonis"
+    },
+    "stepChildren": {
+      "en": "Children",
+      "el": "Παιδιά",
+      "lv": "Bērni"
+    },
+    "stepMeals": {
+      "en": "Dietary preferences",
+      "el": "Διατροφικές προτιμήσεις",
+      "lv": "Uztura izvēles"
+    },
+    "stepExtras": {
+      "en": "Anything else?",
+      "el": "Κάτι άλλο;",
+      "lv": "Vēl kaut kas?"
+    },
+    "fullNameLabel": {
+      "en": "Your full name",
+      "el": "Το πλήρες όνομά σας",
+      "lv": "Jūsu pilns vārds"
+    },
+    "emailLabel": {
+      "en": "Email address",
+      "el": "Email",
+      "lv": "E-pasta adrese"
+    },
+    "attendingLabel": {
+      "en": "Can you attend?",
+      "el": "Μπορείτε να παρευρεθείτε;",
+      "lv": "Vai varat piedalīties?"
+    },
+    "attendingYes": {
+      "en": "Yes, I'll be there",
+      "el": "Ναι, θα είμαι εκεί",
+      "lv": "Jā, būšu"
+    },
+    "attendingNo": {
+      "en": "Sorry, I can't make it",
+      "el": "Δυστυχώς δεν μπορώ",
+      "lv": "Diemžēl nevaru"
+    },
+    "plusOneLabel": {
+      "en": "Will you bring a plus one?",
+      "el": "Θα έχετε συνοδό;",
+      "lv": "Vai būsiet ar pavadoni?"
+    },
+    "plusOneNameLabel": {
+      "en": "Plus one's full name",
+      "el": "Πλήρες όνομα συνοδού",
+      "lv": "Pavadoņa pilns vārds"
+    },
+    "childrenLabel": {
+      "en": "Will you bring children?",
+      "el": "Θα έχετε μαζί σας παιδιά;",
+      "lv": "Vai ņemsiet līdzi bērnus?"
+    },
+    "childrenCountLabel": {
+      "en": "How many children?",
+      "el": "Πόσα παιδιά;",
+      "lv": "Cik bērnu?"
+    },
+    "guestMealLabel": {
+      "en": "Do you have any dietary preferences or allergies we should know about?",
+      "el": "Υπάρχουν διατροφικές προτιμήσεις ή αλλεργίες που θα πρέπει να γνωρίζουμε;",
+      "lv": "Vai jums ir uztura ierobežojumi vai alerģijas, par kurām mums vajadzētu zināt?"
+    },
+    "guestMealPlaceholder": {
+      "en": "e.g. Vegetarian, nut allergy, no gluten",
+      "el": "π.χ. Χορτοφαγικό, αλλεργία σε ξηρούς καρπούς, χωρίς γλουτένη",
+      "lv": "piem. Veģetārs, riekstu alerģija, bez glutēna"
+    },
+    "plusOneMealLabel": {
+      "en": "Does your plus one have any dietary preferences or allergies we should know about?",
+      "el": "Υπάρχουν διατροφικές προτιμήσεις ή αλλεργίες του συνοδού σας που θα πρέπει να γνωρίζουμε;",
+      "lv": "Vai jūsu pavadonim ir uztura ierobežojumi vai alerģijas, par kurām mums vajadzētu zināt?"
+    },
+    "plusOneMealPlaceholder": {
+      "en": "e.g. Vegetarian, nut allergy, no gluten",
+      "el": "π.χ. Χορτοφαγικό, αλλεργία σε ξηρούς καρπούς, χωρίς γλουτένη",
+      "lv": "piem. Veģetārs, riekstu alerģija, bez glutēna"
+    },
+    "kidsMealLabel": {
+      "en": "Do your children need a kids meal?",
+      "el": "Χρειάζονται τα παιδιά παιδικό γεύμα;",
+      "lv": "Vai bērniem vajadzīgs bērnu ēdiens?"
+    },
+    "housewarmingLabel": {
+      "en": "Will you join our housewarming party the day before the wedding?",
+      "el": "Θα έρθετε στο πάρτι για το νέο μας σπίτι την ημέρα πριν τον γάμο;",
+      "lv": "Vai pievienosities mūsu jaunās mājas iesvētīšanas svinībām dienu pirms kāzām?"
+    },
+    "housewarmingYes": {
+      "en": "Yes, I'll be there",
+      "el": "Ναι, θα είμαι εκεί",
+      "lv": "Jā, būšu tur"
+    },
+    "housewarmingNo": {
+      "en": "Sorry, I can't make it",
+      "el": "Δυστυχώς δεν μπορώ",
+      "lv": "Diemžēl nevaru"
+    },
+    "weddingBusLabel": {
+      "en": "Will you be taking the wedding bus to the venue?",
+      "el": "Θα χρησιμοποιήσετε το λεωφορείο του γάμου για να πάτε στον χώρο;",
+      "lv": "Vai brauksiet ar kāzu autobusu uz norises vietu?"
+    },
+    "weddingBusYes": {
+      "en": "Yes, I'll take the bus",
+      "el": "Ναι, θα πάρω το λεωφορείο",
+      "lv": "Jā, braukšu ar autobusu"
+    },
+    "weddingBusNo": {
+      "en": "No, I'll come by car",
+      "el": "Όχι, θα έρθω με αυτοκίνητο",
+      "lv": "Nē, braukšu ar automašīnu"
+    },
+    "dietaryLabel": {
+      "en": "Dietary requirements",
+      "el": "Διατροφικοί περιορισμοί",
+      "lv": "Uztura ierobežojumi"
+    },
+    "dietaryPlaceholder": {
+      "en": "Vegetarian, allergies, etc.",
+      "el": "Χορτοφάγος, αλλεργίες κ.λπ.",
+      "lv": "Veģetārietis, alerģijas u.c."
+    },
+    "accessibilityLabel": {
+      "en": "Accessibility needs",
+      "el": "Ανάγκες προσβασιμότητας",
+      "lv": "Pieejamības vajadzības"
+    },
+    "accessibilityPlaceholder": {
+      "en": "Mobility, seating, or other needs we should know about",
+      "el": "Κινητικότητα, θέση ή άλλες ανάγκες που πρέπει να γνωρίζουμε",
+      "lv": "Mobilitāte, sēdvietas vai citas vajadzības, par kurām mums jāzina"
+    },
+    "songLabel": {
+      "en": "Song request",
+      "el": "Αίτημα τραγουδιού",
+      "lv": "Dziesmas pieprasījums"
+    },
+    "songPlaceholder": {
+      "en": "A song you'd love to hear on the dance floor",
+      "el": "Ένα τραγούδι που θα θέλατε να ακούσετε στο dance floor",
+      "lv": "Dziesma, ko labprāt dzirdētu dejugrīdā"
+    },
+    "messageLabel": {
+      "en": "Message for the couple",
+      "el": "Μήνυμα για το ζευγάρι",
+      "lv": "Ziņa pārim"
+    },
+    "messagePlaceholder": {
+      "en": "Anything else you'd like us to know?",
+      "el": "Οτιδήποτε άλλο θα θέλατε να μας πείτε;",
+      "lv": "Vai kaut kas cits, ko vēlaties mums pateikt?"
+    },
+    "yes": {
+      "en": "Yes",
+      "el": "Ναι",
+      "lv": "Jā"
+    },
+    "no": {
+      "en": "No",
+      "el": "Όχι",
+      "lv": "Nē"
+    },
+    "selectPlease": {
+      "en": "Please select",
+      "el": "Επιλέξτε",
+      "lv": "Lūdzu, izvēlieties"
+    },
+    "back": {
+      "en": "Back",
+      "el": "Πίσω",
+      "lv": "Atpakaļ"
+    },
+    "next": {
+      "en": "Next",
+      "el": "Επόμενο",
+      "lv": "Tālāk"
+    },
+    "submit": {
+      "en": "Submit",
+      "el": "Υποβολή",
+      "lv": "Iesniegt"
+    },
+    "submitting": {
+      "en": "Submitting…",
+      "el": "Υποβολή…",
+      "lv": "Iesniedz…"
+    },
+    "progressStep": {
+      "en": "Step",
+      "el": "Βήμα",
+      "lv": "Solis"
+    },
+    "progressOf": {
+      "en": "of",
+      "el": "από",
+      "lv": "no"
+    },
+    "progressAriaLabel": {
+      "en": "Form progress",
+      "el": "Πρόοδος φόρμας",
+      "lv": "Formas progress"
+    },
+    "validationRequired": {
+      "en": "This field is required",
+      "el": "Αυτό το πεδίο είναι υποχρεωτικό",
+      "lv": "Šis lauks ir obligāts"
+    },
+    "validationInvalidEmail": {
+      "en": "Please enter a valid email address",
+      "el": "Παρακαλούμε εισάγετε έγκυρο email",
+      "lv": "Lūdzu, ievadiet derīgu e-pasta adresi"
+    },
+    "validationInvalidChildrenCount": {
+      "en": "Please enter a number between 1 and 10",
+      "el": "Παρακαλούμε εισάγετε αριθμό από 1 έως 10",
+      "lv": "Lūdzu, ievadiet skaitli no 1 līdz 10"
+    },
+    "successTitle": {
+      "en": "Thank you!",
+      "el": "Ευχαριστούμε!",
+      "lv": "Paldies!"
+    },
+    "successBody": {
+      "en": "Your RSVP has been received. We look forward to celebrating with you!",
+      "el": "Η επιβεβαίωσή σας ελήφθη. Ανυπομονούμε να γιορτάσουμε μαζί σας!",
+      "lv": "Jūsu apstiprinājums ir saņemts. Nevaram sagaidīt svinības kopā ar jums!"
+    },
+    "successBackHome": {
+      "en": "Back to home",
+      "el": "Επιστροφή στην αρχική",
+      "lv": "Atpakaļ uz sākumu"
+    },
+    "errorTitle": {
+      "en": "Something went wrong",
+      "el": "Κάτι πήγε στραβά",
+      "lv": "Kaut kas nogāja greizi"
+    },
+    "errorBody": {
+      "en": "We couldn't submit your RSVP. Please try again or contact us directly.",
+      "el": "Δεν ήταν δυνατή η υποβολή της επιβεβαίωσής σας. Δοκιμάστε ξανά ή επικοινωνήστε μαζί μας.",
+      "lv": "Neizdevās iesniegt apstiprinājumu. Lūdzu, mēģiniet vēlreiz vai sazinieties ar mums."
+    },
+    "errorRetry": {
+      "en": "Try again",
+      "el": "Δοκιμάστε ξανά",
+      "lv": "Mēģināt vēlreiz"
+    },
+    "errorMissingEndpoint": {
+      "en": "RSVP is not configured yet. Please try again later.",
+      "el": "Η επιβεβαίωση δεν έχει ρυθμιστεί ακόμα. Δοκιμάστε ξανά αργότερα.",
+      "lv": "Apstiprinājums vēl nav konfigurēts. Lūdzu, mēģiniet vēlāk."
+    }
+  },
   "gate": {
     "title": {
       "en": "Welcome",
