@@ -3,3 +3,4 @@
  */
 export { LanguageSwitcher } from './LanguageSwitcher/LanguageSwitcher';
 export { Navigation } from './Navigation/Navigation';
+export { PasswordGate, SiteAccessGate } from './SiteAccess';
