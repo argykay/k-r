@@ -22,10 +22,10 @@
       "el": "FAQ",
       "lv": "BUJ"
     },
-    "details": {
-      "en": "Details",
-      "el": "Λεπτομέρειες",
-      "lv": "Informācija"
+    "map": {
+      "en": "Map",
+      "el": "Χάρτης",
+      "lv": "Karte"
     },
     "rsvp": {
       "en": "RSVP",
@@ -804,6 +804,33 @@
       "en": "The organised return buses leave at 01:00, and the celebration will wrap up no later than then.",
       "el": "Τα οργανωμένα λεωφορεία επιστρέφουν στην Κοπεγχάγη στη 01:00.",
       "lv": "Organizētie autobusi aties plkst. 01:00."
+    }
+  },
+  "map": {
+    "title": {
+      "en": "Suggested places",
+      "el": "Προτεινόμενα μέρη",
+      "lv": "Ieteiktās vietas"
+    },
+    "intro": {
+      "en": "Hotels, restaurants, and spots we love around Copenhagen and the venue.",
+      "el": "Ξενοδοχεία, εστιατόρια και μέρη που αγαπάμε γύρω από την Κοπεγχάγη και τον χώρο της εκδήλωσης.",
+      "lv": "Viesnīcas, restorāni un vietas, kuras mēs iesakām Kopenhāgenā un pie svinību vietas."
+    },
+    "embedTitle": {
+      "en": "Map of suggested places for the wedding",
+      "el": "Χάρτης με προτεινόμενα μέρη για τον γάμο",
+      "lv": "Karte ar ieteiktajām vietām kāzām"
+    },
+    "openInMaps": {
+      "en": "Open full map in Google Maps",
+      "el": "Άνοιγμα πλήρους χάρτη στο Google Maps",
+      "lv": "Atvērt pilnu karti Google Maps"
+    },
+    "openInMapsAria": {
+      "en": "Open the full suggested places map in Google Maps (opens in new tab)",
+      "el": "Άνοιγμα του πλήρους χάρτη προτεινόμενων μερών στο Google Maps (ανοίγει σε νέα καρτέλα)",
+      "lv": "Atvērt pilnu ieteikto vietu karti Google Maps (atveras jaunā cilnē)"
     }
   },
   "footer": {
