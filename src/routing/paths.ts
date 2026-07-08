@@ -4,7 +4,7 @@ import { DEFAULT_LOCALE, type Locale } from '@i18n';
 export const ROUTE_SEGMENTS = {
   home: '',
   faq: 'faq',
-  details: 'details',
+  map: 'map',
   rsvp: 'rsvp',
 } as const;
 

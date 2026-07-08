@@ -4,10 +4,10 @@ import { useTranslation } from '@i18n';
 import { LocaleLink } from '@routing';
 import type { RouteId } from '@routing/paths';
 
-const NAV_ROUTES: { route: RouteId; labelKey: 'navigation.home' | 'navigation.faq' | 'navigation.details' | 'navigation.rsvp' }[] = [
+const NAV_ROUTES: { route: RouteId; labelKey: 'navigation.home' | 'navigation.faq' | 'navigation.map' | 'navigation.rsvp' }[] = [
   { route: 'home', labelKey: 'navigation.home' },
   { route: 'faq', labelKey: 'navigation.faq' },
-  { route: 'details', labelKey: 'navigation.details' },
+  { route: 'map', labelKey: 'navigation.map' },
   { route: 'rsvp', labelKey: 'navigation.rsvp' },
 ];
 

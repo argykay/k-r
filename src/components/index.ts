@@ -1,3 +1,4 @@
+export { GoogleMapEmbed } from './GoogleMapEmbed/GoogleMapEmbed';
 export { AnimatedVector } from './AnimatedVector/AnimatedVector';
 export { FaqAccordion } from './FaqAccordion/FaqAccordion';
 export { CountdownTimer } from './CountdownTimer/CountdownTimer';
