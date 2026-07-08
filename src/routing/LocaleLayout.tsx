@@ -22,7 +22,6 @@ export const LocaleLayout = () => {
       <SiteAccessGate>
         <Outlet />
       </SiteAccessGate>
-      <Outlet />
       <Footer />
     </LocaleProvider>
   );
