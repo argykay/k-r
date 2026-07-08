@@ -505,7 +505,8 @@
       "en": "RSVP is not configured yet. Please try again later.",
       "el": "Η επιβεβαίωση δεν έχει ρυθμιστεί ακόμα. Δοκιμάστε ξανά αργότερα.",
       "lv": "Apstiprinājums vēl nav konfigurēts. Lūdzu, mēģiniet vēlāk."
-    },
+    }
+  },
   "gate": {
     "title": {
       "en": "Welcome",
