@@ -101,6 +101,20 @@ module.exports = {
       animation: {
         'timeline-dash': 'timeline-dash 2.8s linear infinite',
       },
+      aspectRatio: {
+        'frame-1': '595.28 / 841.89',
+      },
+      height: {
+        content: 'var(--content-height)',
+      },
+      minHeight: {
+        content: 'var(--content-height)',
+        96: '24rem',
+        100: '26rem',
+      },
+      maxHeight: {
+        content: 'var(--content-height)',
+      },
       letterSpacing: {
         'header-1': '-1.68px',
         'header-1-desktop': '-3.36px',

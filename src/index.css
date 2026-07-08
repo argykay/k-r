@@ -9,6 +9,11 @@
 @import './styles/animated-vector.css';
 
 @layer base {
+  :root {
+    --header-height: 0px;
+    --content-height: calc(100svh - var(--header-height));
+  }
+
   html {
     font-family: 'Cardo', serif;
   }
@@ -112,6 +117,30 @@
   @media (prefers-reduced-motion: reduce) {
     .faq-divider-line {
       animation: none !important;
+    }
+  }
+
+  .welcome-photo-bleed {
+    width: calc(100% + 3rem);
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+
+  .footer-photo-bg {
+    background-position: center center;
+  }
+
+  @screen md {
+    .footer-photo-bg {
+      background-position: center 60%;
+    }
+  }
+
+  @screen lg {
+    .welcome-photo-bleed {
+      width: calc(100% + 1.5rem);
+      margin-left: 0;
+      margin-right: -1.5rem;
     }
   }
 

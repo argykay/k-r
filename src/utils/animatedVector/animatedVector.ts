@@ -134,6 +134,12 @@ const stopHandDrawnRuntime = (svg: SVGSVGElement): void => {
   handDrawnRuntimeBySvg.delete(svg);
 };
 
+/** 0–1 cycle position → -1..1 with constant velocity between turnarounds. */
+const triangleWave = (cycleProgress: number): number => {
+  const p = cycleProgress - Math.floor(cycleProgress);
+  return p < 0.5 ? 4 * p - 1 : 3 - 4 * p;
+};
+
 const startHandDrawnLoop = (svg: SVGSVGElement, runtime: HandDrawnRuntime): void => {
   const { config, displacement, turbulence } = runtime;
   const periodMs = config.cycleDurationSec * 1000;
@@ -141,15 +147,16 @@ const startHandDrawnLoop = (svg: SVGSVGElement, runtime: HandDrawnRuntime): void
   const scaleAmp = (config.scaleMax - config.scaleMin) / 2;
   const seedMid = (config.seedMin + config.seedMax) / 2;
   const seedAmp = (config.seedMax - config.seedMin) / 2;
+  const seedCycleOffset = config.seedPhaseOffset / (Math.PI * 2);
 
   const tick = (now: number) => {
     if (!handDrawnRuntimeBySvg.has(svg)) {
       return;
     }
 
-    const phase = ((now - runtime.start) / periodMs) * Math.PI * 2;
-    const scale = scaleMid + scaleAmp * Math.sin(phase);
-    const seed = seedMid + seedAmp * Math.sin(phase + config.seedPhaseOffset);
+    const cycleProgress = ((now - runtime.start) % periodMs) / periodMs;
+    const scale = scaleMid + scaleAmp * triangleWave(cycleProgress);
+    const seed = seedMid + seedAmp * triangleWave(cycleProgress + seedCycleOffset);
 
     displacement.setAttribute('scale', scale.toFixed(2));
     turbulence.setAttribute('seed', String(Math.round(seed)));
@@ -161,7 +168,7 @@ const startHandDrawnLoop = (svg: SVGSVGElement, runtime: HandDrawnRuntime): void
 };
 
 /**
- * Hand-drawn edge shimmer: sine-driven loop (no ease pause at cycle boundaries).
+ * Hand-drawn edge shimmer: triangle-wave loop for steady, visible motion.
  */
 const attachHandDrawnAnimation = (
   svg: SVGSVGElement,

@@ -1,6 +1,7 @@
 import React from 'react';
 import { ReactComponent as BowSvg } from '@assets/svgs/bow.svg';
 import { ReactComponent as FrameSvg } from '@assets/svgs/frame_1.svg';
+import welcomePhoto from '@assets/photos/1.jpg';
 import { AnimatedVector, FlowersIcon, GridContainer, IntroReveal } from '@components';
 import { useTranslation } from '@i18n';
 
@@ -8,17 +9,17 @@ export const Welcome = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="bg-moss-green text-cream">
+    <section className="bg-moss-green text-cream min-h-content">
       <GridContainer
-        className="py-20 md:py-28 lg:py-32"
-        gridClassName="gap-x-2 gap-y-14 md:gap-x-6 md:gap-y-16 lg:gap-x-6"
+        className="min-h-content"
+        gridClassName="min-h-content items-center gap-x-2 md:gap-y-14 md:gap-x-6 md:gap-y-16 items-stretch"
       >
-        <div className="col-span-4 md:col-span-6 lg:col-span-6">
-          <div className="flex w-full flex-col items-center gap-10 text-center md:gap-14 lg:gap-16 md:py-10">
-            <IntroReveal className="flex justify-center">
+        <div className="col-span-4 md:col-span-6 lg:col-span-6 flex flex-col items-center justify-center py-10">
+          <div className="flex w-full flex-col items-center gap-10 text-center md:gap-14 lg:gap-16">
+            <IntroReveal className="flex justify-center items-center">
               <FlowersIcon
                 animated
-                animationOptions={{ intensity: 'medium', effect: 'stroke' }}
+                animationOptions={{ intensity: 'strong', effect: 'stroke', filterDisplayWidthPx: 20 }}
                 colorClassName="text-cream"
               />
             </IntroReveal>
@@ -41,7 +42,7 @@ export const Welcome = () => {
                   className="h-10 w-40 scale-50 text-cream md:h-12 md:w-48"
                   svgClassName="block h-full w-full"
                   animationOptions={{
-                    intensity: 'subtle',
+                    intensity: 'strong',
                     effect: 'stroke',
                     filterDisplayWidthPx: 80,
                   }}
@@ -67,19 +68,22 @@ export const Welcome = () => {
           </div>
         </div>
 
-        <IntroReveal className="col-span-4 flex w-full justify-center px-10 md:col-span-6 lg:col-span-6 lg:col-start-7 lg:h-full lg:min-h-0 lg:items-center">
-          <div className="w-full max-h-[85svh]">
-            <AnimatedVector
-              Svg={FrameSvg}
-              className="h-full w-full max-h-[85svh]"
-              svgClassName="block h-auto w-full max-h-[85svh] text-cream"
-              animationOptions={{
-                intensity: 'strong',
-                effect: 'stroke',
-              }}
-            />
-          </div>
-        </IntroReveal>
+        <div
+          className="welcome-photo-bleed col-span-4 relative flex min-h-96 items-center justify-center bg-cover bg-center md:col-span-6 lg:col-span-6 lg:col-start-7 lg:min-h-content lg:self-stretch"
+          style={{ backgroundImage: `url(${welcomePhoto})` }}
+          role="img"
+          aria-label={t('welcome.photoAlt')}
+        >
+          <AnimatedVector
+            Svg={FrameSvg}
+            className="pointer-events-none box-border h-full w-full max-h-full max-w-full p-3 text-cream md:p-4"
+            svgClassName="block h-full w-full text-cream"
+            animationOptions={{
+              intensity: 'strong',
+              effect: 'stroke',
+            }}
+          />
+        </div>
       </GridContainer>
     </section>
   );
