@@ -109,13 +109,18 @@
       "en": "We can't wait to spend this special day with you!",
       "el": "Ανυπομονούμε να περάσουμε αυτή την ξεχωριστή μέρα μαζί σας!",
       "lv": "Nevaram sagaidīt, kad šo īpašo dienu pavadīsim kopā ar jums!"
+    },
+    "photoAlt": {
+      "en": "Rihards and Konstantina on a field",
+      "el": "Ο Rihards και η Konstantina σε ένα λιβάδι",
+      "lv": "Rihards un Konstantīna laukā"
     }
   },
   "countdown": {
     "title": {
       "en": "Counting down to our day",
-      "el": "Μετράμε αντίστροφα μέχρι τη μέρα μας",
-      "lv": "Skaitām līdz mūsu dienai"
+      "el": "Counting down to our day",
+      "lv": "Counting down to our day"
     },
     "ariaLabel": {
       "en": "Time until the wedding",
@@ -475,6 +480,18 @@
       "en": "The organised return buses leave at 01:00, and the celebration will wrap up no later than then.",
       "el": "Τα οργανωμένα λεωφορεία επιστρέφουν στην Κοπεγχάγη στη 01:00.",
       "lv": "Organizētie autobusi aties plkst. 01:00."
+    }
+  },
+  "footer": {
+    "line1": {
+      "en": "A website crafted by two web developers in love.",
+      "el": "Μια ιστοσελίδα δημιουργημένη από δύο ερωτευμένους web developers.",
+      "lv": "Tīmekļa vietne, ko radījuši divi iemīlējušies tīmekļa izstrādātāji."
+    },
+    "line2": {
+      "en": "A wedding made possible (and primarily financed) by Sotiris.",
+      "el": "Ένας γάμος που έγινε πραγματικότητα (και χρηματοδοτήθηκε κυρίως) χάρη στον Σωτήρη.",
+      "lv": "Kāzas, kas tapa iespējamas (un galvenokārt tika finansētas) pateicoties Sotirim."
     }
   }
 }

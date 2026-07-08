@@ -7,7 +7,7 @@ export const WeddingCountdown = () => {
 
   return (
     <section
-      className="bg-background-off-white py-16 md:py-24"
+      className="bg-cream py-16 md:py-24"
       aria-labelledby="countdown-heading"
     >
       <GridContainer>
@@ -15,7 +15,7 @@ export const WeddingCountdown = () => {
           <IntroReveal
             as="h2"
             duration={0.7}
-            className="text-style-header-4 mb-10 text-center text-black md:mb-14"
+            className="text-style-cursive-title mb-10 text-center text-blood-orange text-balance md:mb-14"
             id="countdown-heading"
           >
             {t('countdown.title')}
@@ -26,7 +26,7 @@ export const WeddingCountdown = () => {
           <IntroReveal
             as="p"
             duration={0.6}
-            className="text-style-caption mt-10 text-center text-stone"
+            className="text-style-caption mt-10 text-center text-black"
           >
             {t('navigation.date')}
           </IntroReveal>

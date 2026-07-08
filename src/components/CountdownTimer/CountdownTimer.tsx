@@ -9,8 +9,9 @@ import { RollingNumber } from '../RollingNumber/RollingNumber';
 import type { AnimatedVectorOptions } from '../../utils/animatedVector';
 
 const HAND_DRAWN_STROKE: AnimatedVectorOptions = {
-  intensity: 'medium',
+  intensity: 'strong',
   effect: 'stroke',
+  filterDisplayWidthPx: 3,
 };
 
 export type CountdownTimerProps = {
@@ -102,8 +103,8 @@ const CountdownStar = ({ variant, starClassName }: CountdownStarProps) => {
 export const CountdownTimer = ({
   className = '',
   valueClassName = 'text-black',
-  labelClassName = 'text-stone',
-  starClassName = 'text-black',
+  labelClassName = 'text-black',
+  starClassName = 'text-blood-orange',
 }: CountdownTimerProps) => {
   const { t } = useTranslation();
   const [timeLeft, setTimeLeft] = useState(getTimeUntilWedding);

@@ -154,7 +154,7 @@ const TimelineIconSlot = ({
             svgClassName="block h-full w-full text-moss-green"
             animationOptions={
               iconAnimationOptions ?? {
-                intensity: 'subtle',
+                intensity: 'medium',
                 effect: 'stroke',
                 filterDisplayWidthPx: 128,
               }
@@ -239,7 +239,7 @@ const TimelineStarSlot = ({ Star, starRef }: TimelineStarSlotProps) => (
     <AnimatedVector
       Svg={Star}
       className="h-full w-full"
-      svgClassName="block h-full w-full text-moss-green"
+      svgClassName="block h-full w-full text-blood-orange"
       animationOptions={TIMELINE_STAR_ANIMATION}
     />
   </div>
@@ -255,7 +255,7 @@ const TIMELINE_TIME_CLASS = 'text-style-cursive-time text-xxl shrink-0 text-moss
 const TIMELINE_TITLE_CLASS =
   'text-style-cursive-title text-xl text-moss-green text-balance';
 const TIMELINE_BODY_CLASS =
-  'text-style-paragraph-3 leading-relaxed text-burgundy text-balance';
+  'text-style-paragraph-3 leading-relaxed text-stone/60 text-balance';
 
 const timelineLinkClassName =
   'text-inherit underline underline transition-colors hover:text-moss-green';
@@ -412,7 +412,7 @@ export const Timeline = () => {
   return (
     <section
       id="timeline"
-      className="bg-cream text-burgundy"
+      className="bg-cream text-stone/60"
       aria-labelledby="timeline-heading"
     >
       <GridContainer className="py-20 md:py-28 lg:py-32">
@@ -420,14 +420,14 @@ export const Timeline = () => {
 
           <IntroReveal
             as="h2"
-            className="text-style-cursive-title mx-auto mb-12 max-w-lg text-center text-stone md:mb-8 md:max-w-xl"
+            className="text-style-cursive-title mx-auto mb-12 max-w-lg text-center text-blood-orange md:mb-8 md:max-w-xl"
           >
             {t('timeline.intro1')}
           </IntroReveal>
 
           <IntroReveal
             as="p"
-            className="text-style-paragraph-3 mx-auto mb-12 max-w-lg text-center text-burgundy md:mb-16 md:max-w-xl"
+            className="text-style-paragraph-3 mx-auto mb-12 max-w-lg text-center text-stone/60 md:mb-16 md:max-w-xl"
           >
             {t('timeline.intro2')}
           </IntroReveal>
@@ -436,7 +436,7 @@ export const Timeline = () => {
 
           <IntroReveal
             as="p"
-            className="text-style-caption mx-auto mt-14 max-w-md text-center text-stone/90 md:mt-16 text-balance"
+            className="text-style-caption mx-auto mt-14 max-w-md text-center text-stone/60 md:mt-16 text-balance"
           >
             {t('timeline.footnote')}
           </IntroReveal>
