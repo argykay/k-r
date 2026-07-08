@@ -220,6 +220,43 @@
       "lv": "Autobusi atgriežas Kopenhāgenas centrā."
     }
   },
+  "gate": {
+    "title": {
+      "en": "Welcome",
+      "el": "Καλώς ήρθατε",
+      "lv": "Laipni lūdzam"
+    },
+    "subtitle": {
+      "en": "Please enter the password from your invitation to view our wedding site.",
+      "el": "Παρακαλούμε εισάγετε τον κωδικό από την πρόσκλησή σας για να δείτε τον ιστότοπο του γάμου μας.",
+      "lv": "Lūdzu, ievadiet paroli no jūsu ielūguma, lai skatītu mūsu kāzu vietni."
+    },
+    "label": {
+      "en": "Password",
+      "el": "Κωδικός",
+      "lv": "Parole"
+    },
+    "placeholder": {
+      "en": "Enter password",
+      "el": "Εισάγετε κωδικό",
+      "lv": "Ievadiet paroli"
+    },
+    "submit": {
+      "en": "Enter",
+      "el": "Είσοδος",
+      "lv": "Ienākt"
+    },
+    "error": {
+      "en": "Incorrect password. Please try again.",
+      "el": "Λανθασμένος κωδικός. Παρακαλούμε δοκιμάστε ξανά.",
+      "lv": "Nepareiza parole. Lūdzu, mēģiniet vēlreiz."
+    },
+    "hint": {
+      "en": "The password was included in your invitation.",
+      "el": "Ο κωδικός περιλαμβάνεται στην πρόσκλησή σας.",
+      "lv": "Parole ir norādīta jūsu ielūgumā."
+    }
+  },
   "faq": {
     "title": {
       "en": "Frequently Asked Questions",

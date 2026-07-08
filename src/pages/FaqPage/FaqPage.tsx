@@ -1,6 +1,5 @@
-import React from 'react';
 import { ReactComponent as FlowersSvg2Svg } from '@assets/svgs/whimsical.svg';
-import { AnimatedVector, FaqAccordion, GridContainer, IntroReveal } from '@components';
+import { AnimatedVector, FaqAccordion, GridContainer } from '@components';
 import { FAQ_ITEMS } from '@constants/faqItems';
 import { Navigation } from '@modules';
 import { useTranslation } from '@i18n';
