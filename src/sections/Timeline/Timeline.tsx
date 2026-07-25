@@ -14,6 +14,7 @@ import type { TranslationKey } from '@i18n/types';
 import type { AnimatedVectorOptions } from '../../utils/animatedVector';
 
 const VENUE_MAPS_URL = 'https://maps.app.goo.gl/NpXnyFJZWg474Fw78';
+const PICKUP_MAPS_URL = 'https://maps.app.goo.gl/56GTwthD6LvPpx1v9';
 
 const TIMELINE_ICON_ANIMATION: Pick<
   TimelineEntry,
@@ -63,8 +64,15 @@ const TIMELINE_ENTRIES: TimelineEntry[] = [
     id: 'gettingThere',
     time: '12:00',
     title: 'Getting there',
-    bodyKey: 'timeline.gettingThereBody',
+    bodyKey: 'timeline.gettingThereHotel',
     dateTime: '2026-09-12T12:00',
+    bodyLink: {
+      href: PICKUP_MAPS_URL,
+      beforeKey: 'timeline.gettingThereBodyBefore',
+      labelKey: 'timeline.gettingThereHotel',
+      afterKey: 'timeline.gettingThereBodyAfter',
+      ariaKey: 'timeline.gettingThereMapsAria',
+    },
     icon: CupidSvg,
     ...TIMELINE_ICON_ANIMATION,
   },

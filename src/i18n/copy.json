@@ -69,7 +69,7 @@
     "subtitle": {
       "en": "are getting married",
       "el": "παντρεύονται",
-      "lv": "kājas"
+      "lv": "precas"
     },
     "pauseVideo": {
       "en": "Pause video",
@@ -98,17 +98,17 @@
     "message": {
       "en": "We're gathering our favourite people for a day of love, laughter, good food, and dancing beneath the trees",
       "el": "Συγκεντρωνόμαστε τους αγαπημένους μας για μια μέρα γεμάτη αγάπη, γέλιο, καλό φαγητό και χορό κάτω από τα δέντρα",
-      "lv": "Sapulcām savus mīļākos cilvēkus dienai, kas pilna ar mīlestību, smiekliem, labu ēdienu un dejām zem kokiem"
+      "lv": "Sapulcinām savus mīļākos cilvēkus dienā, kas pilna ar mīlestību, smiekliem, labu ēdienu un dejām zem kokiem"
     },
     "location": {
       "en": "Join us in the beautiful forests of Lejre, where we'll celebrate beside the lake, surrounded by nature and the people we love most.",
       "el": "Ελάτε μαζί μας στα όμορφα δάση του Lejre, όπου θα γιορτάσουμε δίπλα στη λίμνη, περιτριγυρισμένοι από τη φύση και τους ανθρώπους που αγαπάμε περισσότερο.",
-      "lv": "Pievienojieties mums Lejres skaistajos mežos, kur svinēsim ezera malā, dabas un mūsu mīļāko cilvēku vidū."
+      "lv": "Pievienojieties mums Lejres skaistajos mežos — svinēsim kopā ezera malā, dabas un mīļāko cilvēku ielokā."
     },
     "closing": {
       "en": "We can't wait to spend this special day with you!",
       "el": "Ανυπομονούμε να περάσουμε αυτή την ξεχωριστή μέρα μαζί σας!",
-      "lv": "Nevaram sagaidīt, kad šo īpašo dienu pavadīsim kopā ar jums!"
+      "lv": "Ar nepacietību gaidām šo īpašo dienu, ko pavadīsim kopā ar jums!"
     },
     "photoAlt": {
       "en": "Rihards and Konstantina on a field",
@@ -156,23 +156,38 @@
     },
     "intro1": {
       "en": "A whimsical day in the forest",
-      "el": "Μια μαγική μέρα στο δάσος",
-      "lv": "Spontāna diena mežā"
+      "el": "A whimsical day in the forest",
+      "lv": "A whimsical day in the forest"
     },
     "intro2": {
       "en": "here is how we hope the celebration will unfold.",
       "el": "έτσι ελπίζουμε να εξελιχθεί η γιορτή.",
-      "lv": "tā mēs ceram, ka svinības izvērsīsies."
+      "lv": "Lūk, kā mēs ceram, ka svinības norisināsies."
     },
     "footnote": {
       "en": "Times are approximate and may shift slightly so we can savour each moment together.",
       "el": "Οι ώρες είναι κατά προσέγγιση και μπορεί να μετακινηθούν ελαφρώς, ώστε να απολαύσουμε κάθε στιγμή μαζί.",
-      "lv": "Laiki ir aptuveni un var nedaudz mainīties, lai mēs visi kopā varētu baudīt katru mirkli."
+      "lv": "Laiki ir aptuveni un var nedaudz mainīties, lai varam kopā baudīt katru mirkli."
     },
-    "gettingThereBody": {
-      "en": "Buses depart from central Copenhagen (exact pickup location to be confirmed). Guests who prefer may drive directly to the venue.",
-      "el": "Τα λεωφορεία αναχωρούν από το κέντρο της Κοπενχάγης (η ακριβής τοποθεσία παραλαβής θα επιβεβαιωθεί). Όποιοι προτιμούν μπορούν να οδηγήσουν απευθείας στον χώρο.",
-      "lv": "Autobusi dodas prom no Kopenhāgenas centra (precīza izkāpšanas vieta tiks precizēta). Var braukt tieši uz norises vietu."
+    "gettingThereBodyBefore": {
+      "en": "Buses depart from ",
+      "el": "Τα λεωφορεία αναχωρούν από το ",
+      "lv": "Autobusi atiet no "
+    },
+    "gettingThereHotel": {
+      "en": "Scandic Spectrum hotel (Kalvebod Brygge 10, 1560 København)",
+      "el": "Scandic Spectrum hotel (Kalvebod Brygge 10, 1560 København)",
+      "lv": "Scandic Spectrum viesnīcas (Kalvebod Brygge 10, 1560 København)"
+    },
+    "gettingThereBodyAfter": {
+      "en": ". Guests who prefer may drive directly to the venue.",
+      "el": ". Όποιοι προτιμούν μπορούν να οδηγήσουν απευθείας στον χώρο.",
+      "lv": ". Tie, kas vēlas, var braukt tieši uz norises vietu."
+    },
+    "gettingThereMapsAria": {
+      "en": "Scandic Spectrum hotel on Google Maps (opens in new tab)",
+      "el": "Scandic Spectrum hotel στο Google Maps (ανοίγει σε νέα καρτέλα)",
+      "lv": "Scandic Spectrum viesnīca Google Maps (atveras jaunā cilnē)"
     },
     "arriveBodyBefore": {
       "en": "Everyone arrives at ",
@@ -197,22 +212,22 @@
     "ceremonyBody": {
       "en": "Wedding ceremony by the lake beneath the trees.",
       "el": "Γάμος δίπλα στη λίμνη, κάτω από τα δέντρα.",
-      "lv": "Kāzu ceremonija ezera krastā zem kokiem."
+      "lv": "Kāzu ceremonija ezera malā, koku ēnā."
     },
     "drinksBody": {
       "en": "Welcome drinks, canapés, and cake on the terrace. Afterwards, photos in the gardens and surrounding grounds.",
       "el": "Καλωσορίσματα, καναπεδάκια και τούρτα στη βεράντα. Στη συνέχεια, φωτογραφίες στους κήπους και τους γύρω χώρους.",
-      "lv": "Uzņemšanas dzērieni, uzkodas un kūka uz terases. Pēc tam — fotoattēli dārzos un apkārtējās teritorijās."
+      "lv": "Aperitīva dzērieni, uzkodas un kūka uz terases. Pēc tam — fotosesija dārzā un apkārtējā teritorijā."
     },
     "dinnerBody": {
       "en": "Dinner is served indoors.",
       "el": "Το δείπνο σερβίρεται σε εσωτερικό χώρο.",
-      "lv": "Vakariņas tiek pasniegtas telpās."
+      "lv": "Vakariņas tiek pasniegtas iekštelpās."
     },
     "partyBody": {
       "en": "The party begins in the tent. Dancing, drinks, light snacks, and celebrations.",
       "el": "Το πάρτι ξεκινά στη σκηνή. Χορός, ποτά, ελαφριά σνακ και γιορτές.",
-      "lv": "Ballīte sākas teltī. Dejas, dzērieni, vieglas uzkodas un svinēšana."
+      "lv": "Ballīte sākas teltī. Dejas, dzērieni, vieglas uzkodas un svinības."
     },
     "returnBusesBody": {
       "en": "Buses return to central Copenhagen.",
@@ -224,17 +239,17 @@
     "title": {
       "en": "RSVP",
       "el": "Επιβεβαίωση",
-      "lv": "Apstiprinājums"
+      "lv": "RSVP"
     },
     "intro": {
       "en": "Please let us know if you can join us by filling out the form below.",
       "el": "Παρακαλούμε ενημερώστε μας αν μπορείτε να παρευρεθείτε συμπληρώνοντας την παρακάτω φόρμα.",
-      "lv": "Lūdzu, paziņojiet mums, vai varat piedalīties, aizpildot zemāk esošo formu."
+      "lv": "Lūdzu, dodiet ziņu, vai varēsiet būt kopā ar mums, aizpildot zemāk esošo formu."
     },
     "stepContact": {
       "en": "Your details",
       "el": "Τα στοιχεία σας",
-      "lv": "Jūsu dati"
+      "lv": "Jūsu informācija"
     },
     "stepAttending": {
       "en": "Can you attend?",
@@ -279,7 +294,7 @@
     "attendingLabel": {
       "en": "Can you attend?",
       "el": "Μπορείτε να παρευρεθείτε;",
-      "lv": "Vai varat piedalīties?"
+      "lv": "Vai varēsiet ierasties?"
     },
     "attendingYes": {
       "en": "Yes, I'll be there",
@@ -294,7 +309,7 @@
     "plusOneLabel": {
       "en": "Will you bring a plus one?",
       "el": "Θα έχετε συνοδό;",
-      "lv": "Vai būsiet ar pavadoni?"
+      "lv": "Vai ņemsiet līdzi pavadoni?"
     },
     "plusOneNameLabel": {
       "en": "Plus one's full name",
@@ -319,7 +334,7 @@
     "guestMealPlaceholder": {
       "en": "e.g. Vegetarian, nut allergy, no gluten",
       "el": "π.χ. Χορτοφαγικό, αλλεργία σε ξηρούς καρπούς, χωρίς γλουτένη",
-      "lv": "piem. Veģetārs, riekstu alerģija, bez glutēna"
+      "lv": "piem. veģetārietis, alerģija pret riekstiem, bez glutēna"
     },
     "plusOneMealLabel": {
       "en": "Does your plus one have any dietary preferences or allergies we should know about?",
@@ -329,7 +344,7 @@
     "plusOneMealPlaceholder": {
       "en": "e.g. Vegetarian, nut allergy, no gluten",
       "el": "π.χ. Χορτοφαγικό, αλλεργία σε ξηρούς καρπούς, χωρίς γλουτένη",
-      "lv": "piem. Veģetārs, riekstu alerģija, bez glutēna"
+      "lv": "piem. veģetārietis, alerģija pret riekstiem, bez glutēna"
     },
     "kidsMealLabel": {
       "en": "Do your children need a kids meal?",
@@ -339,12 +354,12 @@
     "housewarmingLabel": {
       "en": "Will you join our housewarming party the day before the wedding?",
       "el": "Θα έρθετε στο πάρτι για το νέο μας σπίτι την ημέρα πριν τον γάμο;",
-      "lv": "Vai pievienosities mūsu jaunās mājas iesvētīšanas svinībām dienu pirms kāzām?"
+      "lv": "Vai pievienosities mūsu sālsmaizes svinībām dienu pirms kāzām?"
     },
     "housewarmingYes": {
       "en": "Yes, I'll be there",
       "el": "Ναι, θα είμαι εκεί",
-      "lv": "Jā, būšu tur"
+      "lv": "Jā, būšu"
     },
     "housewarmingNo": {
       "en": "Sorry, I can't make it",
@@ -375,36 +390,6 @@
       "en": "Vegetarian, allergies, etc.",
       "el": "Χορτοφάγος, αλλεργίες κ.λπ.",
       "lv": "Veģetārietis, alerģijas u.c."
-    },
-    "accessibilityLabel": {
-      "en": "Accessibility needs",
-      "el": "Ανάγκες προσβασιμότητας",
-      "lv": "Pieejamības vajadzības"
-    },
-    "accessibilityPlaceholder": {
-      "en": "Mobility, seating, or other needs we should know about",
-      "el": "Κινητικότητα, θέση ή άλλες ανάγκες που πρέπει να γνωρίζουμε",
-      "lv": "Mobilitāte, sēdvietas vai citas vajadzības, par kurām mums jāzina"
-    },
-    "songLabel": {
-      "en": "Song request",
-      "el": "Αίτημα τραγουδιού",
-      "lv": "Dziesmas pieprasījums"
-    },
-    "songPlaceholder": {
-      "en": "A song you'd love to hear on the dance floor",
-      "el": "Ένα τραγούδι που θα θέλατε να ακούσετε στο dance floor",
-      "lv": "Dziesma, ko labprāt dzirdētu dejugrīdā"
-    },
-    "messageLabel": {
-      "en": "Message for the couple",
-      "el": "Μήνυμα για το ζευγάρι",
-      "lv": "Ziņa pārim"
-    },
-    "messagePlaceholder": {
-      "en": "Anything else you'd like us to know?",
-      "el": "Οτιδήποτε άλλο θα θέλατε να μας πείτε;",
-      "lv": "Vai kaut kas cits, ko vēlaties mums pateikt?"
     },
     "yes": {
       "en": "Yes",
@@ -479,7 +464,7 @@
     "successBody": {
       "en": "Your RSVP has been received. We look forward to celebrating with you!",
       "el": "Η επιβεβαίωσή σας ελήφθη. Ανυπομονούμε να γιορτάσουμε μαζί σας!",
-      "lv": "Jūsu apstiprinājums ir saņemts. Nevaram sagaidīt svinības kopā ar jums!"
+      "lv": "Jūsu apstiprinājums ir saņemts. Nevaram sagaidīt, kad svinēsim kopā ar jums!"
     },
     "successBackHome": {
       "en": "Back to home",
@@ -516,7 +501,7 @@
     "subtitle": {
       "en": "Please enter the password from your invitation to view our wedding site.",
       "el": "Παρακαλούμε εισάγετε τον κωδικό από την πρόσκλησή σας για να δείτε τον ιστότοπο του γάμου μας.",
-      "lv": "Lūdzu, ievadiet paroli no jūsu ielūguma, lai skatītu mūsu kāzu vietni."
+      "lv": "Lūdzu, ievadiet paroli no jūsu ielūguma, lai skatītu mūsu kāzu mājas lapu."
     },
     "label": {
       "en": "Password",
@@ -547,8 +532,8 @@
   "faq": {
     "title": {
       "en": "Frequently Asked Questions",
-      "el": "Συχνές Ερωτήσεις",
-      "lv": "Biežāk uzdotie jautājumi"
+      "el": "Frequently Asked Questions",
+      "lv": "Frequently Asked Questions"
     },
     "whatToWearQuestion": {
       "en": "What should I wear?",
@@ -558,12 +543,12 @@
     "whatToWearP1": {
       "en": "Whatever makes you feel wonderful.",
       "el": "Ό,τι σας κάνει να νιώθετε υπέροχα.",
-      "lv": "To, kas liek jums justies lieliski."
+      "lv": "Tas, kas liek jums justies brīnišķīgi."
     },
     "whatToWearP2": {
       "en": "Our celebration is relaxed rather than formal, so please wear something you'll feel comfortable celebrating, eating, and dancing in.",
       "el": "Ο γάμος μας θα είναι χαλαρός και ανεπίσημος, οπότε φορέστε κάτι με το οποίο θα αισθάνεστε άνετα να γιορτάσετε, να φάτε και να χορέψετε.",
-      "lv": "Mūsu svinības būs nepiespiestas, tāpēc izvēlieties apģērbu, kurā jutīsieties ērti svinot, ēdot un dejojot."
+      "lv": "Mūsu svinības būs nepiespiestas, nevis formālas, tāpēc izvēlieties apģērbu, kurā jutīsieties ērti svinot, ēdot un dejojot."
     },
     "whatToWearP3": {
       "en": "A small practical note: the ceremony takes place outdoors by the lake, and we'll be walking on grass, gravel, and forest paths throughout the day. We recommend avoiding thin stilettos unless you're particularly talented at navigating nature in them.",
@@ -573,7 +558,7 @@
     "whatToWearP4": {
       "en": "September weather can be unpredictable, so bringing a jacket is a good idea. An umbrella might not be the worst idea either — this is Denmark, after all.",
       "el": "Ο καιρός του Σεπτεμβρίου μπορεί να είναι απρόβλεπτος, γι’ αυτό καλό είναι να έχετε μαζί σας ένα σακάκι. Μια ομπρέλα ίσως φανεί επίσης χρήσιμη — είμαστε στη Δανία, άλλωστε.",
-      "lv": "Septembra laikapstākļi var būt neparedzami, tāpēc iesakām paņemt līdzi jaku. Arī lietussargs var noderēt — galu galā esam Dānijā."
+      "lv": "Septembra laikapstākļi var būt neparedzami, tāpēc iesakām paņemt līdzi kādu virsjaku. Arī lietussargs nebūtu lieks — galu galā būsim Dānijā."
     },
     "registryQuestion": {
       "en": "Do you have a wedding registry?",
@@ -588,7 +573,7 @@
     "registryP2": {
       "en": "Many of our guests are travelling to celebrate with us, and we do not expect gifts. We're simply grateful you're making the journey and spending the day with us.",
       "el": "Πολλοί από τους καλεσμένους μας ταξιδεύουν για να γιορτάσουν μαζί μας και δεν περιμένουμε δώρα. Είμαστε απλώς ευγνώμονες που θα είστε εκεί μαζί μας.",
-      "lv": "Daudzi mūsu viesi mēros tālu ceļu, lai svinētu kopā ar mums, tāpēc dāvanas mēs negaidām. Mēs vienkārši priecājamies, ka būsiet kopā ar mums šajā dienā."
+      "lv": "Daudzi mūsu viesi mēros tālu ceļu, lai svinētu kopā ar mums, tāpēc dāvanas mēs negaidām. Mēs vienkārši esam pateicīgi, ka mērosiet šo ceļu un pavadīsiet šo dienu kopā ar mums."
     },
     "registryP3": {
       "en": "If you'd still like to give something, we'll share a few ideas closer to the date.",
@@ -598,7 +583,7 @@
     "gettingThereQuestion": {
       "en": "How do I get to the wedding?",
       "el": "Πώς θα φτάσω στον γάμο;",
-      "lv": "Kā nokļūt uz kāzām?"
+      "lv": "Kā nokļūt uz svinību vietu?"
     },
     "gettingThereP1": {
       "en": "We're arranging buses from central Copenhagen.",
@@ -648,7 +633,7 @@
     "whereToStayQuestion": {
       "en": "Where should I stay?",
       "el": "Πού να μείνω;",
-      "lv": "Kur palikt pa nakti?"
+      "lv": "Kur nakšņot?"
     },
     "whereToStayP1": {
       "en": "Anywhere you'd like.",
@@ -723,7 +708,7 @@
     "rainP1": {
       "en": "This is Denmark, after all.",
       "el": "Είμαστε στη Δανία, άλλωστε.",
-      "lv": "Galu galā tās ir Dānijas kāzas."
+      "lv": "Galu galā tā ir Dānija."
     },
     "rainP2": {
       "en": "As the Danes say: there's no such thing as bad weather, only bad clothing.",
@@ -743,7 +728,7 @@
     "dietaryP1": {
       "en": "Please let us know when you RSVP, and we'll make sure you're well looked after.",
       "el": "Παρακαλούμε ενημερώστε μας κατά το RSVP και θα φροντίσουμε να καλυφθούν.",
-      "lv": "Lūdzu, informējiet mūs RSVP laikā, un mēs par visu parūpēsimies."
+      "lv": "Lūdzu, dodiet ziņu, kad apstiprināsiet dalību, un mēs parūpēsimies, lai jūs justos gaidīti un aprūpēti."
     },
     "childrenQuestion": {
       "en": "Can I bring my children?",
@@ -815,7 +800,7 @@
     "intro": {
       "en": "Hotels, restaurants, and spots we love around Copenhagen and the venue.",
       "el": "Ξενοδοχεία, εστιατόρια και μέρη που αγαπάμε γύρω από την Κοπεγχάγη και τον χώρο της εκδήλωσης.",
-      "lv": "Viesnīcas, restorāni un vietas, kuras mēs iesakām Kopenhāgenā un pie svinību vietas."
+      "lv": "Viesnīcas, restorāni un vietas, kuras mēs iesakām Kopenhāgenā un ap svinību vietu."
     },
     "embedTitle": {
       "en": "Map of suggested places for the wedding",
@@ -837,12 +822,12 @@
     "line1": {
       "en": "A website crafted by two web developers in love.",
       "el": "Μια ιστοσελίδα δημιουργημένη από δύο ερωτευμένους web developers.",
-      "lv": "Tīmekļa vietne, ko radījuši divi iemīlējušies tīmekļa izstrādātāji."
+      "lv": "Mājaslapa, ko radījuši divi iemīlējušies web izstrādātāji."
     },
     "line2": {
       "en": "A wedding made possible (and primarily financed) by Sotiris.",
       "el": "Ένας γάμος που έγινε πραγματικότητα (και χρηματοδοτήθηκε κυρίως) χάρη στον Σωτήρη.",
-      "lv": "Kāzas, kas tapa iespējamas (un galvenokārt tika finansētas) pateicoties Sotirim."
+      "lv": "Kāzas, kas tapa iespējamas (un galvenokārt — apmaksātas) pateicoties Sotirim."
     }
   }
 }
