@@ -1,3 +1,4 @@
+import { DottedDivider } from '../DottedDivider/DottedDivider';
 import { IntroReveal } from '../IntroReveal/IntroReveal';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { useCallback, useId, useState } from 'react';
@@ -22,25 +23,6 @@ const PANEL_CLOSE_TRANSITION = {
 };
 
 const ITEM_REVEAL_DURATION = 1.9;
-
-const FaqDivider = () => (
-  <svg
-    className="h-2 w-full overflow-visible"
-    height="2"
-    width="100%"
-    preserveAspectRatio="none"
-    aria-hidden
-  >
-    <line
-      x1="0"
-      y1="1"
-      x2="100%"
-      y2="1"
-      className="faq-divider-line animate-timeline-dash"
-      vectorEffect="non-scaling-stroke"
-    />
-  </svg>
-);
 
 type FaqAccordionToggleProps = {
   isOpen: boolean;
@@ -151,7 +133,7 @@ export const FaqAccordion = ({ items }: FaqAccordionProps) => {
             staggerIndex={index}
             duration={ITEM_REVEAL_DURATION}
           >
-            {index > 0 && <FaqDivider />}
+            {index > 0 && <DottedDivider />}
             <h2 className="m-0">
               <button
                 type="button"
@@ -213,7 +195,7 @@ export const FaqAccordion = ({ items }: FaqAccordionProps) => {
         staggerIndex={items.length}
         duration={ITEM_REVEAL_DURATION}
       >
-        <FaqDivider />
+        <DottedDivider />
       </IntroReveal>
     </div>
   );

@@ -85,12 +85,12 @@ module.exports = {
         link: ['16px', '1.2'],
         'link-desktop': ['14px', '1.2'],
         /* Cursive accent scale (Homemade Apple) — separate from Cardo typography */
-        'cursive-section': ['32px', '1.15'],
-        'cursive-section-desktop': ['40px', '1.15'],
-        'cursive-title': ['28px', '1.2'],
-        'cursive-title-desktop': ['32px', '1.2'],
-        'cursive-time': ['22px', '1.2'],
-        'cursive-time-desktop': ['26px', '1.2'],
+        'cursive-section': ['32px', '1.6'],
+        'cursive-section-desktop': ['40px', '1.6'],
+        'cursive-title': ['32px', '1.6'],
+        'cursive-title-desktop': ['32px', '1.6'],
+        'cursive-time': ['22px', '1.6'],
+        'cursive-time-desktop': ['26px', '1.6'],
       },
       keyframes: {
         'timeline-dash': {

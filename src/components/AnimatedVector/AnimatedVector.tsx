@@ -24,8 +24,11 @@ export const AnimatedVector = ({
   });
 
   return (
-    <div ref={containerRef} className={className}>
-      <Svg aria-hidden className={svgClassName} />
+    <div
+      ref={containerRef}
+      className={`flex items-center justify-center ${className}`.trim()}
+    >
+      <Svg aria-hidden className={svgClassName || 'block h-full w-full'} />
     </div>
   );
 };

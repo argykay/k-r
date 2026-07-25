@@ -114,8 +114,19 @@
     stroke-dasharray: 2 5;
   }
 
+  .dotted-divider-line {
+    stroke: currentColor;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-dasharray: 2 5;
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .faq-divider-line {
+      animation: none !important;
+    }
+
+    .dotted-divider-line {
       animation: none !important;
     }
   }

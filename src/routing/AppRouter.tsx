@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { FaqPage, HomePage, MapPage, RsvpPage } from '@pages';
+import { FaqPage, HomePage, MapPage, RsvpPage, WelcomePartyPage } from '@pages';
 import { LocaleLayout } from './LocaleLayout';
 import { ScrollToTop } from './ScrollToTop';
 
@@ -15,6 +15,7 @@ export const AppRouter = () => {
         <Route path="rsvp" element={<RsvpPage />} />
         <Route path="faq" element={<FaqPage />} />
         <Route path="map" element={<MapPage />} />
+        <Route path="welcome-party" element={<WelcomePartyPage />} />
       </Route>
 
       {/* `/en`, `/el`, `/lv`, and nested routes */}
@@ -23,6 +24,7 @@ export const AppRouter = () => {
         <Route path="rsvp" element={<RsvpPage />} />
         <Route path="faq" element={<FaqPage />} />
         <Route path="map" element={<MapPage />} />
+        <Route path="welcome-party" element={<WelcomePartyPage />} />
       </Route>
       </Routes>
     </>
