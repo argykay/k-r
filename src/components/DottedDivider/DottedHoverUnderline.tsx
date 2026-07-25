@@ -1,0 +1,37 @@
+type DottedHoverUnderlineProps = {
+  className?: string;
+  /** Tailwind text color class applied via `currentColor` on the stroke. */
+  color?: string;
+};
+
+/**
+ * Animated dotted underline for hover/focus.
+ * Place inside a `group relative` parent (typically a link).
+ */
+export const DottedHoverUnderline = ({
+  className,
+  color = 'text-current',
+}: DottedHoverUnderlineProps) => (
+  <svg
+    className={[
+      'pointer-events-none absolute bottom-0 left-0 h-[3px] w-full overflow-visible opacity-0 transition-opacity duration-200',
+      'group-hover:opacity-100 group-focus-visible:opacity-100',
+      className,
+    ]
+      .filter(Boolean)
+      .join(' ')}
+    height="3"
+    width="100%"
+    preserveAspectRatio="none"
+    aria-hidden
+  >
+    <line
+      x1="0"
+      y1="1.5"
+      x2="100%"
+      y2="1.5"
+      className={['dotted-divider-line animate-timeline-dash', color].join(' ')}
+      vectorEffect="non-scaling-stroke"
+    />
+  </svg>
+);

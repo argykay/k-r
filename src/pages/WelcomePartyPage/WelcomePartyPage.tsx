@@ -13,7 +13,7 @@ import { useTranslation } from '@i18n';
 
 const TRANSPORT_KEYS = [
   'welcomeParty.transportBus400S',
-  'welcomeParty.transportBus126',
+  'welcomeParty.transportBus127',
   'welcomeParty.transportBus128',
 ] as const;
 

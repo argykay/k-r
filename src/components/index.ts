@@ -3,6 +3,7 @@ export type { MediaPlaybackToggleProps } from './MediaPlaybackToggle/MediaPlayba
 export { PhotoSlideshow } from './PhotoSlideshow/PhotoSlideshow';
 export type { PhotoSlideshowProps } from './PhotoSlideshow/PhotoSlideshow';
 export { DottedDivider } from './DottedDivider/DottedDivider';
+export { DottedHoverUnderline } from './DottedDivider/DottedHoverUnderline';
 export { DecorativeStar, StarList } from './DecorativeStar/DecorativeStar';
 export type { DecorativeStarProps, StarListProps } from './DecorativeStar/DecorativeStar';
 export { GoogleMapEmbed } from './GoogleMapEmbed/GoogleMapEmbed';

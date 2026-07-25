@@ -190,17 +190,12 @@ export const HeroIntro = () => {
               <h1 className="text-style-cursive-section text-cream text-balance md:text-5xl">
                 {t('hero.title')}
               </h1>
-              <div className="flex flex-col items-center gap-2 py-1">
-                <p className="font-cardo font-normal text-header-4 text-cream lowercase">
-                  {t('hero.subtitle')}
-                </p>
                 <AnimatedVector
                   Svg={HeartSvg}
-                  className="mt-8 w-6 shrink-0"
+                  className="mt-2 w-6 shrink-0"
                   svgClassName="block h-auto w-full text-cream"
                   animationOptions={HERO_HEART_ANIMATION}
                 />
-              </div>
             </div>
           </GridContainer>
         </div>

@@ -1,25 +1,28 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import {
-  LOCALES,
-  useTranslation,
-  type Locale,
-  type TranslationKey,
-} from '@i18n';
+import { DottedHoverUnderline } from '@components';
+import { LOCALES, LOCALE_LABELS, useTranslation } from '@i18n';
 import { switchLocalePath } from '@routing/paths';
 
-const LANGUAGE_LABEL_KEYS: Record<Locale, TranslationKey> = {
-  en: 'languages.en',
-  el: 'languages.el',
-  lv: 'languages.lv',
+export type LanguageSwitcherProps = {
+  className?: string;
+  linkClassName?: string;
+  tabIndex?: number;
 };
 
-export const LanguageSwitcher = () => {
+export const LanguageSwitcher = ({
+  className,
+  linkClassName,
+  tabIndex,
+}: LanguageSwitcherProps) => {
   const { locale, t } = useTranslation();
   const { pathname } = useLocation();
 
   return (
-    <nav aria-label={t('languages.label')} className="flex gap-4">
+    <nav
+      aria-label={t('languages.label')}
+      className={['flex flex-wrap gap-3', className].filter(Boolean).join(' ')}
+    >
       {LOCALES.map((code) => {
         const isActive = code === locale;
         return (
@@ -27,16 +30,21 @@ export const LanguageSwitcher = () => {
             key={code}
             to={switchLocalePath(pathname, code)}
             className={[
-              'text-style-link',
+              'group relative inline-block pb-1 font-cardo text-link tracking-link no-underline',
               isActive ? 'font-semibold' : 'opacity-70',
-            ].join(' ')}
+              linkClassName,
+            ]
+              .filter(Boolean)
+              .join(' ')}
             aria-current={isActive ? 'page' : undefined}
             lang={code}
+            tabIndex={tabIndex}
           >
-            {t(LANGUAGE_LABEL_KEYS[code])}
+            {LOCALE_LABELS[code]}
+            <DottedHoverUnderline />
           </Link>
         );
       })}
     </nav>
   );
-}
+};

@@ -41,6 +41,16 @@
       "en": "Sunday the 13th of September 2026",
       "el": "Κυριακή, 13η Σεπτεμβρίου 2026",
       "lv": "2026. gada 13. septembra, svētdiena"
+    },
+    "openMenu": {
+      "en": "Open menu",
+      "el": "Άνοιγμα μενού",
+      "lv": "Atvērt izvēlni"
+    },
+    "closeMenu": {
+      "en": "Close menu",
+      "el": "Κλείσιμο μενού",
+      "lv": "Aizvērt izvēlni"
     }
   },
   "languages": {
@@ -48,21 +58,6 @@
       "en": "Language",
       "el": "Γλώσσα",
       "lv": "Valoda"
-    },
-    "en": {
-      "en": "English",
-      "el": "Αγγλικά",
-      "lv": "Angļu"
-    },
-    "el": {
-      "en": "Greek",
-      "el": "Ελληνικά",
-      "lv": "Grieķu"
-    },
-    "lv": {
-      "en": "Latvian",
-      "el": "Λετονικά",
-      "lv": "Latviešu"
     }
   },
   "hero": {
@@ -70,11 +65,6 @@
       "en": "Konstantina + Rihards",
       "el": "Konstantina + Rihards",
       "lv": "Konstantina + Rihards"
-    },
-    "subtitle": {
-      "en": "are getting married",
-      "el": "παντρεύονται",
-      "lv": "precas"
     },
     "pauseVideo": {
       "en": "Pause video",
@@ -937,10 +927,10 @@
       "el": "Λεωφορείο 400S από τον σταθμό Høje Taastrup (περιφερειακά τρένα και γραμμή B του S-train)",
       "lv": "400S autobuss no Høje Taastrup stacijas (reģionālie vilcieni un S-vilciena B līnija)"
     },
-    "transportBus126": {
-      "en": "Bus 126 from Taastrup Station (B-line S-train)",
-      "el": "Λεωφορείο 126 από τον σταθμό Taastrup (γραμμή B του S-train)",
-      "lv": "126. autobuss no Taastrup stacijas (S-vilciena B līnija)"
+    "transportBus127": {
+      "en": "Bus 127 from Taastrup Station (B-line S-train)",
+      "el": "Λεωφορείο 127 από τον σταθμό Taastrup (γραμμή B του S-train)",
+      "lv": "127. autobuss no Taastrup stacijas (S-vilciena B līnija)"
     },
     "transportBus128": {
       "en": "Bus 128 from Ishøj Station (A-line S-train)",
