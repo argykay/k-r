@@ -1,7 +1,7 @@
 import { useReducedMotion } from 'framer-motion';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { ReactComponent as HeartSvg } from '@assets/svgs/heart.svg';
-import { AnimatedVector, GridContainer } from '@components';
+import { AnimatedVector, GridContainer, MediaPlaybackToggle } from '@components';
 import { useTranslation } from '@i18n';
 import { HeroSparkles } from './HeroSparkles';
 
@@ -39,35 +39,6 @@ function setOverlayFade(el: HTMLDivElement | null, amount: number) {
 
   el.style.setProperty('--fade', fade.toFixed(4));
   el.style.setProperty('--solid', solid.toFixed(4));
-}
-
-const PauseIcon = () => {
-  return (
-    <svg
-      width="20"
-      height="20"
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      aria-hidden
-    >
-      <rect x="6" y="4" width="4" height="16" rx="1" />
-      <rect x="14" y="4" width="4" height="16" rx="1" />
-    </svg>
-  );
-}
-
-const PlayIcon = () => {
-  return (
-    <svg
-      width="20"
-      height="20"
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      aria-hidden
-    >
-      <path d="M8 5.14v13.72a1 1 0 0 0 1.5.86l10.26-6.86a1 1 0 0 0 0-1.72L9.5 4.28A1 1 0 0 0 8 5.14z" />
-    </svg>
-  );
 }
 
 export const HeroIntro = () => {
@@ -235,15 +206,12 @@ export const HeroIntro = () => {
         </div>
       </div>
 
-      <button
-        type="button"
-        onClick={togglePlayback}
-        className="absolute bottom-2 right-2 z-10 flex h-11 w-11 items-center justify-center rounded-full bg-black/50 text-white backdrop-blur-sm transition-colors hover:bg-black/70 focus:outline-none focus-visible:ring-2 focus-visible:ring-white md:bottom-6 md:right-6"
-        aria-pressed={isPaused}
-        aria-label={isPaused ? t('hero.playVideo') : t('hero.pauseVideo')}
-      >
-        {isPaused ? <PlayIcon /> : <PauseIcon />}
-      </button>
+      <MediaPlaybackToggle
+        isPaused={isPaused}
+        onToggle={togglePlayback}
+        pauseLabel={t('hero.pauseVideo')}
+        playLabel={t('hero.playVideo')}
+      />
     </section>
   );
 }

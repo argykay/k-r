@@ -6,6 +6,7 @@ export const ROUTE_SEGMENTS = {
   faq: 'faq',
   map: 'map',
   rsvp: 'rsvp',
+  welcomeParty: 'welcome-party',
 } as const;
 
 export type RouteId = keyof typeof ROUTE_SEGMENTS;

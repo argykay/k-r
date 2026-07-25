@@ -32,6 +32,11 @@
       "el": "RSVP",
       "lv": "RSVP"
     },
+    "welcomeParty": {
+      "en": "Welcome party",
+      "el": "Welcome party",
+      "lv": "Welcome party"
+    },
     "date": {
       "en": "Sunday the 13th of September 2026",
       "el": "Κυριακή, 13η Σεπτεμβρίου 2026",
@@ -789,6 +794,203 @@
       "en": "The organised return buses leave at 01:00, and the celebration will wrap up no later than then.",
       "el": "Τα οργανωμένα λεωφορεία επιστρέφουν στην Κοπεγχάγη στη 01:00.",
       "lv": "Organizētie autobusi aties plkst. 01:00."
+    }
+  },
+  "welcomeParty": {
+    "title": {
+      "en": "Welcome party",
+      "el": "Welcome party",
+      "lv": "Welcome party"
+    },
+    "slideshowLabel": {
+      "en": "Welcome party photos",
+      "el": "Φωτογραφίες από το welcome party",
+      "lv": "Welcome party fotoattēli"
+    },
+    "slideshowPhotoAlt": {
+      "en": "Photo from our home",
+      "el": "Φωτογραφία από το σπίτι μας",
+      "lv": "Foto no mūsu mājām"
+    },
+    "pauseSlideshow": {
+      "en": "Pause slideshow",
+      "el": "Παύση παρουσίασης",
+      "lv": "Pauzēt slaidrādi"
+    },
+    "playSlideshow": {
+      "en": "Play slideshow",
+      "el": "Αναπαραγωγή παρουσίασης",
+      "lv": "Atskaņot slaidrādi"
+    },
+    "sectionStartWeekend": {
+      "en": "Let's start the weekend together",
+      "el": "Let's start the weekend together",
+      "lv": "Let's start the weekend together"
+    },
+    "startP1": {
+      "en": "The wedding is on Sunday, 13 September, but why save all the fun for one day?",
+      "el": "Ο γάμος μας είναι την Κυριακή, 13 Σεπτεμβρίου, αλλά γιατί να κρατήσουμε όλη τη χαρά για μία μόνο μέρα;",
+      "lv": "Kāzas ir svētdien, 13. septembrī, bet kāpēc gan gaidīt līdz svētdienai, lai sāktu svinēt?"
+    },
+    "startP2": {
+      "en": "Since so many of you are travelling to Denmark (and many of you haven't had the chance to see our new home yet!), we'd love to spend a little extra time with you before the big day.",
+      "el": "Αφού τόσοι πολλοί από εσάς ταξιδεύετε μέχρι τη Δανία (και πολλοί δεν έχετε δει ακόμα το νέο μας σπίτι!), θα χαρούμε πολύ να περάσουμε λίγο παραπάνω χρόνο μαζί σας πριν από τη μεγάλη μέρα.",
+      "lv": "Tā kā daudzi no jums dodas uz Dāniju (un daudzi vēl nav redzējuši mūsu jaunās mājas!), mēs ļoti priecātos pavadīt kopā ar jums nedaudz vairāk laika pirms lielās dienas."
+    },
+    "startP3": {
+      "en": "So on Saturday, 12 September, we're opening our doors for a relaxed welcome party. Think of it as part housewarming, part pre-wedding hangout, and the perfect way to ease into the weekend together.",
+      "el": "Γι' αυτό, το Σάββατο, 12 Σεπτεμβρίου, ανοίγουμε το σπίτι μας για ένα χαλαρό πάρτι καλωσορίσματος. Σκεφτείτε το σαν ένα μικρό housewarming, μια προγαμήλια συνάντηση και, πάνω απ' όλα, μια όμορφη αφορμή να ξεκινήσουμε μαζί το γιορτινό Σαββατοκύριακο.",
+      "lv": "Tāpēc sestdien, 12. septembrī, mēs atveram sava nama durvis nesteidzīgai sagaidīšanas ballītei. Uztveriet to kā nelielu mājas iesildīšanu, pirmskāzu tikšanos un vienkārši jauku iespēju sākt svētku nedēļas nogali kopā."
+    },
+    "sectionWhenever": {
+      "en": "Come whenever you fancy",
+      "el": "Come whenever you fancy",
+      "lv": "Come whenever you fancy"
+    },
+    "wheneverDate": {
+      "en": "Saturday, the 12th of September",
+      "el": "Σάββατο, 12 Σεπτεμβρίου",
+      "lv": "Sestdien, 12. septembrī"
+    },
+    "wheneverTime": {
+      "en": "12.00 – 20.00",
+      "el": "12.00 – 20.00",
+      "lv": "12.00 – 20.00"
+    },
+    "wheneverP1": {
+      "en": "There's no schedule, no speeches, and no pressure.",
+      "el": "Δεν υπάρχει πρόγραμμα, ομιλίες ή συγκεκριμένη ώρα άφιξης.",
+      "lv": "Nav noteikta grafika, nav runu un nav noteikta ierašanās laika."
+    },
+    "wheneverP2": {
+      "en": "Pop in whenever it suits you, stay for five minutes or five hours, then head off to explore Copenhagen, meet up with friends, or simply recharge before Sunday's celebrations.",
+      "el": "Ελάτε όποτε σας βολεύει, μείνετε όσο θέλετε και μετά συνεχίστε τη μέρα σας εξερευνώντας την Κοπεγχάγη, συναντώντας φίλους ή απλώς ξεκουραζόμενοι πριν από τον γάμο.",
+      "lv": "Ienāciet, kad jums ir ērti, palieciet tik ilgi, cik vēlaties, un pēc tam dodieties iepazīt Kopenhāgenu, satikt draugus vai vienkārši atpūsties pirms kāzām."
+    },
+    "sectionWaiting": {
+      "en": "What's waiting for you?",
+      "el": "What's waiting for you?",
+      "lv": "What's waiting for you?"
+    },
+    "waitingItem1": {
+      "en": "Finger food",
+      "el": "Finger food",
+      "lv": "Uzkodas"
+    },
+    "waitingItem2": {
+      "en": "Drinks",
+      "el": "Ποτά",
+      "lv": "Dzērieni"
+    },
+    "waitingItem3": {
+      "en": "A questionable amount of ice cream",
+      "el": "Μπόλικο παγωτό",
+      "lv": "Pārsteidzoši daudz saldējuma"
+    },
+    "waitingItem4": {
+      "en": "And hopefully a garden full of people we love",
+      "el": "Και, ελπίζουμε, ένας κήπος γεμάτος αγαπημένους ανθρώπους",
+      "lv": "Un, cerams, dārzs, pilns ar cilvēkiem, kurus mēs mīlam"
+    },
+    "sectionFindUs": {
+      "en": "Come find us",
+      "el": "Come find us",
+      "lv": "Come find us"
+    },
+    "findUsIntro": {
+      "en": "Our little corner of Denmark is in the lovely village of Ishøj Landsby.",
+      "el": "Το μικρό μας καταφύγιο βρίσκεται στο όμορφο δανέζικο χωριό Ishøj Landsby.",
+      "lv": "Mūsu mazais stūrītis Dānijā atrodas skaistajā ciematā Ishøj Landsby."
+    },
+    "addressLine1": {
+      "en": "Kirkebjerggårdsvej 8A",
+      "el": "Kirkebjerggårdsvej 8A",
+      "lv": "Kirkebjerggårdsvej 8A"
+    },
+    "addressLine2": {
+      "en": "2635 Ishøj Landsby",
+      "el": "2635 Ishøj Landsby",
+      "lv": "2635 Ishøj Landsby"
+    },
+    "addressLine3": {
+      "en": "Denmark",
+      "el": "Denmark",
+      "lv": "Denmark"
+    },
+    "addressMapsAria": {
+      "en": "Open welcome party address in Google Maps (opens in new tab)",
+      "el": "Άνοιγμα της διεύθυνσης του πάρτι καλωσορίσματος στο Google Maps (ανοίγει σε νέα καρτέλα)",
+      "lv": "Atvērt sagaidīšanas ballītes adresi Google Maps (atveras jaunā cilnē)"
+    },
+    "gettingHereTitle": {
+      "en": "Getting here",
+      "el": "Getting here",
+      "lv": "Getting here"
+    },
+    "transportPublicLabel": {
+      "en": "By public transport",
+      "el": "Με τα μέσα μαζικής μεταφοράς",
+      "lv": "Ar sabiedrisko transportu"
+    },
+    "transportBus400S": {
+      "en": "Bus 400S from Høje Taastrup Station (regional trains + B-line S-train)",
+      "el": "Λεωφορείο 400S από τον σταθμό Høje Taastrup (περιφερειακά τρένα και γραμμή B του S-train)",
+      "lv": "400S autobuss no Høje Taastrup stacijas (reģionālie vilcieni un S-vilciena B līnija)"
+    },
+    "transportBus126": {
+      "en": "Bus 126 from Taastrup Station (B-line S-train)",
+      "el": "Λεωφορείο 126 από τον σταθμό Taastrup (γραμμή B του S-train)",
+      "lv": "126. autobuss no Taastrup stacijas (S-vilciena B līnija)"
+    },
+    "transportBus128": {
+      "en": "Bus 128 from Ishøj Station (A-line S-train)",
+      "el": "Λεωφορείο 128 από τον σταθμό Ishøj (γραμμή A του S-train)",
+      "lv": "128. autobuss no Ishøj stacijas (S-vilciena A līnija)"
+    },
+    "transportCarLabel": {
+      "en": "By car or taxi",
+      "el": "Με αυτοκίνητο ή ταξί",
+      "lv": "Ar automašīnu vai taksometru"
+    },
+    "transportCarBody": {
+      "en": "Driving is easy, and there's street parking available nearby. You can also grab a taxi or Uber from central Copenhagen, which usually takes around 25–35 minutes depending on traffic.",
+      "el": "Η πρόσβαση με αυτοκίνητο είναι εύκολη και υπάρχει δυνατότητα στάθμευσης στους γύρω δρόμους. Μπορείτε επίσης να πάρετε ταξί ή Uber από το κέντρο της Κοπεγχάγης· η διαδρομή διαρκεί συνήθως 25–35 λεπτά, ανάλογα με την κίνηση.",
+      "lv": "Līdz mums ir viegli aizbraukt ar automašīnu, un tuvumā ir pieejama autostāvvieta. Varat arī izmantot taksometru vai Uber no Kopenhāgenas centra — brauciens parasti aizņem aptuveni 25–35 minūtes atkarībā no satiksmes."
+    },
+    "sectionOneThing": {
+      "en": "One tiny thing...",
+      "el": "One tiny thing...",
+      "lv": "One tiny thing..."
+    },
+    "oneThingP1": {
+      "en": "Our home is cosy (which we love), but it's not quite big enough for everyone to sit down for a full meal at the same time.",
+      "el": "Το σπίτι μας είναι ζεστό και φιλόξενο, αλλά όχι αρκετά μεγάλο ώστε να καθίσουν όλοι ταυτόχρονα για ένα γεύμα.",
+      "lv": "Mūsu mājas ir omulīgas (un mums tas patīk!), taču ne tik lielas, lai visi vienlaikus varētu apsēsties pie kopīga galda."
+    },
+    "oneThingP2": {
+      "en": "So instead of a formal lunch, think of this as an open house. Come and go as you please, grab something to eat, have a drink, meet some familiar faces (and maybe a few new ones), and make yourselves at home.",
+      "el": "Γι' αυτό θέλουμε να το δείτε σαν ένα ανοιχτό σπίτι. Ελάτε και φύγετε όποτε θέλετε, τσιμπήστε κάτι, πιείτε ένα ποτό, γνωρίστε τους υπόλοιπους καλεσμένους και νιώστε σαν στο σπίτι σας.",
+      "lv": "Tāpēc uztveriet šo kā atvērto māju — ienāciet un dodieties prom, kad vēlaties, paņemiet kādu uzkodu, iedzeriet ko gardu, iepazīstieties ar citiem viesiem un jūtieties kā mājās."
+    },
+    "sectionCantMakeIt": {
+      "en": "Can't make it?",
+      "el": "Can't make it?",
+      "lv": "Can't make it?"
+    },
+    "cantMakeItP1": {
+      "en": "Absolutely no worries.",
+      "el": "Κανένα απολύτως πρόβλημα.",
+      "lv": "Pilnīgi nekādu problēmu."
+    },
+    "cantMakeItP2": {
+      "en": "This is simply a little bonus get-together before the main event. If you already have plans for Saturday—or just fancy taking it easy before the big day—we completely understand.",
+      "el": "Αυτό είναι απλώς ένα μικρό bonus πριν από τη μεγάλη μέρα. Αν έχετε ήδη σχέδια για το Σάββατο ή προτιμάτε να ξεκουραστείτε πριν από τον γάμο, το καταλαβαίνουμε απόλυτα.",
+      "lv": "Šī ir tikai neliela iesildīšanās pirms galvenā notikuma. Ja sestdien jums jau ir citi plāni vai vienkārši vēlaties atpūsties pirms lielās dienas, mēs to pilnībā saprotam."
+    },
+    "cantMakeItP3": {
+      "en": "Save your energy, get a good night's sleep, and we'll see you on Sunday for the part we've all been waiting for.",
+      "el": "Κρατήστε την ενέργειά σας και τα λέμε την Κυριακή, για τη στιγμή που όλοι περιμένουμε.",
+      "lv": "Saglabājiet spēkus un tiekamies svētdien, kad svinēsim kopā to, ko visi esam gaidījuši."
     }
   },
   "map": {

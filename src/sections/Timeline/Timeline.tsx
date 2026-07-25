@@ -5,10 +5,8 @@ import { ReactComponent as HandsSvg } from '@assets/svgs/hands.svg';
 import { ReactComponent as CupidSvg } from '@assets/svgs/cupid.svg';
 import { ReactComponent as CottageSvg } from '@assets/svgs/cottage.svg';
 import { ReactComponent as MenuSvg } from '@assets/svgs/menu.svg';
-import { ReactComponent as Star1Svg } from '@assets/svgs/star_1.svg';
-import { ReactComponent as Star2Svg } from '@assets/svgs/star_2.svg';
 import { ReactComponent as TentSvg } from '@assets/svgs/tent.svg';
-import { AnimatedVector, GridContainer, IntroReveal } from '@components';
+import { AnimatedVector, DecorativeStar, GridContainer, IntroReveal } from '@components';
 import { useTranslation } from '@i18n';
 import type { TranslationKey } from '@i18n/types';
 import type { AnimatedVectorOptions } from '../../utils/animatedVector';
@@ -26,14 +24,6 @@ const TIMELINE_ICON_ANIMATION: Pick<
     effect: 'stroke',
     filterDisplayWidthPx: 40,
   },
-};
-
-const TIMELINE_STAR_SVGS = [Star1Svg, Star2Svg] as const;
-
-const TIMELINE_STAR_ANIMATION: AnimatedVectorOptions = {
-  intensity: 'medium',
-  effect: 'stroke',
-  filterDisplayWidthPx: 80,
 };
 
 type TimelineBodyLink = {
@@ -233,26 +223,6 @@ const TimelineSpineRail = () => (
   </div>
 );
 
-type TimelineStarSlotProps = {
-  Star: (typeof TIMELINE_STAR_SVGS)[number];
-  starRef?: React.Ref<HTMLDivElement>;
-};
-
-const TimelineStarSlot = ({ Star, starRef }: TimelineStarSlotProps) => (
-  <div
-    ref={starRef}
-    className="timeline-star-slot relative z-10 shrink-0 bg-cream"
-    aria-hidden
-  >
-    <AnimatedVector
-      Svg={Star}
-      className="h-full w-full"
-      svgClassName="block h-full w-full text-blood-orange"
-      animationOptions={TIMELINE_STAR_ANIMATION}
-    />
-  </div>
-);
-
 type TimelineRowProps = {
   entry: TimelineEntry;
   staggerIndex: number;
@@ -318,8 +288,8 @@ const TimelineRow = ({ entry, staggerIndex, starRef }: TimelineRowProps) => {
           />
         </div>
         <div className={TIMELINE_STAR_COL}>
-          <TimelineStarSlot
-            Star={TIMELINE_STAR_SVGS[staggerIndex % 2]}
+          <DecorativeStar
+            variant={staggerIndex % 2 === 0 ? 0 : 1}
             starRef={starRef}
           />
         </div>

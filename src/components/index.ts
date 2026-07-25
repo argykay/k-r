@@ -1,3 +1,10 @@
+export { MediaPlaybackToggle } from './MediaPlaybackToggle/MediaPlaybackToggle';
+export type { MediaPlaybackToggleProps } from './MediaPlaybackToggle/MediaPlaybackToggle';
+export { PhotoSlideshow } from './PhotoSlideshow/PhotoSlideshow';
+export type { PhotoSlideshowProps } from './PhotoSlideshow/PhotoSlideshow';
+export { DottedDivider } from './DottedDivider/DottedDivider';
+export { DecorativeStar, StarList } from './DecorativeStar/DecorativeStar';
+export type { DecorativeStarProps, StarListProps } from './DecorativeStar/DecorativeStar';
 export { GoogleMapEmbed } from './GoogleMapEmbed/GoogleMapEmbed';
 export { AnimatedVector } from './AnimatedVector/AnimatedVector';
 export { FaqAccordion } from './FaqAccordion/FaqAccordion';
