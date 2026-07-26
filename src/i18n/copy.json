@@ -494,9 +494,9 @@
       "lv": "Laipni lūdzam"
     },
     "subtitle": {
-      "en": "Please enter the password from your invitation to view our wedding site.",
+      "en": "Please enter the password to view our wedding site.",
       "el": "Παρακαλούμε εισάγετε τον κωδικό από την πρόσκλησή σας για να δείτε τον ιστότοπο του γάμου μας.",
-      "lv": "Lūdzu, ievadiet paroli no jūsu ielūguma, lai skatītu mūsu kāzu mājas lapu."
+      "lv": "Lūdzu, ievadiet paroli, lai skatītu mūsu kāzu mājas lapu."
     },
     "label": {
       "en": "Password",
@@ -775,7 +775,7 @@
     "startP3": {
       "en": "So on Saturday, 12 September, we're opening our doors for a relaxed welcome party. Think of it as part housewarming, part pre-wedding hangout, and the perfect way to ease into the weekend together.",
       "el": "Γι' αυτό, το Σάββατο, 12 Σεπτεμβρίου, ανοίγουμε το σπίτι μας για ένα χαλαρό πάρτι καλωσορίσματος. Σκεφτείτε το σαν ένα μικρό housewarming, κάτι σαν “πρόγαμο” μα πάνω απ' όλα, μια όμορφη αφορμή να ξεκινήσουμε μαζί το γιορτινό Σαββατοκύριακο.",
-      "lv": "Tāpēc sestdien, 12. septembrī, mēs atveram sava nama durvis nesteidzīgai sagaidīšanas ballītei. Uztveriet to kā nelielu mājas iesildīšanu, pirmskāzu tikšanos un vienkārši jauku iespēju sākt svētku nedēļas nogali kopā."
+      "lv": "Tāpēc sestdien, 12. septembrī, mēs atveram sava nama durvis nesteidzīgai sagaidīšanas ballītei. Uztveriet to kā nelielu sālsmaizes svinību, pirmskāzu tikšanos un vienkārši jauku iespēju sākt svētku nedēļas nogali kopā."
     },
     "sectionWhenever": {
       "en": "Come whenever you fancy",
@@ -800,7 +800,7 @@
     "wheneverP2": {
       "en": "Pop in whenever it suits you, stay for five minutes or five hours, then head off to explore Copenhagen, meet up with friends, or simply recharge before Sunday's celebrations.",
       "el": "Ελάτε όποτε σας βολεύει, μείνετε όσο θέλετε και μετά συνεχίστε τη μέρα σας εξερευνώντας την Κοπεγχάγη, συναντώντας φίλους ή απλώς χαλαρώνοντας πριν από τον γάμο.",
-      "lv": "Ienāciet, kad jums ir ērti, palieciet tik ilgi, cik vēlaties, un pēc tam dodieties iepazīt Kopenhāgenu, satikt draugus vai vienkārši atpūsties pirms kāzām."
+      "lv": "Ierodieties, kad jums ir ērti, palieciet tik ilgi, cik vēlaties, un pēc tam dodieties iepazīt Kopenhāgenu, satikt draugus vai vienkārši atpūsties pirms kāzu svinībām."
     },
     "sectionWaiting": {
       "en": "What's waiting for you?",
@@ -890,7 +890,7 @@
     "transportCarBody": {
       "en": "Driving is easy, and there's street parking available nearby. You can also grab a taxi or Uber from central Copenhagen, which usually takes around 25–35 minutes depending on traffic.",
       "el": "Η πρόσβαση με αυτοκίνητο είναι εύκολη και υπάρχει δυνατότητα στάθμευσης στους γύρω δρόμους. Μπορείτε επίσης να πάρετε ταξί ή Uber από το κέντρο της Κοπεγχάγης· η διαδρομή διαρκεί συνήθως 25–35 λεπτά, ανάλογα με την κίνηση.",
-      "lv": "Līdz mums ir viegli aizbraukt ar automašīnu, un tuvumā ir pieejama autostāvvieta. Varat arī izmantot taksometru vai Uber no Kopenhāgenas centra — brauciens parasti aizņem aptuveni 25–35 minūtes atkarībā no satiksmes."
+      "lv": "Pie mums ir viegli aizbraukt ar automašīnu, un tuvumā ir pieejama autostāvvieta. Varat arī izmantot taksometru vai Uber no Kopenhāgenas centra — brauciens parasti aizņem aptuveni 25–35 minūtes atkarībā no satiksmes."
     },
     "sectionOneThing": {
       "en": "One tiny thing...",
@@ -915,7 +915,7 @@
     "cantMakeItP1": {
       "en": "Absolutely no worries.",
       "el": "Κανένα απολύτως πρόβλημα.",
-      "lv": "Pilnīgi nekādu problēmu."
+      "lv": "Nekādu problēmu."
     },
     "cantMakeItP2": {
       "en": "This is simply a little bonus get-together before the main event. If you already have plans for Saturday—or just fancy taking it easy before the big day—we completely understand.",
@@ -925,7 +925,7 @@
     "cantMakeItP3": {
       "en": "Save your energy, get a good night's sleep, and we'll see you on Sunday for the part we've all been waiting for.",
       "el": "Κρατήστε την ενέργειά σας και τα λέμε την Κυριακή, για τη στιγμή που όλοι περιμένουμε.",
-      "lv": "Saglabājiet spēkus un tiekamies svētdien, kad svinēsim kopā to, ko visi esam gaidījuši."
+      "lv": "Saglabājiet spēkus, izgulieties, un tiksimies svētdien — dienā, ko visi esam gaidījuši!"
     }
   },
   "map": {
