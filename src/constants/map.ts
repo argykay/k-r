@@ -6,3 +6,11 @@ export const MAP_VIEWER_URL =
 
 export const WELCOME_PARTY_MAPS_URL =
   'https://maps.app.goo.gl/BiiT2nNyjpPUwrNt5';
+
+/** Scandic Spectrum hotel — wedding bus pickup. */
+export const PICKUP_MAPS_URL =
+  'https://maps.app.goo.gl/56GTwthD6LvPpx1v9';
+
+/** Restaurant Herthadalen — wedding venue. */
+export const VENUE_MAPS_URL =
+  'https://maps.app.goo.gl/NpXnyFJZWg474Fw78';

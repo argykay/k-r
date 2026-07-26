@@ -9,7 +9,7 @@ const STAR_SVGS = [Star1Svg, Star2Svg] as const;
 const STAR_ANIMATION: AnimatedVectorOptions = {
   intensity: 'medium',
   effect: 'stroke',
-  filterDisplayWidthPx: 80,
+  filterDisplayWidthPx: 130,
 };
 
 export type DecorativeStarProps = {

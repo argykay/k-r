@@ -3,14 +3,14 @@ import { AnimatedVector, FaqAccordion, GridContainer } from '@components';
 import { FAQ_ITEMS } from '@constants/faqItems';
 import { Navigation } from '@modules';
 import { useTranslation } from '@i18n';
-import { FaqSparkles } from './FaqSparkles';
+import { FaqSideStars } from './FaqSideStars';
 
 export const FaqPage = () => {
   const { t } = useTranslation();
 
   return (
-    <main className="relative overflow-hidden bg-moss-green text-cream">
-      <FaqSparkles />
+    <main className="relative overflow-hidden bg-blood-orange text-cream">
+      <FaqSideStars />
       <div className="relative z-10">
         <Navigation isVisible={true} />
         <GridContainer className="py-32 md:py-28">

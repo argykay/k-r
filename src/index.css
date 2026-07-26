@@ -17,6 +17,10 @@
   html {
     font-family: 'Cardo', serif;
   }
+
+  a {
+    text-underline-offset: 0.25rem;
+  }
 }
 
 @layer components {
@@ -160,5 +164,10 @@
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  /* Tailwind v2 has no underline-offset-* — mirror the v3 scale. */
+  .underline-offset-4 {
+    text-underline-offset: 0.25rem;
   }
 }

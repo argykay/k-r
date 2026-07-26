@@ -8,6 +8,8 @@ import { useTranslation } from '@i18n';
 
 const BODY_CLASS = 'text-style-paragraph-3 leading-relaxed text-white';
 const LIST_CLASS = 'list-disc space-y-2 pl-5';
+const LINK_CLASS =
+  'text-inherit underline underline-offset-4 transition-colors hover:text-burgundy';
 
 const EASE_OUT = [0.22, 1, 0.36, 1] as const;
 const EASE_IN_OUT = [0.4, 0, 0.2, 1] as const;
@@ -89,6 +91,34 @@ const FaqBody = ({ blocks }: { blocks: FaqContentBlock[] }) => {
           return (
             <p key={`${block.key}-${index}`} className={BODY_CLASS}>
               {t(block.key)}
+            </p>
+          );
+        }
+
+        if (block.type === 'paragraphLink') {
+          const {
+            href,
+            beforeKey,
+            labelKey,
+            afterKey,
+            ariaKey,
+            openInNewTab = true,
+          } = block.link;
+
+          return (
+            <p key={`link-${beforeKey}-${index}`} className={BODY_CLASS}>
+              {t(beforeKey)}
+              <a
+                href={href}
+                {...(openInNewTab
+                  ? { target: '_blank', rel: 'noopener noreferrer' }
+                  : {})}
+                className={LINK_CLASS}
+                aria-label={t(ariaKey)}
+              >
+                {t(labelKey)}
+              </a>
+              {t(afterKey)}
             </p>
           );
         }
