@@ -53,26 +53,6 @@ export const FAQ_ITEMS: FaqItemConfig[] = [
     ],
   },
   {
-    id: 'whereToStay',
-    questionKey: 'faq.whereToStayQuestion',
-    blocks: [
-      { type: 'paragraph', key: 'faq.whereToStayP1' },
-      { type: 'paragraph', key: 'faq.whereToStayP2' },
-      { type: 'paragraph', key: 'faq.whereToStayP3' },
-      {
-        type: 'list',
-        keys: [
-          'faq.whereToStayLi1',
-          'faq.whereToStayLi2',
-          'faq.whereToStayLi3',
-          'faq.whereToStayLi4',
-        ],
-      },
-      { type: 'paragraph', key: 'faq.whereToStayP4' },
-      { type: 'paragraph', key: 'faq.whereToStayP5' },
-    ],
-  },
-  {
     id: 'outdoors',
     questionKey: 'faq.outdoorsQuestion',
     blocks: [
@@ -118,7 +98,6 @@ export const FAQ_ITEMS: FaqItemConfig[] = [
     id: 'partyEnd',
     questionKey: 'faq.partyEndQuestion',
     blocks: [
-      { type: 'paragraph', key: 'faq.partyEndP1' },
       { type: 'paragraph', key: 'faq.partyEndP2' },
     ],
   },
