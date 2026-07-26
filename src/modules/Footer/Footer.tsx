@@ -16,7 +16,7 @@ export const Footer = () => {
 
   return (
     <footer
-      className="footer-photo-bg relative bg-cover text-moss-green min-h-100"
+      className="footer-photo-bg relative bg-cover text-moss-green"
       style={{ backgroundImage: `url(${footerPhoto})` }}
     >
       <div className="absolute inset-0 bg-background-off-white/80" aria-hidden />

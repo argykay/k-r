@@ -19,10 +19,12 @@ export const LocaleLayout = () => {
 
   return (
     <LocaleProvider locale={locale}>
-      <SiteAccessGate>
-        <Outlet />
-      </SiteAccessGate>
-      <Footer />
+      <div className="site-shell">
+        <SiteAccessGate>
+          <Outlet />
+        </SiteAccessGate>
+        <Footer />
+      </div>
     </LocaleProvider>
   );
 }
