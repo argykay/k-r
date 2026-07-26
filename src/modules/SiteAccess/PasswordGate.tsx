@@ -48,7 +48,7 @@ export const PasswordGate = ({ error, onSubmit }: PasswordGateProps) => {
                   placeholder={t('gate.placeholder')}
                   className="w-full rounded border border-stone/30 bg-white px-4 py-3 text-style-paragraph-3 text-burgundy placeholder:text-stone/60 focus:border-moss-green focus:outline-none focus:ring-2 focus:ring-moss-green/30"
                   aria-invalid={error}
-                  aria-describedby={error ? 'site-access-error' : 'site-access-hint'}
+                  aria-describedby={error ? 'site-access-error' : undefined}
                 />
               </div>
 
@@ -61,11 +61,7 @@ export const PasswordGate = ({ error, onSubmit }: PasswordGateProps) => {
                 >
                   {t('gate.error')}
                 </p>
-              ) : (
-                <p id="site-access-hint" className="text-style-caption text-stone/90">
-                  {t('gate.hint')}
-                </p>
-              )}
+              ) : null}
 
               <button
                 type="submit"
