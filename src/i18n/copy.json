@@ -580,10 +580,25 @@
       "el": "Πώς θα φτάσω στον γάμο;",
       "lv": "Kā nokļūt uz svinību vietu?"
     },
-    "gettingThereP1": {
-      "en": "We're arranging buses from central Copenhagen.",
-      "el": "Θα διαθέσουμε λεωφορεία από το κέντρο της Κοπεγχάγης.",
-      "lv": "Mēs nodrošināsim autobusus no Kopenhāgenas centra."
+    "gettingThereP1Before": {
+      "en": "Buses depart from ",
+      "el": "Τα λεωφορεία αναχωρούν από το ",
+      "lv": "Autobusi atiet no "
+    },
+    "gettingThereHotel": {
+      "en": "Scandic Spectrum hotel (Kalvebod Brygge 10, 1560 København)",
+      "el": "Scandic Spectrum hotel (Kalvebod Brygge 10, 1560 København)",
+      "lv": "Scandic Spectrum viesnīcas (Kalvebod Brygge 10, 1560 København)"
+    },
+    "gettingThereP1After": {
+      "en": ".",
+      "el": ".",
+      "lv": "."
+    },
+    "gettingThereMapsAria": {
+      "en": "Scandic Spectrum hotel on Google Maps (opens in new tab)",
+      "el": "Scandic Spectrum hotel στο Google Maps (ανοίγει σε νέα καρτέλα)",
+      "lv": "Scandic Spectrum viesnīca Google Maps (atveras jaunā cilnē)"
     },
     "gettingThereLi1": {
       "en": "Departure from Copenhagen: 12:00",
@@ -600,15 +615,50 @@
       "el": "Η διαδρομή διαρκεί περίπου μία ώρα.",
       "lv": "Brauciens ilgst aptuveni vienu stundu."
     },
-    "gettingThereP3": {
-      "en": "You're also very welcome to drive yourself if you prefer.",
-      "el": "Φυσικά, μπορείτε επίσης να έρθετε με το δικό σας αυτοκίνητο.",
-      "lv": "Protams, jūs varat arī ierasties ar savu automašīnu."
+    "gettingThereP3Before": {
+      "en": "You're also very welcome to drive yourself if you prefer. ",
+      "el": "Φυσικά, μπορείτε επίσης να έρθετε με το δικό σας αυτοκίνητο. ",
+      "lv": "Protams, jūs varat arī ierasties ar savu automašīnu. "
+    },
+    "gettingThereVenue": {
+      "en": "Restaurant Herthadalen, Slangealleen 1, 4320 Lejre",
+      "el": "Restaurant Herthadalen, Slangealleen 1, 4320 Lejre",
+      "lv": "Restaurant Herthadalen, Slangealleen 1, 4320 Lejre"
+    },
+    "gettingThereP3After": {
+      "en": ".",
+      "el": ".",
+      "lv": "."
+    },
+    "gettingThereVenueMapsAria": {
+      "en": "Restaurant Herthadalen on Google Maps (opens in new tab)",
+      "el": "Restaurant Herthadalen στο Google Maps (ανοίγει σε νέα καρτέλα)",
+      "lv": "Restaurant Herthadalen Google Maps (atveras jaunā cilnē)"
     },
     "gettingThereP4": {
       "en": "If you miss the bus, want to leave earlier, or simply prefer another option, taxis and Uber are available.",
       "el": "Αν χάσετε το λεωφορείο ή θελήσετε να φύγετε νωρίτερα, μπορείτε να καλέσετε ταξί ή Uber.",
       "lv": "Ja nokavējat autobusu vai vēlaties doties prom agrāk, iespējams izmantot taksometru vai Uber."
+    },
+    "gettingThereP5Before": {
+      "en": "If you need any assistance on the day please contact our maid of honor Kim on ",
+      "el": "Αν χρειαστείτε οποιαδήποτε βοήθεια την ημέρα του γάμου, επικοινωνήστε με την παράνυμφό μας Kim στο ",
+      "lv": "Ja jums vajadzīga jebkāda palīdzība svētku dienā, lūdzu sazinieties ar mūsu goda meitu Kim pa tālruni "
+    },
+    "gettingTherePhone": {
+      "en": "+4552903718",
+      "el": "+4552903718",
+      "lv": "+4552903718"
+    },
+    "gettingThereP5After": {
+      "en": ".",
+      "el": ".",
+      "lv": "."
+    },
+    "gettingTherePhoneAria": {
+      "en": "Call Kim at +4552903718",
+      "el": "Καλέστε την Kim στο +4552903718",
+      "lv": "Zvanīt Kim uz +4552903718"
     },
     "parkingQuestion": {
       "en": "Is there parking at the venue?",

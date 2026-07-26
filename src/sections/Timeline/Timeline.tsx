@@ -7,12 +7,10 @@ import { ReactComponent as CottageSvg } from '@assets/svgs/cottage.svg';
 import { ReactComponent as MenuSvg } from '@assets/svgs/menu.svg';
 import { ReactComponent as TentSvg } from '@assets/svgs/tent.svg';
 import { AnimatedVector, DecorativeStar, GridContainer, IntroReveal } from '@components';
+import { PICKUP_MAPS_URL, VENUE_MAPS_URL } from '@constants/map';
 import { useTranslation } from '@i18n';
 import type { TranslationKey } from '@i18n/types';
 import type { AnimatedVectorOptions } from '../../utils/animatedVector';
-
-const VENUE_MAPS_URL = 'https://maps.app.goo.gl/NpXnyFJZWg474Fw78';
-const PICKUP_MAPS_URL = 'https://maps.app.goo.gl/56GTwthD6LvPpx1v9';
 
 const TIMELINE_ICON_ANIMATION: Pick<
   TimelineEntry,
@@ -236,7 +234,7 @@ const TIMELINE_BODY_CLASS =
   'text-style-paragraph-3 leading-relaxed text-stone/60 text-balance';
 
 const timelineLinkClassName =
-  'text-inherit underline underline transition-colors hover:text-moss-green';
+  'text-inherit underline underline-offset-4 transition-colors hover:text-moss-green';
 
 const TimelineBody = ({
   entry,

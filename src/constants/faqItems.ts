@@ -1,7 +1,19 @@
 import type { TranslationKey } from '@i18n/types';
+import { PICKUP_MAPS_URL, VENUE_MAPS_URL } from './map';
+
+export type FaqParagraphLink = {
+  href: string;
+  beforeKey: TranslationKey;
+  labelKey: TranslationKey;
+  afterKey: TranslationKey;
+  ariaKey: TranslationKey;
+  /** When false, opens in the same context (e.g. `tel:` links). Defaults to true. */
+  openInNewTab?: boolean;
+};
 
 export type FaqContentBlock =
   | { type: 'paragraph'; key: TranslationKey }
+  | { type: 'paragraphLink'; link: FaqParagraphLink }
   | { type: 'list'; keys: TranslationKey[] };
 
 export type FaqItemConfig = {
@@ -34,14 +46,43 @@ export const FAQ_ITEMS: FaqItemConfig[] = [
     id: 'gettingThere',
     questionKey: 'faq.gettingThereQuestion',
     blocks: [
-      { type: 'paragraph', key: 'faq.gettingThereP1' },
+      {
+        type: 'paragraphLink',
+        link: {
+          href: PICKUP_MAPS_URL,
+          beforeKey: 'faq.gettingThereP1Before',
+          labelKey: 'faq.gettingThereHotel',
+          afterKey: 'faq.gettingThereP1After',
+          ariaKey: 'faq.gettingThereMapsAria',
+        },
+      },
       {
         type: 'list',
         keys: ['faq.gettingThereLi1', 'faq.gettingThereLi2'],
       },
       { type: 'paragraph', key: 'faq.gettingThereP2' },
-      { type: 'paragraph', key: 'faq.gettingThereP3' },
       { type: 'paragraph', key: 'faq.gettingThereP4' },
+      {
+        type: 'paragraphLink',
+        link: {
+          href: 'tel:+4552903718',
+          beforeKey: 'faq.gettingThereP5Before',
+          labelKey: 'faq.gettingTherePhone',
+          afterKey: 'faq.gettingThereP5After',
+          ariaKey: 'faq.gettingTherePhoneAria',
+          openInNewTab: false,
+        },
+      },
+      {
+        type: 'paragraphLink',
+        link: {
+          href: VENUE_MAPS_URL,
+          beforeKey: 'faq.gettingThereP3Before',
+          labelKey: 'faq.gettingThereVenue',
+          afterKey: 'faq.gettingThereP3After',
+          ariaKey: 'faq.gettingThereVenueMapsAria',
+        },
+      },
     ],
   },
   {
