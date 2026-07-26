@@ -92,17 +92,17 @@
   "welcome": {
     "message": {
       "en": "We're gathering our favourite people for a day of love, laughter, good food, and dancing beneath the trees",
-      "el": "Συγκεντρωνόμαστε τους αγαπημένους μας για μια μέρα γεμάτη αγάπη, γέλιο, καλό φαγητό και χορό κάτω από τα δέντρα",
+      "el": "Ονειρευτήκαμε μια μέρα αγάπης, χαράς,νόστιμου φαγητού και χορού ανάμεσα στα δέντρα παρέα με συγγενείς και φίλους",
       "lv": "Sapulcinām savus mīļākos cilvēkus dienā, kas pilna ar mīlestību, smiekliem, labu ēdienu un dejām zem kokiem"
     },
     "location": {
       "en": "Join us in the beautiful forests of Lejre, where we'll celebrate beside the lake, surrounded by nature and the people we love most.",
-      "el": "Ελάτε μαζί μας στα όμορφα δάση του Lejre, όπου θα γιορτάσουμε δίπλα στη λίμνη, περιτριγυρισμένοι από τη φύση και τους ανθρώπους που αγαπάμε περισσότερο.",
+      "el": "Μέσα στο όμορφο δάσος του Lejre θα γιορτάσουμε δίπλα στη λίμνη παρέα με τους πιο αγαπημένους μας ανθρώπους",
       "lv": "Pievienojieties mums Lejres skaistajos mežos — svinēsim kopā ezera malā, dabas un mīļāko cilvēku ielokā."
     },
     "closing": {
       "en": "We can't wait to spend this special day with you!",
-      "el": "Ανυπομονούμε να περάσουμε αυτή την ξεχωριστή μέρα μαζί σας!",
+      "el": "Ανυπομονούμε να ζήσουμε αυτή την ξεχωριστή μέρα μαζί σας!",
       "lv": "Ar nepacietību gaidām šo īpašo dienu, ko pavadīsim kopā ar jums!"
     },
     "photoAlt": {
@@ -156,12 +156,12 @@
     },
     "intro2": {
       "en": "here is how we hope the celebration will unfold.",
-      "el": "έτσι ελπίζουμε να εξελιχθεί η γιορτή.",
+      "el": "έτσι ελπίζουμε να εξελιχθεί η μέρα μας.",
       "lv": "Lūk, kā mēs ceram, ka svinības norisināsies."
     },
     "footnote": {
       "en": "Times are approximate and may shift slightly so we can savour each moment together.",
-      "el": "Οι ώρες είναι κατά προσέγγιση και μπορεί να μετακινηθούν ελαφρώς, ώστε να απολαύσουμε κάθε στιγμή μαζί.",
+      "el": "Ίσως υπάρξουν μικρές αποκλίσεις στο πρόγραμμα, έτσι ώστε να περάσουμε περισσότερο χρόνο όλοι μαζί.",
       "lv": "Laiki ir aptuveni un var nedaudz mainīties, lai varam kopā baudīt katru mirkli."
     },
     "gettingThereBodyBefore": {
@@ -176,7 +176,7 @@
     },
     "gettingThereBodyAfter": {
       "en": ". Guests who prefer may drive directly to the venue.",
-      "el": ". Όποιοι προτιμούν μπορούν να οδηγήσουν απευθείας στον χώρο.",
+      "el": ". Όσοι καλεσμένοι επιθυμούν μπορούν να φτάσουν με δικό τους μέσο.",
       "lv": ". Tie, kas vēlas, var braukt tieši uz norises vietu."
     },
     "gettingThereMapsAria": {
@@ -206,12 +206,12 @@
     },
     "ceremonyBody": {
       "en": "Wedding ceremony by the lake beneath the trees.",
-      "el": "Γάμος δίπλα στη λίμνη, κάτω από τα δέντρα.",
+      "el": "Η γαμήλια τελετή θα γίνει δίπλα στη λίμνη, ανάμεσα στα δέντρα.",
       "lv": "Kāzu ceremonija ezera malā, koku ēnā."
     },
     "drinksBody": {
       "en": "Welcome drinks, canapés, and cake on the terrace. Afterwards, photos in the gardens and surrounding grounds.",
-      "el": "Καλωσορίσματα, καναπεδάκια και τούρτα στη βεράντα. Στη συνέχεια, φωτογραφίες στους κήπους και τους γύρω χώρους.",
+      "el": "Καλωσόρισμα με ποτό, καναπεδάκια και γλυκό στη βεράντα. Στη συνέχεια, φωτογραφίες στους κήπους και τους γύρω χώρους.",
       "lv": "Aperitīva dzērieni, uzkodas un kūka uz terases. Pēc tam — fotosesija dārzā un apkārtējā teritorijā."
     },
     "dinnerBody": {
@@ -221,7 +221,7 @@
     },
     "partyBody": {
       "en": "The party begins in the tent. Dancing, drinks, light snacks, and celebrations.",
-      "el": "Το πάρτι ξεκινά στη σκηνή. Χορός, ποτά, ελαφριά σνακ και γιορτές.",
+      "el": "Το πάρτι ξεκινά στην ειδικά διαμορφωμένη σκηνή. Θα γιορτάσουμε με χορό, ποτά και ελαφριά σνακ.",
       "lv": "Ballīte sākas teltī. Dejas, dzērieni, vieglas uzkodas un svinības."
     },
     "returnBusesBody": {
@@ -537,7 +537,7 @@
     },
     "whatToWearP1": {
       "en": "Whatever makes you feel wonderful.",
-      "el": "Ό,τι σας κάνει να νιώθετε υπέροχα.",
+      "el": "Ό,τι σας κάνει να νιώθετε όμορφα.",
       "lv": "Tas, kas liek jums justies brīnišķīgi."
     },
     "whatToWearP2": {
@@ -547,7 +547,7 @@
     },
     "whatToWearP3": {
       "en": "A small practical note: the ceremony takes place outdoors by the lake, and we'll be walking on grass, gravel, and forest paths throughout the day. We recommend avoiding thin stilettos unless you're particularly talented at navigating nature in them.",
-      "el": "Μια πρακτική σημείωση: η τελετή θα πραγματοποιηθεί δίπλα στη λίμνη και θα περπατήσουμε σε γρασίδι, χαλίκι και δασικά μονοπάτια. Συνιστούμε να αποφύγετε τα πολύ λεπτά τακούνια.",
+      "el": "Μια πρακτική συμβουλή: η τελετή θα πραγματοποιηθεί δίπλα στη λίμνη και θα περπατήσουμε σε γρασίδι, χαλίκι και δασικά μονοπάτια. Συνιστούμε να αποφύγετε τα πολύ λεπτά τακούνια.",
       "lv": "Praktiska piezīme: ceremonija notiks pie ezera, un dienas laikā pārvietosimies pa zāli, grants celiņiem un meža takām. Iesakām izvairīties no ļoti smalkiem augstpapēžu apaviem."
     },
     "whatToWearP4": {
@@ -562,7 +562,7 @@
     },
     "registryP1": {
       "en": "Your presence is genuinely the greatest gift.",
-      "el": "Η παρουσία σας είναι πραγματικά το μεγαλύτερο δώρο.",
+      "el": "Η παρουσία σας είναι για μας το καλύτερο δώρο.",
       "lv": "Jūsu klātbūtne ir pati lielākā dāvana."
     },
     "registryP2": {
@@ -624,56 +624,6 @@
       "en": "If you're driving, there is ample parking available at the venue.",
       "el": "Αν έρθετε με αυτοκίνητο, υπάρχει άνετος χώρος στάθμευσης στον χώρο της εκδήλωσης.",
       "lv": "Ja plānojat ierasties ar automašīnu, pie svinību vietas ir plaša autostāvvieta."
-    },
-    "whereToStayQuestion": {
-      "en": "Where should I stay?",
-      "el": "Πού να μείνω;",
-      "lv": "Kur nakšņot?"
-    },
-    "whereToStayP1": {
-      "en": "Anywhere you'd like.",
-      "el": "Όπου σας βολεύει.",
-      "lv": "Jebkur, kur jums ir ērti."
-    },
-    "whereToStayP2": {
-      "en": "For guests who would like to stay in Copenhagen, we have arranged a discount at Hotel Ottilia.",
-      "el": "Για όσους επιθυμούν να μείνουν στην Κοπεγχάγη, έχουμε εξασφαλίσει έκπτωση στο Hotel Ottilia.",
-      "lv": "Viesiem, kuri vēlas palikt Kopenhāgenā, esam sarūpējuši atlaidi Hotel Ottilia."
-    },
-    "whereToStayP3": {
-      "en": "Promo code: KANDR",
-      "el": "Κωδικός προσφοράς: KANDR",
-      "lv": "Atlaides kods: KANDR"
-    },
-    "whereToStayLi1": {
-      "en": "15% off \"Full Flexible Including Breakfast\" rates",
-      "el": "15% έκπτωση στην τιμή \"Full Flexible Including Breakfast\"",
-      "lv": "15% atlaidi tarifam \"Full Flexible Including Breakfast\""
-    },
-    "whereToStayLi2": {
-      "en": "Flexible cancellation until 12:00 on the day of arrival",
-      "el": "Δυνατότητα ακύρωσης έως τις 12:00 την ημέρα της άφιξης",
-      "lv": "Bezmaksas atcelšanu līdz plkst. 12:00 ierašanās dienā"
-    },
-    "whereToStayLi3": {
-      "en": "Breakfast included",
-      "el": "Πρωινό συμπεριλαμβάνεται",
-      "lv": "Brokastis iekļautas cenā"
-    },
-    "whereToStayLi4": {
-      "en": "Valid on all room categories (subject to availability)",
-      "el": "Ισχύει για όλες τις κατηγορίες δωματίων, ανάλογα με τη διαθεσιμότητα",
-      "lv": "Attiecas uz visām numuru kategorijām, atkarībā no pieejamības"
-    },
-    "whereToStayP4": {
-      "en": "No rooms are being held, so we recommend booking early if you'd like to stay there.",
-      "el": "Δεν έχουν δεσμευτεί δωμάτια, επομένως συνιστούμε έγκαιρη κράτηση.",
-      "lv": "Numuri nav rezervēti iepriekš, tāpēc iesakām rezervēt savlaicīgi."
-    },
-    "whereToStayP5": {
-      "en": "If you've booked the flexible rate using our promo code, reservations can be cancelled up until 12:00 on the day of arrival.",
-      "el": "Αν έχετε κλείσει με την ευέλικτη τιμή χρησιμοποιώντας τον κωδικό προσφοράς μας, η κράτηση μπορεί να ακυρωθεί έως τις 12:00 την ημέρα της άφιξης.",
-      "lv": "Ja esat rezervējis elastīgo tarifu, izmantojot mūsu atlaides kodu, rezervāciju var atcelt līdz plkst. 12:00 ierašanās dienā."
     },
     "outdoorsQuestion": {
       "en": "Will the wedding be outdoors?",
@@ -775,11 +725,6 @@
       "el": "Μέχρι τι ώρα θα διαρκέσει το πάρτι;",
       "lv": "Cikos beigsies ballīte?"
     },
-    "partyEndP1": {
-      "en": "We'll keep dancing for as long as people are dancing.",
-      "el": "Θα συνεχίσουμε να χορεύουμε όσο υπάρχει κόσμος στην πίστα.",
-      "lv": "Mēs dejosim tik ilgi, kamēr būs dejotāji."
-    },
     "partyEndP2": {
       "en": "The organised return buses leave at 01:00, and the celebration will wrap up no later than then.",
       "el": "Τα οργανωμένα λεωφορεία επιστρέφουν στην Κοπεγχάγη στη 01:00.",
@@ -819,7 +764,7 @@
     },
     "startP1": {
       "en": "The wedding is on Sunday, 13 September, but why save all the fun for one day?",
-      "el": "Ο γάμος μας είναι την Κυριακή, 13 Σεπτεμβρίου, αλλά γιατί να κρατήσουμε όλη τη χαρά για μία μόνο μέρα;",
+      "el": "Ο γάμος μας είναι την Κυριακή, 13 Σεπτεμβρίου, αλλά γιατί να κρατήσουμε όλη τη διασκέδαση για μία μόνο μέρα;",
       "lv": "Kāzas ir svētdien, 13. septembrī, bet kāpēc gan gaidīt līdz svētdienai, lai sāktu svinēt?"
     },
     "startP2": {
@@ -829,7 +774,7 @@
     },
     "startP3": {
       "en": "So on Saturday, 12 September, we're opening our doors for a relaxed welcome party. Think of it as part housewarming, part pre-wedding hangout, and the perfect way to ease into the weekend together.",
-      "el": "Γι' αυτό, το Σάββατο, 12 Σεπτεμβρίου, ανοίγουμε το σπίτι μας για ένα χαλαρό πάρτι καλωσορίσματος. Σκεφτείτε το σαν ένα μικρό housewarming, μια προγαμήλια συνάντηση και, πάνω απ' όλα, μια όμορφη αφορμή να ξεκινήσουμε μαζί το γιορτινό Σαββατοκύριακο.",
+      "el": "Γι' αυτό, το Σάββατο, 12 Σεπτεμβρίου, ανοίγουμε το σπίτι μας για ένα χαλαρό πάρτι καλωσορίσματος. Σκεφτείτε το σαν ένα μικρό housewarming, κάτι σαν “πρόγαμο” μα πάνω απ' όλα, μια όμορφη αφορμή να ξεκινήσουμε μαζί το γιορτινό Σαββατοκύριακο.",
       "lv": "Tāpēc sestdien, 12. septembrī, mēs atveram sava nama durvis nesteidzīgai sagaidīšanas ballītei. Uztveriet to kā nelielu sālsmaizes svinību, pirmskāzu tikšanos un vienkārši jauku iespēju sākt svētku nedēļas nogali kopā."
     },
     "sectionWhenever": {
@@ -854,7 +799,7 @@
     },
     "wheneverP2": {
       "en": "Pop in whenever it suits you, stay for five minutes or five hours, then head off to explore Copenhagen, meet up with friends, or simply recharge before Sunday's celebrations.",
-      "el": "Ελάτε όποτε σας βολεύει, μείνετε όσο θέλετε και μετά συνεχίστε τη μέρα σας εξερευνώντας την Κοπεγχάγη, συναντώντας φίλους ή απλώς ξεκουραζόμενοι πριν από τον γάμο.",
+      "el": "Ελάτε όποτε σας βολεύει, μείνετε όσο θέλετε και μετά συνεχίστε τη μέρα σας εξερευνώντας την Κοπεγχάγη, συναντώντας φίλους ή απλώς χαλαρώνοντας πριν από τον γάμο.",
       "lv": "Ierodieties, kad jums ir ērti, palieciet tik ilgi, cik vēlaties, un pēc tam dodieties iepazīt Kopenhāgenu, satikt draugus vai vienkārši atpūsties pirms kāzu svinībām."
     },
     "sectionWaiting": {
