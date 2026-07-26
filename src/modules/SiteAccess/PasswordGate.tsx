@@ -41,7 +41,7 @@ export const PasswordGate = ({ error, onSubmit }: PasswordGateProps) => {
                 <input
                   id="site-access-password"
                   name="password"
-                  type="password"
+                  type="text"
                   autoComplete="current-password"
                   value={value}
                   onChange={(event) => setValue(event.target.value)}

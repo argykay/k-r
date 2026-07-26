@@ -27,6 +27,8 @@
     -->
     <title>React App</title>
     <script>
+      // GitHub Pages SPA path restore (see public/404.html)
+      // https://github.com/rafgraph/spa-github-pages
       (function (l) {
         if (l.search[1] === '/') {
           var decoded = l.search
@@ -35,15 +37,11 @@
             .map(function (s) {
               return s.replace(/~and~/g, '&');
             })
-            .join('?')
-            .split('/');
+            .join('?');
           window.history.replaceState(
             null,
             null,
-            l.pathname.split('/').slice(0, -1).join('/') +
-              '/' +
-              decoded.join('/') +
-              l.hash
+            l.pathname.slice(0, -1) + decoded + l.hash
           );
         }
       })(window.location);
