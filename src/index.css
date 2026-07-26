@@ -20,6 +20,16 @@
 }
 
 @layer components {
+  .site-shell {
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+  }
+
+  .site-shell > main {
+    flex: 1 0 auto;
+  }
+
   .hero-intro-overlay {
     --fade: 0;
     --solid: 0;
@@ -139,6 +149,13 @@
 
   .footer-photo-bg {
     background-position: center center;
+    min-height: 26rem;
+  }
+
+  @media (min-width: 1920px) {
+    .footer-photo-bg {
+      min-height: 36rem;
+    }
   }
 
   @screen md {
