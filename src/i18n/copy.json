@@ -40,7 +40,7 @@
     "date": {
       "en": "Sunday the 13th of September 2026",
       "el": "Κυριακή, 13η Σεπτεμβρίου 2026",
-      "lv": "2026. gada 13. septembra, svētdiena"
+      "lv": "2026. gada 13. septembris, svētdiena"
     },
     "openMenu": {
       "en": "Open menu",
@@ -93,7 +93,7 @@
     "message": {
       "en": "We're gathering our favourite people for a day of love, laughter, good food, and dancing beneath the trees",
       "el": "Ονειρευτήκαμε μια μέρα αγάπης, χαράς,νόστιμου φαγητού και χορού ανάμεσα στα δέντρα παρέα με συγγενείς και φίλους",
-      "lv": "Sapulcinām savus mīļākos cilvēkus dienā, kas pilna ar mīlestību, smiekliem, labu ēdienu un dejām zem kokiem"
+      "lv": "Pulcēsim savus mīļos cilvēkus dienā, kas pilna ar mīlestību, smiekliem, labu ēdienu un dejām zem koku lapotnes"
     },
     "location": {
       "en": "Join us in the beautiful forests of Lejre, where we'll celebrate beside the lake, surrounded by nature and the people we love most.",
@@ -239,7 +239,7 @@
     "intro": {
       "en": "Please let us know if you can join us by filling out the form below.",
       "el": "Παρακαλούμε ενημερώστε μας αν μπορείτε να παρευρεθείτε συμπληρώνοντας την παρακάτω φόρμα.",
-      "lv": "Lūdzu, dodiet ziņu, vai varēsiet būt kopā ar mums, aizpildot zemāk esošo formu."
+      "lv": "Lūdzu, dodiet ziņu, vai svinēsiet kopā ar mums, aizpildot zemāk esošo formu."
     },
     "stepContact": {
       "en": "Your details",
@@ -299,7 +299,7 @@
     "attendingNo": {
       "en": "Sorry, I can't make it",
       "el": "Δυστυχώς δεν μπορώ",
-      "lv": "Diemžēl nevaru"
+      "lv": "Diemžēl nevaru ierasties"
     },
     "plusOneLabel": {
       "en": "Will you bring a plus one?",
@@ -359,7 +359,7 @@
     "housewarmingNo": {
       "en": "Sorry, I can't make it",
       "el": "Δυστυχώς δεν μπορώ",
-      "lv": "Diemžēl nevaru"
+      "lv": "Diemžēl nevaru ierasties"
     },
     "weddingBusLabel": {
       "en": "Will you be taking the wedding bus to the venue?",
@@ -553,7 +553,7 @@
     "whatToWearP4": {
       "en": "September weather can be unpredictable, so bringing a jacket is a good idea. An umbrella might not be the worst idea either — this is Denmark, after all.",
       "el": "Ο καιρός του Σεπτεμβρίου μπορεί να είναι απρόβλεπτος, γι’ αυτό καλό είναι να έχετε μαζί σας ένα σακάκι. Μια ομπρέλα ίσως φανεί επίσης χρήσιμη — είμαστε στη Δανία, άλλωστε.",
-      "lv": "Septembra laikapstākļi var būt neparedzami, tāpēc iesakām paņemt līdzi kādu virsjaku. Arī lietussargs nebūtu lieks — galu galā būsim Dānijā."
+      "lv": "Septembra laikapstākļi var būt neparedzami, tāpēc iesakām paņemt līdzi kādu virsjaku. Lietussargs arī var noderēt, būsim tomēr Dānijā!"
     },
     "registryQuestion": {
       "en": "Do you have a wedding registry?",
@@ -643,7 +643,7 @@
     "gettingThereP5Before": {
       "en": "If you need any assistance on the day please contact our maid of honor Kim on ",
       "el": "Αν χρειαστείτε οποιαδήποτε βοήθεια την ημέρα του γάμου, επικοινωνήστε με την παράνυμφό μας Kim στο ",
-      "lv": "Ja jums vajadzīga jebkāda palīdzība svētku dienā, lūdzu sazinieties ar mūsu goda meitu Kim pa tālruni "
+      "lv": "Ja jums vajadzīga jebkāda palīdzība svētku dienā, lūdzu sazinieties ar mūsu vedējmāti Kim pa tālruni "
     },
     "gettingTherePhone": {
       "en": "+4552903718",
@@ -723,7 +723,7 @@
     "dietaryP1": {
       "en": "Please let us know when you RSVP, and we'll make sure you're well looked after.",
       "el": "Παρακαλούμε ενημερώστε μας κατά το RSVP και θα φροντίσουμε να καλυφθούν.",
-      "lv": "Lūdzu, dodiet ziņu, kad apstiprināsiet dalību, un mēs parūpēsimies, lai jūs justos gaidīti un aprūpēti."
+      "lv": "Lūdzu, dodiet ziņu, kad apstiprināsiet dalību, un mēs parūpēsimies, lai jūs būtu paēduši."
     },
     "childrenQuestion": {
       "en": "Can I bring my children?",
@@ -763,7 +763,7 @@
     "photosP2": {
       "en": "We'd love for you to capture moments throughout the day, and we'd be delighted if you shared them with us afterwards.",
       "el": "Θα χαρούμε πολύ να απαθανατίσετε στιγμές της ημέρας και ακόμη περισσότερο αν τις μοιραστείτε μαζί μας μετά.",
-      "lv": "Mēs priecāsimies, ja iemūžināsiet skaistus dienas mirkļus, un vēl vairāk priecāsimies, ja pēc tam dalīsities ar tiem arī ar mums."
+      "lv": "Mēs priecāsimies, ja iemūžināsiet skaistus dienas mirkļus, un vēl vairāk priecāsimies, ja pēc tam dalīsieties ar tiem arī ar mums."
     },
     "photosP3": {
       "en": "We've also hired two photographers to document the celebrations, so there will be plenty of beautiful photos for everyone to enjoy.",
@@ -1014,7 +1014,7 @@
     "line2": {
       "en": "A wedding made possible (and primarily financed) by Sotiris.",
       "el": "Ένας γάμος που έγινε πραγματικότητα (και χρηματοδοτήθηκε κυρίως) χάρη στον Σωτήρη.",
-      "lv": "Kāzas, kas tapa iespējamas (un galvenokārt — apmaksātas) pateicoties Sotirim."
+      "lv": "Kāzas, kas kļuva iespējamas, pateicoties Sotirim."
     }
   }
 }
