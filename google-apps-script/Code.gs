@@ -1,5 +1,5 @@
 /**
- * Google Apps Script for K & R wedding RSVP form
+ * Google Apps Script for K + R wedding RSVP form
  * Receives form submissions and appends to a Google Sheet
  *
  * Setup:

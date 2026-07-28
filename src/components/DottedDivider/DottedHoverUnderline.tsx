@@ -14,7 +14,7 @@ export const DottedHoverUnderline = ({
 }: DottedHoverUnderlineProps) => (
   <svg
     className={[
-      'pointer-events-none absolute bottom-0 left-0 h-[3px] w-full overflow-visible opacity-0 transition-opacity duration-200',
+      'pointer-events-none absolute left-0 top-full mt-0.5 h-[3px] w-full overflow-visible opacity-0 transition-opacity duration-200',
       'group-hover:opacity-100 group-focus-visible:opacity-100',
       className,
     ]

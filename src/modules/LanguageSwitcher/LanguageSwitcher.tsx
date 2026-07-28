@@ -30,9 +30,9 @@ export const LanguageSwitcher = ({
             key={code}
             to={switchLocalePath(pathname, code)}
             className={[
-              'group relative inline-block pb-1 font-cardo text-link tracking-link no-underline',
-              isActive ? 'font-semibold' : 'opacity-70',
+              'group relative inline-block font-cardo text-link tracking-link no-underline',
               linkClassName,
+              isActive ? 'text-blood-orange' : 'text-moss-green',
             ]
               .filter(Boolean)
               .join(' ')}
@@ -41,7 +41,9 @@ export const LanguageSwitcher = ({
             tabIndex={tabIndex}
           >
             {LOCALE_LABELS[code]}
-            <DottedHoverUnderline />
+            <DottedHoverUnderline
+              color={isActive ? 'text-blood-orange' : 'text-moss-green'}
+            />
           </Link>
         );
       })}

@@ -100,7 +100,7 @@ export const PhotoSlideshow = ({
     >
       <div className="relative w-full" style={{ aspectRatio: '3 / 2' }}>
         <div className="absolute inset-0 overflow-hidden p-12 sm:p-14 md:p-16">
-          <div className="relative h-full w-full overflow-hidden rounded-xl bg-moss-green/10">
+          <div className="relative h-full w-full overflow-hidden rounded bg-moss-green">
             <AnimatePresence initial={false}>
               <motion.div
                 key={slide.id}

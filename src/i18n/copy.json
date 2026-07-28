@@ -1,9 +1,9 @@
 {
   "meta": {
     "siteTitle": {
-      "en": "K & R",
-      "el": "K & R",
-      "lv": "K & R"
+      "en": "Konstantina + Rihards",
+      "el": "Konstantina + Rihards",
+      "lv": "Konstantina + Rihards"
     }
   },
   "navigation": {
@@ -20,7 +20,7 @@
     "faq": {
       "en": "FAQ",
       "el": "FAQ",
-      "lv": "BUJ"
+      "lv": "FAQ"
     },
     "map": {
       "en": "Map",
@@ -39,7 +39,7 @@
     },
     "date": {
       "en": "Sunday the 13th of September 2026",
-      "el": "Κυριακή, 13η Σεπτεμβρίου 2026",
+      "el": "Κυριακή, 13 Σεπτεμβρίου 2026",
       "lv": "2026. gada 13. septembris, svētdiena"
     },
     "openMenu": {
@@ -232,9 +232,9 @@
   },
   "rsvp": {
     "title": {
-      "en": "RSVP",
-      "el": "Επιβεβαίωση",
-      "lv": "RSVP"
+      "en": "Répondez s'il vous plaît",
+      "el": "Répondez s'il vous plaît",
+      "lv": "Répondez s'il vous plaît"
     },
     "intro": {
       "en": "Please let us know if you can join us by filling out the form below.",
@@ -981,13 +981,13 @@
   "map": {
     "title": {
       "en": "Suggested places",
-      "el": "Προτεινόμενα μέρη",
-      "lv": "Ieteiktās vietas"
+      "el": "Suggested places",
+      "lv": "Suggested places"
     },
     "intro": {
-      "en": "Hotels, restaurants, and spots we love around Copenhagen and the venue.",
-      "el": "Ξενοδοχεία, εστιατόρια και μέρη που αγαπάμε γύρω από την Κοπεγχάγη και τον χώρο της εκδήλωσης.",
-      "lv": "Viesnīcas, restorāni un vietas, kuras mēs iesakām Kopenhāgenā un ap svinību vietu."
+      "en": "Restaurants, shops and other spots we love around Copenhagen.",
+      "el": "Εστιατόρια, καταστήματα και άλλα μέρη που αγαπάμε στην Κοπεγχάγη.",
+      "lv": "Restorāni, veikali un citas vietas Kopenhāgenā, kas mums ļoti patīk."
     },
     "embedTitle": {
       "en": "Map of suggested places for the wedding",
@@ -1008,7 +1008,7 @@
   "footer": {
     "line1": {
       "en": "A website crafted by two web developers in love.",
-      "el": "Μια ιστοσελίδα δημιουργημένη από δύο ερωτευμένους web developers.",
+      "el": "Μια ιστοσελίδα δημιουργημένη από δύο ερωτευμένους προγραμματιστές.",
       "lv": "Mājaslapa, ko radījuši divi iemīlējušies web izstrādātāji."
     },
     "line2": {

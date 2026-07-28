@@ -3,6 +3,7 @@ import React, { useCallback, useMemo, useRef, useState } from 'react';
 import { GridContainer } from '@components';
 import { useTranslation } from '@i18n';
 import { LocaleLink } from '@routing';
+import { FaqSideStars } from '../FaqPage/FaqSideStars';
 import { useRsvpForm } from './hooks/useRsvpForm';
 import {
   focusFirstError,
@@ -21,6 +22,10 @@ import { MealsSection } from './sections/MealsSection';
 import { PlusOneSection } from './sections/PlusOneSection';
 import { WeddingBusSection } from './sections/WeddingBusSection';
 import type { RsvpFormData } from './types';
+
+const RsvpSideStars = () => (
+  <FaqSideStars svgClassName="block h-full w-full text-blood-orange" />
+);
 
 type FormView = 'form' | 'success' | 'error';
 
@@ -120,8 +125,9 @@ export const RsvpForm = () => {
 
   if (view === 'success') {
     return (
-      <section className="bg-background-off-white py-16 md:py-24">
-        <GridContainer>
+      <section className="relative overflow-hidden bg-background-off-white py-16 md:py-24">
+        <RsvpSideStars />
+        <GridContainer className="relative z-10">
           <div className="col-span-4 md:col-span-4 md:col-start-2 lg:col-span-6 lg:col-start-4">
             <div className="rounded-lg bg-white p-8 text-center shadow-sm md:p-12">
               <h2 className="text-style-header-3 text-moss-green">
@@ -145,8 +151,9 @@ export const RsvpForm = () => {
 
   if (view === 'error') {
     return (
-      <section className="bg-background-off-white py-16 md:py-24">
-        <GridContainer>
+      <section className="relative overflow-hidden bg-background-off-white py-16">
+        <RsvpSideStars />
+        <GridContainer className="relative z-10">
           <div className="col-span-4 md:col-span-4 md:col-start-2 lg:col-span-6 lg:col-start-4">
             <div className="rounded-lg bg-white p-8 text-center shadow-sm md:p-12">
               <h2 className="text-style-header-3 text-blood-orange">
@@ -179,21 +186,22 @@ export const RsvpForm = () => {
       };
 
   return (
-    <section className="bg-background-off-white py-16 md:py-24">
-      <GridContainer>
+    <section className="relative overflow-hidden bg-background-off-white py-16">
+      <RsvpSideStars />
+      <GridContainer className="relative z-10">
         <div className="col-span-4 md:col-span-4 md:col-start-2 lg:col-span-6 lg:col-start-4">
-          <header className="mb-10 text-center">
-            <h1 className="text-style-header-3 text-moss-green">
+          <header className="pt-20 text-center">
+            <h1 className="text-style-cursive-title text-3xl text-blood-orange lg:text-5xl">
               {t('rsvp.title')}
             </h1>
-            <p className="mt-4 text-style-paragraph-3 text-black">
+            <p className="my-8 text-style-paragraph-3 text-black">
               {t('rsvp.intro')}
             </p>
           </header>
 
           <form
             onSubmit={handleSubmit}
-            className="rounded-lg bg-white p-6 shadow-sm md:p-10"
+            className="rounded-lg bg-white p-6 shadow-sm md:p-10 my-12"
             noValidate
           >
             <div className="flex flex-col gap-8">
@@ -255,7 +263,7 @@ const SubmitButton = ({ isSubmitting, canSubmit, label }: SubmitButtonProps) => 
     disabled={isSubmitting || !canSubmit}
     className={`text-style-button w-full rounded px-8 py-3 transition sm:w-auto ${
       canSubmit
-        ? 'bg-moss-green text-cream hover:bg-moss-green/90 disabled:cursor-wait disabled:opacity-70'
+        ? 'bg-moss-green text-cream hover:bg-moss-green disabled:cursor-wait disabled:opacity-70'
         : 'cursor-not-allowed border border-stone/25 bg-stone/15 text-stone/55'
     }`}
   >

@@ -29,7 +29,7 @@ export const Footer = () => {
                   animationOptions={HERO_HEART_ANIMATION}
                 />
           <p className="text-style-caption text-balance text-white">{t('footer.line1')}</p>
-          <p className="font-cardo italic text-style-caption text-white  md:text-balance">
+          <p className="font-cardo text-style-caption text-white  md:text-balance">
             {t('footer.line2')}
           </p>
         </div>

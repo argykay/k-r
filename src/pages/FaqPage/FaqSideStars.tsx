@@ -33,7 +33,13 @@ const SIDE_STARS: ReadonlyArray<{
   { variant: 1, left: '95%', top: '93%', sizeClassName: 'h-5 w-5' },
 ];
 
-export const FaqSideStars = () => (
+type FaqSideStarsProps = {
+  svgClassName?: string;
+};
+
+export const FaqSideStars = ({
+  svgClassName = 'block h-full w-full text-cream',
+}: FaqSideStarsProps) => (
   <div
     className="pointer-events-none fixed inset-0 z-0 hidden overflow-hidden md:block"
     aria-hidden
@@ -48,7 +54,7 @@ export const FaqSideStars = () => (
           variant={star.variant}
           className={star.sizeClassName}
           backgroundClassName=""
-          svgClassName="block h-full w-full text-cream"
+          svgClassName={svgClassName}
         />
       </div>
     ))}

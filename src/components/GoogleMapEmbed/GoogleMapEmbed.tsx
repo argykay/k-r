@@ -6,10 +6,7 @@ export const GoogleMapEmbed = () => {
   const { t } = useTranslation();
 
   return (
-    <div
-      className="mx-auto w-full max-w-2xl overflow-hidden rounded-lg shadow-md"
-      style={{ aspectRatio: '1 / 1' }}
-    >
+    <div className="w-full overflow-hidden" style={{ aspectRatio: '16 / 9' }}>
       <iframe
         src={MAP_EMBED_URL}
         className="h-full w-full border-0"
