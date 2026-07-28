@@ -493,16 +493,12 @@
       "el": "Καλώς ήρθατε",
       "lv": "Laipni lūdzam"
     },
-    "subtitle": {
+    "label": {
       "en": "Please enter the password to view our wedding site.",
-      "el": "Παρακαλούμε εισάγετε τον κωδικό από την πρόσκλησή σας για να δείτε τον ιστότοπο του γάμου μας.",
+      "el": "Παρακαλούμε εισάγετε τον κωδικό για να δείτε την ιστοσελίδα του γάμου μας.",
       "lv": "Lūdzu, ievadiet paroli, lai skatītu mūsu kāzu mājas lapu."
     },
-    "label": {
-      "en": "Password",
-      "el": "Κωδικός",
-      "lv": "Parole"
-    },
+
     "placeholder": {
       "en": "Enter password",
       "el": "Εισάγετε κωδικό",
