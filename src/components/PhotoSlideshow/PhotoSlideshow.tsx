@@ -104,7 +104,7 @@ export const PhotoSlideshow = ({
             <AnimatePresence initial={false}>
               <motion.div
                 key={slide.id}
-                className="absolute inset-0 overflow-hidden rounded-xl will-change-[transform,opacity,filter]"
+                className="absolute inset-0 overflow-hidden rounded will-change-[transform,opacity,filter]"
                 variants={morphVariants}
                 initial="initial"
                 animate="animate"

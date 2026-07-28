@@ -8,6 +8,7 @@ import { ReactComponent as SwansSvg } from '@assets/svgs/swans.svg';
 import { ReactComponent as VaseSvg } from '@assets/svgs/vase.svg';
 import { AnimatedVector, DottedDivider, GridContainer, IntroReveal, PhotoSlideshow, StarList } from '@components';
 import { WELCOME_PARTY_MAPS_URL } from '@constants/map';
+import { useNavigationVisibility } from '@hooks';
 import { Navigation } from '@modules';
 import { useTranslation } from '@i18n';
 
@@ -64,10 +65,11 @@ const RevealedSection = ({
 
 export const WelcomePartyPage = () => {
   const { t } = useTranslation();
+  const showNavigation = useNavigationVisibility({ visibleAtTop: true });
 
   return (
     <main className="bg-cream text-black">
-      <Navigation isVisible={true} />
+      <Navigation isVisible={showNavigation} />
       <GridContainer className="py-36 md:py-32 lg:py-40">
         <article className="col-span-4 md:col-span-6 md:col-start-2 lg:col-span-6 lg:col-start-4">
           <IntroReveal

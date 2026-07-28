@@ -1,14 +1,16 @@
 import { GoogleMapEmbed, GridContainer } from '@components';
 import { MAP_VIEWER_URL } from '@constants/map';
+import { useNavigationVisibility } from '@hooks';
 import { Navigation } from '@modules';
 import { useTranslation } from '@i18n';
 
 export const MapPage = () => {
   const { t } = useTranslation();
+  const showNavigation = useNavigationVisibility({ visibleAtTop: true });
 
   return (
     <main className="bg-moss-green text-cream">
-      <Navigation isVisible={true} />
+      <Navigation isVisible={showNavigation} />
       <GridContainer className="pt-32 md:pt-28">
         <div className="col-span-4 flex flex-col items-center gap-6 md:col-span-6 md:col-start-1 lg:col-span-6 lg:col-start-4">
           <h1 className="text-style-cursive-title text-center text-xl text-cream lg:text-4xl">

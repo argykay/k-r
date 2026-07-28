@@ -1,18 +1,20 @@
 import { ReactComponent as FlowersSvg2Svg } from '@assets/svgs/whimsical.svg';
 import { AnimatedVector, FaqAccordion, GridContainer } from '@components';
 import { FAQ_ITEMS } from '@constants/faqItems';
+import { useNavigationVisibility } from '@hooks';
 import { Navigation } from '@modules';
 import { useTranslation } from '@i18n';
 import { FaqSideStars } from './FaqSideStars';
 
 export const FaqPage = () => {
   const { t } = useTranslation();
+  const showNavigation = useNavigationVisibility({ visibleAtTop: true });
 
   return (
     <main className="relative overflow-hidden bg-blood-orange text-cream">
       <FaqSideStars />
       <div className="relative z-10">
-        <Navigation isVisible={true} />
+        <Navigation isVisible={showNavigation} />
         <GridContainer className="py-32 md:py-28">
           <div className="col-span-4 md:col-span-6 lg:col-span-6 lg:col-start-4">
             <h1 className="text-style-cursive-title text-xl text-center text-cream lg:text-4xl">
