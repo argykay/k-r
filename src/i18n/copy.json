@@ -147,7 +147,7 @@
     "intro2": {
       "en": "here is how we hope the celebration will unfold.",
       "el": "έτσι ελπίζουμε να εξελιχθεί η μέρα μας.",
-      "lv": "Lūk, kā mēs ceram, ka svinības norisināsies."
+      "lv": "Lūk, kā mēs esam iecerējuši svinību norisi."
     },
     "footnote": {
       "en": "Times are approximate and may shift slightly so we can savour each moment together.",
@@ -481,9 +481,9 @@
       "lv": "Daudzi mūsu viesi mēros tālu ceļu, lai svinētu kopā ar mums, tāpēc dāvanas mēs negaidām. Mēs vienkārši esam pateicīgi, ka mērosiet šo ceļu un pavadīsiet šo dienu kopā ar mums."
     },
     "registryP3": {
-      "en": "If you'd still like to give something, we would love a card with your wishes for our future as we won't have a guest book on the day.",
+      "en": "If you'd still like to bring us something on the day, we would love a card with your wishes for our future as we won't have a guest book at the wedding.",
       "el": "Αν θέλετε να δωρίσετε κάτι, θα εκτιμούσαμε ιδιαίτερα μια κάρτα με ευχές, καθώς δεν θα έχουμε βιβλίο επισκεπτών εκείνη την ημέρα.",
-      "lv": "Ja tomēr vēlaties kaut ko dāvināt, mēs būtu ļoti pateicīgi par apsveikuma kartīti, jo šajā dienā mums nebūs viesu grāmatas."
+      "lv": "Tā kā kāzu dienā mums nebūs viesu grāmatas, priecāsimies, ja atnesīsiet apsveikuma kartīti ar novēlējumiem mūsu kopīgai nākotnei."
     },
     "gettingThereQuestion": {
       "en": "How do I get to the wedding?",
@@ -569,6 +569,61 @@
       "en": "Call Kim at +4552903718",
       "el": "Καλέστε την Kim στο +4552903718",
       "lv": "Zvanīt Kim uz +4552903718"
+    },
+    "gettingAroundQuestion": {
+      "en": "How do I get around in the city?",
+      "el": "Πώς μετακινούμαι στην πόλη;",
+      "lv": "Kā pārvietoties pa pilsētu?"
+    },
+    "gettingAroundP1": {
+      "en": "Copenhagen is easy to explore — and you have plenty of options.",
+      "el": "Η Κοπεγχάγη εξερευνάται εύκολα — και έχετε πολλές επιλογές.",
+      "lv": "Kopenhāgenu ir viegli iepazīt — un iespēju netrūkst."
+    },
+    "gettingAroundP2Before": {
+      "en": "The simplest way is public transport. Buses, trains, and the metro cover the city well. Download the Rejsebillet app to buy tickets, or check the official tourist guide at ",
+      "el": "Ο πιο απλός τρόπος είναι τα μέσα μαζικής μεταφοράς. Λεωφορεία, τρένα και μετρό καλύπτουν πολύ καλά την πόλη. Κατεβάστε την εφαρμογή Rejsebillet για να αγοράσετε εισιτήρια, ή δείτε τον επίσημο τουριστικό οδηγό στο ",
+      "lv": "Vienkāršākais veids ir sabiedriskais transports. Autobusi, vilcieni un metro labi nosedz pilsētu. Lejupielādējiet Rejsebillet lietotni, lai iegādātos biļetes, vai apskatiet oficiālo tūrisma ceļvedi vietnē "
+    },
+    "gettingAroundSite": {
+      "en": "publictransport.dk",
+      "el": "publictransport.dk",
+      "lv": "publictransport.dk"
+    },
+    "gettingAroundP2After": {
+      "en": " for journey planning and fare info.",
+      "el": " για δρομολόγια και πληροφορίες για τα εισιτήρια.",
+      "lv": " — tur atradīsiet maršrutu plānošanu un informāciju par biļetēm."
+    },
+    "gettingAroundSiteAria": {
+      "en": "publictransport.dk (opens in new tab)",
+      "el": "publictransport.dk (ανοίγει σε νέα καρτέλα)",
+      "lv": "publictransport.dk (atveras jaunā cilnē)"
+    },
+    "gettingAroundP3": {
+      "en": "Prefer a taxi? Uber and Bolt both work in Copenhagen.",
+      "el": "Προτιμάτε ταξί; Το Uber και το Bolt λειτουργούν στην Κοπεγχάγη.",
+      "lv": "Vēlaties taksometru? Kopenhāgenā darbojas arī Uber un Bolt."
+    },
+    "gettingAroundP4Before": {
+      "en": "You can also rent a bike — Copenhagen is very bike-friendly. For example, ",
+      "el": "Μπορείτε επίσης να νοικιάσετε ποδήλατο — η Κοπεγχάγη είναι πολύ φιλική προς τους ποδηλάτες. Για παράδειγμα, ",
+      "lv": "Varat arī iznomāt velosipēdu — Kopenhāgena ir velosipēdiem draudzīga. Piemēram, "
+    },
+    "gettingAroundBike": {
+      "en": "Donkey Republic",
+      "el": "Donkey Republic",
+      "lv": "Donkey Republic"
+    },
+    "gettingAroundP4After": {
+      "en": ".",
+      "el": ".",
+      "lv": "."
+    },
+    "gettingAroundBikeAria": {
+      "en": "Donkey Republic bike rental in Copenhagen (opens in new tab)",
+      "el": "Ενοικίαση ποδηλάτου Donkey Republic στην Κοπεγχάγη (ανοίγει σε νέα καρτέλα)",
+      "lv": "Donkey Republic velosipēdu noma Kopenhāgenā (atveras jaunā cilnē)"
     },
     "parkingQuestion": {
       "en": "Is there parking at the venue?",

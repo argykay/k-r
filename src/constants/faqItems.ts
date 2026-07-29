@@ -152,4 +152,32 @@ export const FAQ_ITEMS: FaqItemConfig[] = [
       { type: 'paragraph', key: 'faq.partyEndP2' },
     ],
   },
+  {
+    id: 'gettingAround',
+    questionKey: 'faq.gettingAroundQuestion',
+    blocks: [
+      { type: 'paragraph', key: 'faq.gettingAroundP1' },
+      {
+        type: 'paragraphLink',
+        link: {
+          href: 'https://www.publictransport.dk/',
+          beforeKey: 'faq.gettingAroundP2Before',
+          labelKey: 'faq.gettingAroundSite',
+          afterKey: 'faq.gettingAroundP2After',
+          ariaKey: 'faq.gettingAroundSiteAria',
+        },
+      },
+      { type: 'paragraph', key: 'faq.gettingAroundP3' },
+      {
+        type: 'paragraphLink',
+        link: {
+          href: 'https://www.donkey.bike/cities/copenhagen',
+          beforeKey: 'faq.gettingAroundP4Before',
+          labelKey: 'faq.gettingAroundBike',
+          afterKey: 'faq.gettingAroundP4After',
+          ariaKey: 'faq.gettingAroundBikeAria',
+        },
+      },
+    ],
+  },
 ];
