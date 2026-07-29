@@ -55,7 +55,7 @@ const CountdownUnitBody = ({
           baseDelay={0.15}
         />
       </div>
-      <p
+      <span
         className={[
           'text-style-caption lowercase tracking-wide md:tracking-widest',
           labelClassName,
@@ -64,7 +64,7 @@ const CountdownUnitBody = ({
           .join(' ')}
       >
         {label}
-      </p>
+      </span>
     </>
   );
 };

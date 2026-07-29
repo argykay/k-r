@@ -2,6 +2,8 @@ type DottedHoverUnderlineProps = {
   className?: string;
   /** Tailwind text color class applied via `currentColor` on the stroke. */
   color?: string;
+  /** When true, the underline stays visible (not only on hover/focus). */
+  forceVisible?: boolean;
 };
 
 /**
@@ -11,11 +13,14 @@ type DottedHoverUnderlineProps = {
 export const DottedHoverUnderline = ({
   className,
   color = 'text-current',
+  forceVisible = false,
 }: DottedHoverUnderlineProps) => (
   <svg
     className={[
-      'pointer-events-none absolute left-0 top-full mt-0.5 h-[3px] w-full overflow-visible opacity-0 transition-opacity duration-200',
-      'group-hover:opacity-100 group-focus-visible:opacity-100',
+      'pointer-events-none absolute left-0 top-full mt-0.5 h-[3px] w-full overflow-visible transition-opacity duration-200',
+      forceVisible
+        ? 'opacity-100'
+        : 'opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100',
       className,
     ]
       .filter(Boolean)

@@ -95,6 +95,7 @@ export const PhotoSlideshow = ({
   return (
     <div
       className="relative mx-auto w-full max-w-[700px]"
+      role="region"
       aria-label={ariaLabel}
       aria-roledescription="carousel"
     >

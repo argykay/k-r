@@ -6,6 +6,7 @@ import {
 } from 'framer-motion';
 import React, { createContext, useContext, useRef } from 'react';
 import { useSectionIntro } from '@hooks';
+import { useIntroRevealResetGenerationContext } from './IntroRevealResetProvider';
 import {
   INTRO_EASE,
   INTRO_ELEMENT_VIEW_OPTIONS,
@@ -63,7 +64,7 @@ export type IntroRevealProps = {
   as?: IntroRevealTag;
 } & Pick<HTMLMotionProps<'div'>, 'aria-hidden' | 'aria-live' | 'id' | 'role'>;
 
-export const IntroReveal = ({
+const IntroRevealTarget = ({
   children,
   className,
   isInView: isInViewOverride,
@@ -111,4 +112,10 @@ export const IntroReveal = ({
       </Component>
     </IntroRevealInViewContext.Provider>
   );
+};
+
+export const IntroReveal = (props: IntroRevealProps) => {
+  const resetGeneration = useIntroRevealResetGenerationContext();
+
+  return <IntroRevealTarget key={resetGeneration} {...props} />;
 };

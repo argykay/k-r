@@ -37,11 +37,7 @@ export const RsvpYesNo = ({
     {label && !labelledBy ? (
       <legend className="text-style-paragraph-3 text-black">{label}</legend>
     ) : null}
-    <div
-      className="flex flex-col gap-2 sm:flex-row sm:gap-6"
-      role="radiogroup"
-      aria-label={labelledBy ? undefined : label}
-    >
+    <div className="flex flex-col gap-2 sm:flex-row sm:gap-6">
       {(
         [
           { option: 'yes' as const, text: yesOptionLabel ?? yesLabel, id: yesInputId },

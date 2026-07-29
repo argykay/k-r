@@ -63,6 +63,7 @@ export function useSiteAccess() {
 
       if (checkPassword(candidate)) {
         unlockSite();
+        window.scrollTo(0, 0);
         setUnlocked(true);
         setError(false);
         return;

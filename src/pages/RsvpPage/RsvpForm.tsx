@@ -1,6 +1,6 @@
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import React, { useCallback, useMemo, useRef, useState } from 'react';
-import { GridContainer } from '@components';
+import { GridContainer, IntroReveal } from '@components';
 import { useTranslation } from '@i18n';
 import { LocaleLink } from '@routing';
 import { FaqSideStars } from '../FaqPage/FaqSideStars';
@@ -130,18 +130,26 @@ export const RsvpForm = () => {
         <GridContainer className="relative z-10">
           <div className="col-span-4 md:col-span-4 md:col-start-2 lg:col-span-6 lg:col-start-4">
             <div className="rounded-lg bg-white p-8 text-center shadow-sm md:p-12">
-              <h2 className="text-style-header-3 text-moss-green">
-                {t('rsvp.successTitle')}
-              </h2>
-              <p className="mt-4 text-style-paragraph-3 text-black">
-                {t('rsvp.successBody')}
-              </p>
-              <LocaleLink
-                route="home"
-                className="mt-8 inline-block text-style-link text-moss-green underline-offset-4 hover:underline"
+              <IntroReveal staggerIndex={0}>
+                <h1 className="text-style-header-3 text-moss-green">
+                  {t('rsvp.successTitle')}
+                </h1>
+              </IntroReveal>
+              <IntroReveal
+                as="p"
+                staggerIndex={1}
+                className="mt-4 text-style-paragraph-3 text-black"
               >
-                {t('rsvp.successBackHome')}
-              </LocaleLink>
+                {t('rsvp.successBody')}
+              </IntroReveal>
+              <IntroReveal staggerIndex={2} className="mt-8">
+                <LocaleLink
+                  route="home"
+                  className="inline-block text-style-link text-moss-green underline-offset-4 hover:underline"
+                >
+                  {t('rsvp.successBackHome')}
+                </LocaleLink>
+              </IntroReveal>
             </div>
           </div>
         </GridContainer>
@@ -156,19 +164,27 @@ export const RsvpForm = () => {
         <GridContainer className="relative z-10">
           <div className="col-span-4 md:col-span-4 md:col-start-2 lg:col-span-6 lg:col-start-4">
             <div className="rounded-lg bg-white p-8 text-center shadow-sm md:p-12">
-              <h2 className="text-style-header-3 text-blood-orange">
-                {t('rsvp.errorTitle')}
-              </h2>
-              <p className="mt-4 text-style-paragraph-3 text-black">
-                {t('rsvp.errorBody')}
-              </p>
-              <button
-                type="button"
-                onClick={() => setView('form')}
-                className="mt-8 text-style-button rounded bg-moss-green px-8 py-3 text-cream"
+              <IntroReveal staggerIndex={0}>
+                <h1 className="text-style-header-3 text-blood-orange">
+                  {t('rsvp.errorTitle')}
+                </h1>
+              </IntroReveal>
+              <IntroReveal
+                as="p"
+                staggerIndex={1}
+                className="mt-4 text-style-paragraph-3 text-black"
               >
-                {t('rsvp.errorRetry')}
-              </button>
+                {t('rsvp.errorBody')}
+              </IntroReveal>
+              <IntroReveal staggerIndex={2} className="mt-8">
+                <button
+                  type="button"
+                  onClick={() => setView('form')}
+                  className="text-style-button rounded bg-moss-green px-8 py-3 text-cream"
+                >
+                  {t('rsvp.errorRetry')}
+                </button>
+              </IntroReveal>
             </div>
           </div>
         </GridContainer>
@@ -191,12 +207,18 @@ export const RsvpForm = () => {
       <GridContainer className="relative z-10">
         <div className="col-span-4 md:col-span-4 md:col-start-2 lg:col-span-6 lg:col-start-4">
           <header className="pt-20 text-center">
-            <h1 className="text-style-cursive-title text-3xl text-blood-orange lg:text-5xl">
-              {t('rsvp.title')}
-            </h1>
-            <p className="my-8 text-style-paragraph-3 text-black">
+            <IntroReveal staggerIndex={0}>
+              <h1 className="text-style-cursive-title text-3xl text-blood-orange lg:text-5xl">
+                {t('rsvp.title')}
+              </h1>
+            </IntroReveal>
+            <IntroReveal
+              as="p"
+              staggerIndex={1}
+              className="my-8 text-style-paragraph-3 text-black"
+            >
               {t('rsvp.intro')}
-            </p>
+            </IntroReveal>
           </header>
 
           <form

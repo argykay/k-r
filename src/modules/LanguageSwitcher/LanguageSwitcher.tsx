@@ -6,13 +6,20 @@ import { switchLocalePath } from '@routing/paths';
 
 export type LanguageSwitcherProps = {
   className?: string;
+  /** Color class for the inactive locale links. */
   linkClassName?: string;
+  /** Color class for the active locale link. */
+  activeClassName?: string;
+  /** Keep the dotted underline visible on the active locale. */
+  underlineActive?: boolean;
   tabIndex?: number;
 };
 
 export const LanguageSwitcher = ({
   className,
-  linkClassName,
+  linkClassName = 'text-moss-green',
+  activeClassName = 'text-blood-orange',
+  underlineActive = false,
   tabIndex,
 }: LanguageSwitcherProps) => {
   const { locale, t } = useTranslation();
@@ -25,14 +32,14 @@ export const LanguageSwitcher = ({
     >
       {LOCALES.map((code) => {
         const isActive = code === locale;
+        const colorClass = isActive ? activeClassName : linkClassName;
         return (
           <Link
             key={code}
             to={switchLocalePath(pathname, code)}
             className={[
               'group relative inline-block font-cardo text-link tracking-link no-underline',
-              linkClassName,
-              isActive ? 'text-blood-orange' : 'text-moss-green',
+              colorClass,
             ]
               .filter(Boolean)
               .join(' ')}
@@ -42,7 +49,8 @@ export const LanguageSwitcher = ({
           >
             {LOCALE_LABELS[code]}
             <DottedHoverUnderline
-              color={isActive ? 'text-blood-orange' : 'text-moss-green'}
+              color={colorClass}
+              forceVisible={underlineActive && isActive}
             />
           </Link>
         );

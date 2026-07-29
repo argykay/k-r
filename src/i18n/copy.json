@@ -855,7 +855,7 @@
     },
     "waitingItem1": {
       "en": "Finger food",
-      "el": "Finger food",
+      "el": "Μεζεδάκια",
       "lv": "Uzkodas"
     },
     "waitingItem2": {
@@ -869,9 +869,9 @@
       "lv": "Pārsteidzoši daudz saldējuma"
     },
     "waitingItem4": {
-      "en": "And hopefully a garden full of people we love",
-      "el": "Και, ελπίζουμε, ένας κήπος γεμάτος αγαπημένους ανθρώπους",
-      "lv": "Un, cerams, dārzs, pilns ar cilvēkiem, kurus mēs mīlam"
+      "en": "And hopefully a house and a garden full of people we love",
+      "el": "Και ελπίζουμε ένα σπίτι και έναν κήπο γεμάτο με ανθρώπους που αγαπάμε",
+      "lv": "Un cerams, ka māja un dārzs, pilns ar cilvēkiem, kurus mēs mīlam"
     },
     "sectionFindUs": {
       "en": "Come find us",
@@ -880,7 +880,7 @@
     },
     "findUsIntro": {
       "en": "Our little corner of Denmark is in the lovely village of Ishøj Landsby.",
-      "el": "Το μικρό μας καταφύγιο βρίσκεται στο όμορφο δανέζικο χωριό Ishøj Landsby.",
+      "el": "Η μικρή μας γωνιά της Δανίας βρίσκεται στο όμορφο χωριό Ishøj Landsby.",
       "lv": "Mūsu mazais stūrītis Dānijā atrodas skaistajā ciematā Ishøj Landsby."
     },
     "addressLine1": {
@@ -945,12 +945,12 @@
     },
     "oneThingP1": {
       "en": "Our home is cosy (which we love), but it's not quite big enough for everyone to sit down for a full meal at the same time.",
-      "el": "Το σπίτι μας είναι ζεστό και φιλόξενο, αλλά όχι αρκετά μεγάλο ώστε να καθίσουν όλοι ταυτόχρονα για ένα γεύμα.",
+      "el": "Το σπίτι μας είναι όμορφο και φιλόξενο, αλλά όχι αρκετά μεγάλο ώστε να καθίσουν όλοι ταυτόχρονα για ένα γεύμα.",
       "lv": "Mūsu mājas ir omulīgas (un mums tas patīk!), taču ne tik lielas, lai visi vienlaikus varētu apsēsties pie kopīga galda."
     },
     "oneThingP2": {
       "en": "So instead of a formal lunch, think of this as an open house. Come and go as you please, grab something to eat, have a drink, meet some familiar faces (and maybe a few new ones), and make yourselves at home.",
-      "el": "Γι' αυτό θέλουμε να το δείτε σαν ένα ανοιχτό σπίτι. Ελάτε και φύγετε όποτε θέλετε, τσιμπήστε κάτι, πιείτε ένα ποτό, γνωρίστε τους υπόλοιπους καλεσμένους και νιώστε σαν στο σπίτι σας.",
+      "el": "Έτσι, αντί για ένα επίσημο γεύμα, σκεφτείτε το σαν μια χαλαρή μέρα στο σπίτι. Ελάτε και φύγετε όποτε θέλετε, τσιμπήστε κάτι, πιείτε ένα ποτό, γνωρίστε τους υπόλοιπους καλεσμένους και νιώστε σαν στο σπίτι σας.",
       "lv": "Tāpēc uztveriet šo kā atvērto māju — ienāciet un dodieties prom, kad vēlaties, paņemiet kādu uzkodu, iedzeriet ko gardu, iepazīstieties ar citiem viesiem un jūtieties kā mājās."
     },
     "sectionCantMakeIt": {

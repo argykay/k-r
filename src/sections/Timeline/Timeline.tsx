@@ -304,7 +304,7 @@ const TimelineRow = ({ entry, staggerIndex, starRef }: TimelineRowProps) => {
             <time dateTime={entry.dateTime} className={TIMELINE_TIME_CLASS}>
               {entry.time}
             </time>
-            <span className={TIMELINE_TITLE_CLASS}>{entry.title}</span>
+            <h3 className={`${TIMELINE_TITLE_CLASS} m-0`}>{entry.title}</h3>
           </div>
           <TimelineBody entry={entry} />
         </div>
@@ -396,6 +396,7 @@ export const Timeline = () => {
 
           <IntroReveal
             as="h2"
+            id="timeline-heading"
             className="text-style-cursive-title mx-auto mb-12 max-w-lg text-center text-blood-orange md:mb-8 md:max-w-xl"
           >
             {t('timeline.intro1')}

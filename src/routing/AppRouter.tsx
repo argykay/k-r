@@ -1,12 +1,13 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+import { IntroRevealResetProvider } from '@components';
 import { FaqPage, HomePage, MapPage, RsvpPage, WelcomePartyPage } from '@pages';
 import { LocaleLayout } from './LocaleLayout';
 import { ScrollToTop } from './ScrollToTop';
 
 export const AppRouter = () => {
   return (
-    <>
+    <IntroRevealResetProvider>
       <ScrollToTop />
       <Routes>
       {/* `/` = English (default) */}
@@ -27,6 +28,6 @@ export const AppRouter = () => {
         <Route path="welcome-party" element={<WelcomePartyPage />} />
       </Route>
       </Routes>
-    </>
+    </IntroRevealResetProvider>
   );
 }

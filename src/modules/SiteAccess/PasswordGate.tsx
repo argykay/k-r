@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import { DecorativeStar, GridContainer } from '@components';
 import { useTranslation } from '@i18n';
+import { LanguageSwitcher } from '../LanguageSwitcher/LanguageSwitcher';
 
 export type PasswordGateProps = {
   error: boolean;
@@ -174,7 +175,7 @@ export const PasswordGate = ({ error, onSubmit }: PasswordGateProps) => {
   };
 
   return (
-    <div className="relative flex min-h-screen items-center bg-moss-green text-cream">
+    <main className="relative flex min-h-screen items-center bg-moss-green text-cream">
       <StarField />
       <div className="relative z-10 w-full py-24 pb-32 md:py-32 md:pb-40">
         <GridContainer className="w-full">
@@ -184,7 +185,7 @@ export const PasswordGate = ({ error, onSubmit }: PasswordGateProps) => {
                 <h1 className="mb-10 text-style-cursive-title text-xl text-cream md:text-4xl">
                   {t('meta.siteTitle')}
                 </h1>
-                <p className="text-style-header-4 text-cream">{t('gate.title')}</p>
+                <h2 className="text-style-header-4 text-cream">{t('gate.title')}</h2>
                 <p className="text-style-paragraph-3 text-cream/90 text-balance">
                   {t('gate.label')}
                 </p>
@@ -226,10 +227,17 @@ export const PasswordGate = ({ error, onSubmit }: PasswordGateProps) => {
                   {error ? t('gate.error') : null}
                 </p>
               </form>
+
+              <LanguageSwitcher
+                className="justify-center pt-8"
+                linkClassName="text-cream"
+                activeClassName="text-cream"
+                underlineActive
+              />
             </div>
           </div>
         </GridContainer>
       </div>
-    </div>
+    </main>
   );
 };

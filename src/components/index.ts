@@ -12,6 +12,7 @@ export { FaqAccordion } from './FaqAccordion/FaqAccordion';
 export { CountdownTimer } from './CountdownTimer/CountdownTimer';
 export type { CountdownTimerProps } from './CountdownTimer/CountdownTimer';
 export { IntroReveal } from './IntroReveal/IntroReveal';
+export { IntroRevealResetProvider } from './IntroReveal/IntroRevealResetProvider';
 export type { IntroRevealProps, IntroRevealTag, IntroRevealVariant } from './IntroReveal/IntroReveal';
 export { useIntroRevealInView } from './IntroReveal/IntroReveal';
 export type { AnimatedVectorProps } from './AnimatedVector/AnimatedVector';

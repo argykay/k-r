@@ -9,7 +9,10 @@ export const Welcome = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="bg-moss-green text-cream min-h-content">
+    <section
+      className="bg-moss-green text-cream min-h-content"
+      aria-label={t('home.welcome')}
+    >
       <GridContainer
         className="min-h-content"
         gridClassName="min-h-content items-center gap-x-2 md:gap-y-14 md:gap-x-6 md:gap-y-16 items-stretch"
