@@ -713,7 +713,7 @@
     "partyEndP2": {
       "en": "The organised return buses leave at 01:00, and the celebration will wrap up no later than then.",
       "el": "Τα οργανωμένα λεωφορεία επιστροφής αναχωρούν στη 01:00 και το πάρτι θα ολοκληρωθεί το αργότερο τότε.",
-      "lv": "Organizētie atpakaļceļa autobusi atiet plkst. 1:00, un ballīte noslēgsies ne vēlāk kā tad."
+      "lv": "Organizētie atpakaļceļa autobusi atiet plkst. 1:00, pēc ballītes beigām."
     }
   },
   "welcomeParty": {
@@ -760,7 +760,7 @@
     "startP3": {
       "en": "So on Saturday, 12 September, we're opening our doors for a relaxed welcome party. Think of it as part housewarming, part pre-wedding hangout, and the perfect way to ease into the weekend together.",
       "el": "Γι' αυτό, το Σάββατο, 12 Σεπτεμβρίου, ανοίγουμε το σπίτι μας για ένα χαλαρό πάρτι καλωσορίσματος. Σκεφτείτε το σαν ένα μικρό housewarming, κάτι σαν “πρόγαμο” μα πάνω απ' όλα, μια όμορφη αφορμή να ξεκινήσουμε μαζί το γιορτινό Σαββατοκύριακο.",
-      "lv": "Tāpēc sestdien, 12. septembrī, mēs atveram sava nama durvis nesteidzīgai sagaidīšanas ballītei. Uztveriet to kā nelielu sālsmaizes svinību, pirmskāzu tikšanos un vienkārši jauku iespēju sākt svētku nedēļas nogali kopā."
+      "lv": "Tāpēc sestdien, 12. septembrī, mēs atveram sava nama durvis nesteidzīgai sagaidīšanas ballītei. Uztveriet to kā brīvā formāta ballīti — nāciet un ejiet, kad vien gribat. Cienājieties, iepazīstieties un jūtieties kā mājās!"
     },
     "wheneverDate": {
       "en": "Saturday, the 12th of September",
