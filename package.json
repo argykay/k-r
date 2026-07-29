@@ -22,6 +22,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
+    "postbuild": "node scripts/copy-locale-og-pages.js",
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

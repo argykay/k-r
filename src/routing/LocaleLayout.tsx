@@ -1,30 +1,26 @@
 import React, { useEffect } from 'react';
-import { Navigate, Outlet, useParams } from 'react-router-dom';
+import { Outlet, useParams } from 'react-router-dom';
 import { DEFAULT_LOCALE, isLocale, LocaleProvider } from '@i18n';
-import { SiteAccessGate } from '@modules';
-import { Footer } from '@modules';
+import { Footer, SiteAccessGate } from '@modules';
+import { NotFoundPage } from '@pages';
 
 export const LocaleLayout = () => {
   const { locale: localeParam } = useParams<{ locale: string }>();
-
+  const localeValid = !localeParam || isLocale(localeParam);
   const locale = isLocale(localeParam) ? localeParam : DEFAULT_LOCALE;
 
   useEffect(() => {
     document.documentElement.lang = locale;
   }, [locale]);
 
-  if (localeParam && !isLocale(localeParam)) {
-    return <Navigate to="/" replace />;
-  }
-
   return (
     <LocaleProvider locale={locale}>
       <div className="site-shell">
         <SiteAccessGate>
-          <Outlet />
+          {localeValid ? <Outlet /> : <NotFoundPage />}
         </SiteAccessGate>
         <Footer />
       </div>
     </LocaleProvider>
   );
-}
+};

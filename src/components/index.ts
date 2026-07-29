@@ -21,3 +21,4 @@ export type { FlowersIconProps } from './FlowersIcon/FlowersIcon';
 export { GridContainer } from './GridContainer/GridContainer';
 export type { GridContainerProps } from './GridContainer/GridContainer';
 export { RollingNumber } from './RollingNumber/RollingNumber';
+export { StarField } from './StarField/StarField';

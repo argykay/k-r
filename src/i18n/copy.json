@@ -946,5 +946,22 @@
       "el": "Ένας γάμος που έγινε πραγματικότητα (και χρηματοδοτήθηκε κυρίως) χάρη στον Σωτήρη.",
       "lv": "Kāzas, kas kļuva iespējamas, pateicoties Sotirim."
     }
+  },
+  "notFound": {
+    "title": {
+      "en": "Page not found.",
+      "el": "Η σελίδα δεν βρέθηκε.",
+      "lv": "Lapa nav atrasta."
+    },
+    "description": {
+      "en": "Lost in the forest?",
+      "el": "Lost in the forest?",
+      "lv": "Lost in the forest?"
+    },
+    "homeCta": {
+      "en": "Back home",
+      "el": "Επιστροφή στην αρχική",
+      "lv": "Atpakaļ uz sākumu"
+    }
   }
 }
