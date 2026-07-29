@@ -127,6 +127,16 @@ export const FAQ_ITEMS: FaqItemConfig[] = [
     ],
   },
   {
+    id: 'speeches',
+    questionKey: 'faq.speechesQuestion',
+    blocks: [
+      { type: 'paragraph', key: 'faq.speechesP1' },
+      { type: 'paragraph', key: 'faq.speechesP2' },
+      { type: 'paragraph', key: 'faq.speechesP3' },
+      { type: 'paragraph', key: 'faq.speechesP4' },
+    ],
+  },
+  {
     id: 'photos',
     questionKey: 'faq.photosQuestion',
     blocks: [

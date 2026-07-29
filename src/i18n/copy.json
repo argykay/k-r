@@ -1,9 +1,9 @@
 {
   "meta": {
     "siteTitle": {
-      "en": "Konstantina + Rihards",
-      "el": "Konstantina + Rihards",
-      "lv": "Konstantina + Rihards"
+      "en": "K & R",
+      "el": "K & R",
+      "lv": "K & R"
     }
   },
   "navigation": {
@@ -548,7 +548,7 @@
     },
     "whatToWearP4": {
       "en": "September weather can be unpredictable, so bringing a jacket is a good idea. An umbrella might not be the worst idea either — this is Denmark, after all.",
-      "el": "Ο καιρός του Σεπτεμβρίου μπορεί να είναι απρόβλεπτος, γι’ αυτό καλό είναι να έχετε μαζί σας ένα σακάκι. Μια ομπρέλα ίσως φανεί επίσης χρήσιμη — είμαστε στη Δανία, άλλωστε.",
+      "el": "Ο καιρός του Σεπτεμβρίου μπορεί να είναι απρόβλεπτος, γι’ αυτό καλό είναι να έχετε μαζί σας ένα παλτό. Μια ομπρέλα ίσως φανεί επίσης χρήσιμη — είμαστε στη Δανία, άλλωστε.",
       "lv": "Septembra laikapstākļi var būt neparedzami, tāpēc iesakām paņemt līdzi kādu virsjaku. Lietussargs arī var noderēt, būsim tomēr Dānijā!"
     },
     "registryQuestion": {
@@ -567,9 +567,9 @@
       "lv": "Daudzi mūsu viesi mēros tālu ceļu, lai svinētu kopā ar mums, tāpēc dāvanas mēs negaidām. Mēs vienkārši esam pateicīgi, ka mērosiet šo ceļu un pavadīsiet šo dienu kopā ar mums."
     },
     "registryP3": {
-      "en": "If you'd still like to give something, we'll share a few ideas closer to the date.",
-      "el": "Αν θέλετε ακόμα να προσφέρετε κάτι, θα μοιραστούμε ιδέες πιο κοντά στην ημερομηνία.",
-      "lv": "Ja tomēr vēlaties kaut ko uzdāvināt, tuvāk datumam dalīsimies ar dažām idejām."
+      "en": "If you'd still like to give something, we would love a card with your wishes for our future as we won't have a guest book on the day.",
+      "el": "Αν θέλετε να δωρίσετε κάτι, θα εκτιμούσαμε ιδιαίτερα μια κάρτα με ευχές, καθώς δεν θα έχουμε βιβλίο επισκεπτών εκείνη την ημέρα.",
+      "lv": "Ja tomēr vēlaties kaut ko dāvināt, mēs būtu ļoti pateicīgi par apsveikuma kartīti, jo šajā dienā mums nebūs viesu grāmatas."
     },
     "gettingThereQuestion": {
       "en": "How do I get to the wedding?",
@@ -683,7 +683,7 @@
     },
     "outdoorsP2": {
       "en": "The ceremony will take place by the lake beneath the trees, followed by drinks and celebrations outdoors. Dinner will be served indoors, and the evening party will continue in the tent.",
-      "el": "Η τελετή θα γίνει δίπλα στη λίμνη, κάτω από τα δέντρα, ενώ τα ποτά και μέρος του εορτασμού θα πραγματοποιηθούν σε εξωτερικό χώρο. Το δείπνο θα σερβιριστεί σε εσωτερικό χώρο και το πάρτι θα συνεχιστεί στη σκηνή.",
+      "el": "Η τελετή θα πραγματοποιηθεί δίπλα στη λίμνη κάτω από τα δέντρα, και στη συνέχεια θα προσφερθούν ποτά και καναπεδάκια σε εξωτερικό χώρο. Το δείπνο θα σερβιριστεί σε εσωτερικό χώρο και ο βραδινός χορός θα συνεχιστεί στη σκηνή του πάρτι.",
       "lv": "Ceremonija notiks pie ezera zem kokiem, pēc tam sekos dzērieni un svinības brīvā dabā. Vakariņas tiks pasniegtas iekštelpās, bet vakara ballīte turpināsies teltī."
     },
     "outdoorsP3": {
@@ -708,7 +708,7 @@
     },
     "rainP3": {
       "en": "The venue has a backup plan in case the weather decides not to cooperate, but we'd still recommend bringing a jacket and an umbrella, just in case.",
-      "el": "Ο χώρος διαθέτει εναλλακτικό σχέδιο σε περίπτωση βροχής, αλλά σας προτείνουμε να έχετε μαζί σας ένα σακάκι και μια ομπρέλα, για καλό και για κακό.",
+      "el": "Ο χώρος διαθέτει εναλλακτικό σχέδιο σε περίπτωση βροχής, αλλά σας προτείνουμε να έχετε μαζί σας ένα παλτό και μια ομπρέλα, για καλό και για κακό.",
       "lv": "Svinību vietai ir rezerves plāns gadījumam, ja laikapstākļi nebūs labvēlīgi, tomēr iesakām paņemt līdzi jaku un lietussargu katram gadījumam."
     },
     "dietaryQuestion": {
@@ -718,7 +718,7 @@
     },
     "dietaryP1": {
       "en": "Please let us know when you RSVP, and we'll make sure you're well looked after.",
-      "el": "Παρακαλούμε ενημερώστε μας κατά το RSVP και θα φροντίσουμε να καλυφθούν.",
+      "el": "Παρακαλούμε ενημερώστε μας όταν δηλώσετε συμμετοχή (RSVP), και θα φροντίσουμε να σας εξυπηρετήσουμε κατάλληλα.",
       "lv": "Lūdzu, dodiet ziņu, kad apstiprināsiet dalību, un mēs parūpēsimies, lai jūs būtu paēduši."
     },
     "childrenQuestion": {
@@ -743,8 +743,33 @@
     },
     "childrenP4": {
       "en": "Please note that we won't have any organised activities or childcare during the day, so you'll need to plan for entertainment, naps, and everything else that comes with bringing your tiny favourite humans along.",
-      "el": "Λάβετε υπόψη ότι δεν θα υπάρχουν οργανωμένες δραστηριότητες ή υπηρεσίες φύλαξης παιδιών κατά τη διάρκεια της ημέρας, οπότε θα χρειαστεί να φροντίσετε εσείς για τη διασκέδαση, τον ύπνο και οτιδήποτε άλλο χρειάζονται οι μικροί σας αγαπημένοι.",
+      "el": "Λάβετε υπόψη ότι δεν θα υπάρχουν οργανωμένες δραστηριότητες ή υπηρεσίες φύλαξης παιδιών κατά τη διάρκεια της ημέρας, οπότε θα χρειαστεί να φροντίσετε εσείς για τη διασκέδαση, τον ύπνο και οτιδήποτε άλλο χρειάζονται τα μικρά σας.",
       "lv": "Lūdzu, ņemiet vērā, ka bērniem netiks organizētas īpašas aktivitātes vai pieskatīšana, tāpēc par izklaidi, diendusām un visu pārējo būs jāparūpējas pašiem vecākiem."
+    },
+    "speechesQuestion": {
+      "en": "Will there be speeches?",
+      "el": "Θα υπάρχουν ομιλίες;",
+      "lv": "Vai būs runas?"
+    },
+    "speechesP1": {
+      "en": "We're keeping things simple.",
+      "el": "Θέλουμε να κρατήσουμε τη μέρα απλή και χαλαρή, αλλά οι προπόσεις είναι αρκετά συνηθισμένες σε διεθνείς γάμους.",
+      "lv": "Mēs vēlamies, lai šī diena būtu vienkārša un nepiespiesta."
+    },
+    "speechesP2": {
+      "en": "There won't be a toastmaster or a formal lineup of speeches. But if anyone feels inspired to say a few words during the day, you're more than welcome to.",
+      "el": "Δεν θα υπάρχει toastmaster (οργανωτής των προπόσεων) ούτε προκαθορισμένο πρόγραμμα ομιλιών. Αν όμως κάποιος θέλει να πει λίγα λόγια κατά τη διάρκεια της ημέρας, θα χαρούμε πολύ να το κάνει.",
+      "lv": "Nebūs ne vakara vadītāja, ne iepriekš ieplānotu runu programmas. Taču, ja kādam rodas vēlme pateikt dažus vārdus, mēs to ļoti priecāsimies dzirdēt."
+    },
+    "speechesP3": {
+      "en": "As our guests come from all over the world, not everyone speaks the same language. If you're planning a speech, we'd really appreciate it if you could keep that in mind—whether that means speaking in English, keeping it short, or offering a quick summary if you're speaking in another language.",
+      "el": "Οι καλεσμένοι μας έρχονται από πολλές διαφορετικές χώρες και δεν μιλούν όλοι την ίδια γλώσσα. Αν σκοπεύετε να πείτε κάτι, θα εκτιμούσαμε πολύ να το έχετε αυτό υπόψη — είτε επιλέγοντας να μιλήσετε στα αγγλικά, είτε κρατώντας την ομιλία σύντομη, είτε κάνοντας μια μικρή περίληψη στα αγγλικά αν μιλήσετε σε άλλη γλώσσα.",
+      "lv": "Mūsu viesi ierodas no dažādām valstīm, un ne visi runā vai saprot vienu un to pašu valodu. Ja plānojat teikt runu, lūdzam to paturēt prātā — piemēram, runāt angliski, saglabāt runu īsu vai īsi apkopot galveno angļu valodā, ja runāsiet citā valodā."
+    },
+    "speechesP4": {
+      "en": "The most important thing is that it comes from the heart.",
+      "el": "Το πιο σημαντικό είναι τα λόγια να βγαίνουν από την καρδιά.",
+      "lv": "Vissvarīgākais ir, lai jūsu vārdi nāktu no sirds."
     },
     "photosQuestion": {
       "en": "Can I take photos during the ceremony?",
@@ -773,8 +798,8 @@
     },
     "partyEndP2": {
       "en": "The organised return buses leave at 01:00, and the celebration will wrap up no later than then.",
-      "el": "Τα οργανωμένα λεωφορεία επιστρέφουν στην Κοπεγχάγη στη 01:00.",
-      "lv": "Organizētie autobusi aties plkst. 01:00."
+      "el": "Τα οργανωμένα λεωφορεία επιστροφής αναχωρούν στη 01:00 και το πάρτι θα ολοκληρωθεί το αργότερο τότε.",
+      "lv": "Organizētie atpakaļceļa autobusi atiet plkst. 1:00, un ballīte noslēgsies ne vēlāk kā tad."
     }
   },
   "welcomeParty": {
