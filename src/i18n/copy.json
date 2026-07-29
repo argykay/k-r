@@ -13,9 +13,9 @@
       "lv": "Galvenā navigācija"
     },
     "home": {
-      "en": "Home",
-      "el": "Αρχική",
-      "lv": "Sākums"
+      "en": "Konstantina & Rihards",
+      "el": "Konstantina & Rihards",
+      "lv": "Konstantina & Rihards"
     },
     "faq": {
       "en": "FAQ",
@@ -82,11 +82,6 @@
       "en": "Welcome",
       "el": "Καλώς ήρθατε",
       "lv": "Laipni lūdzam"
-    },
-    "date": {
-      "en": "12th of September 2026",
-      "el": "12η Σεπτεμβρίου 2026",
-      "lv": "2026. gada 12. septembris"
     }
   },
   "welcome": {
@@ -144,11 +139,6 @@
     }
   },
   "timeline": {
-    "title": {
-      "en": "The day",
-      "el": "Η μέρα",
-      "lv": "Diena"
-    },
     "intro1": {
       "en": "A whimsical day in the forest",
       "el": "A whimsical day in the forest",
@@ -246,35 +236,10 @@
       "el": "Τα στοιχεία σας",
       "lv": "Jūsu informācija"
     },
-    "stepAttending": {
-      "en": "Can you attend?",
-      "el": "Μπορείτε να παρευρεθείτε;",
-      "lv": "Vai varat piedalīties?"
-    },
     "stepDeclined": {
       "en": "We're sorry you can't make it! We'll miss you.",
       "el": "Λυπούμαστε που δεν μπορείτε να έρθετε! Θα μας λείψετε.",
       "lv": "Žēl, ka nevarat ierasties! Mums jūs pietrūks."
-    },
-    "stepPlusOne": {
-      "en": "Plus one",
-      "el": "Συνοδός",
-      "lv": "Pavadonis"
-    },
-    "stepChildren": {
-      "en": "Children",
-      "el": "Παιδιά",
-      "lv": "Bērni"
-    },
-    "stepMeals": {
-      "en": "Dietary preferences",
-      "el": "Διατροφικές προτιμήσεις",
-      "lv": "Uztura izvēles"
-    },
-    "stepExtras": {
-      "en": "Anything else?",
-      "el": "Κάτι άλλο;",
-      "lv": "Vēl kaut kas?"
     },
     "fullNameLabel": {
       "en": "Your full name",
@@ -376,16 +341,6 @@
       "el": "Όχι, θα έρθω με αυτοκίνητο",
       "lv": "Nē, braukšu ar automašīnu"
     },
-    "dietaryLabel": {
-      "en": "Dietary requirements",
-      "el": "Διατροφικοί περιορισμοί",
-      "lv": "Uztura ierobežojumi"
-    },
-    "dietaryPlaceholder": {
-      "en": "Vegetarian, allergies, etc.",
-      "el": "Χορτοφάγος, αλλεργίες κ.λπ.",
-      "lv": "Veģetārietis, alerģijas u.c."
-    },
     "yes": {
       "en": "Yes",
       "el": "Ναι",
@@ -396,21 +351,6 @@
       "el": "Όχι",
       "lv": "Nē"
     },
-    "selectPlease": {
-      "en": "Please select",
-      "el": "Επιλέξτε",
-      "lv": "Lūdzu, izvēlieties"
-    },
-    "back": {
-      "en": "Back",
-      "el": "Πίσω",
-      "lv": "Atpakaļ"
-    },
-    "next": {
-      "en": "Next",
-      "el": "Επόμενο",
-      "lv": "Tālāk"
-    },
     "submit": {
       "en": "Submit",
       "el": "Υποβολή",
@@ -420,21 +360,6 @@
       "en": "Submitting…",
       "el": "Υποβολή…",
       "lv": "Iesniedz…"
-    },
-    "progressStep": {
-      "en": "Step",
-      "el": "Βήμα",
-      "lv": "Solis"
-    },
-    "progressOf": {
-      "en": "of",
-      "el": "από",
-      "lv": "no"
-    },
-    "progressAriaLabel": {
-      "en": "Form progress",
-      "el": "Πρόοδος φόρμας",
-      "lv": "Formas progress"
     },
     "validationRequired": {
       "en": "This field is required",
@@ -480,11 +405,6 @@
       "en": "Try again",
       "el": "Δοκιμάστε ξανά",
       "lv": "Mēģināt vēlreiz"
-    },
-    "errorMissingEndpoint": {
-      "en": "RSVP is not configured yet. Please try again later.",
-      "el": "Η επιβεβαίωση δεν έχει ρυθμιστεί ακόμα. Δοκιμάστε ξανά αργότερα.",
-      "lv": "Apstiprinājums vēl nav konfigurēts. Lūdzu, mēģiniet vēlāk."
     }
   },
   "gate": {
@@ -498,7 +418,6 @@
       "el": "Παρακαλούμε εισάγετε τον κωδικό για να δείτε την ιστοσελίδα του γάμου μας.",
       "lv": "Lūdzu, ievadiet paroli, lai skatītu mūsu kāzu mājas lapu."
     },
-
     "placeholder": {
       "en": "Enter password",
       "el": "Εισάγετε κωδικό",
@@ -513,11 +432,6 @@
       "en": "Incorrect password. Please try again.",
       "el": "Λανθασμένος κωδικός. Παρακαλούμε δοκιμάστε ξανά.",
       "lv": "Nepareiza parole. Lūdzu, mēģiniet vēlreiz."
-    },
-    "hint": {
-      "en": "The password was included in your invitation.",
-      "el": "Ο κωδικός περιλαμβάνεται στην πρόσκλησή σας.",
-      "lv": "Parole ir norādīta jūsu ielūgumā."
     }
   },
   "faq": {
@@ -847,11 +761,6 @@
       "en": "So on Saturday, 12 September, we're opening our doors for a relaxed welcome party. Think of it as part housewarming, part pre-wedding hangout, and the perfect way to ease into the weekend together.",
       "el": "Γι' αυτό, το Σάββατο, 12 Σεπτεμβρίου, ανοίγουμε το σπίτι μας για ένα χαλαρό πάρτι καλωσορίσματος. Σκεφτείτε το σαν ένα μικρό housewarming, κάτι σαν “πρόγαμο” μα πάνω απ' όλα, μια όμορφη αφορμή να ξεκινήσουμε μαζί το γιορτινό Σαββατοκύριακο.",
       "lv": "Tāpēc sestdien, 12. septembrī, mēs atveram sava nama durvis nesteidzīgai sagaidīšanas ballītei. Uztveriet to kā nelielu sālsmaizes svinību, pirmskāzu tikšanos un vienkārši jauku iespēju sākt svētku nedēļas nogali kopā."
-    },
-    "sectionWhenever": {
-      "en": "Come whenever you fancy",
-      "el": "Come whenever you fancy",
-      "lv": "Come whenever you fancy"
     },
     "wheneverDate": {
       "en": "Saturday, the 12th of September",

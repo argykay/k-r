@@ -209,7 +209,7 @@ export const Navigation = ({ isVisible }: NavigationProps) => {
               tabIndex={linkTabIndex}
               onClick={() => setMenuOpen(false)}
             >
-              {t('meta.siteTitle')}
+              {t('navigation.home')}
               <DottedHoverUnderline
                 color={homeActive ? 'text-blood-orange' : 'text-moss-green'}
               />
