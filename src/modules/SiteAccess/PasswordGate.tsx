@@ -23,9 +23,9 @@ export const PasswordGate = ({ error, onSubmit }: PasswordGateProps) => {
       <div className="relative z-10 w-full py-24 pb-32 md:py-32 md:pb-40">
         <GridContainer className="w-full">
           <div className="col-span-4 md:col-span-6 md:col-start-1 lg:col-span-6 lg:col-start-4">
-            <div className="mx-auto flex max-w-lg flex-col items-center gap-8 text-center">
-              <div className="flex flex-col gap-4 md:gap-5">
-                <h1 className="mb-8 text-style-cursive-title text-xl text-cream md:text-4xl">
+            <div className="mx-auto flex max-w-lg flex-col items-center gap-4 md:gap-8 text-center">
+              <div className="flex flex-col gap-2 md:gap-5">
+                <h1 className="mb-4 md:mb-8 text-style-cursive-title text-xl text-cream md:text-4xl">
                   {t('meta.siteTitle')}
                 </h1>
                 <h2 className="text-style-header-4 text-cream">{t('gate.title')}</h2>
@@ -39,7 +39,7 @@ export const PasswordGate = ({ error, onSubmit }: PasswordGateProps) => {
                 onSubmit={handleSubmit}
                 noValidate
               >
-                <div className="flex flex-col items-stretch gap-3 sm:flex-row">
+                <div className="flex flex-col items-stretch gap-2 sm:flex-row">
                   <input
                     id="site-access-password"
                     name="password"
@@ -49,13 +49,13 @@ export const PasswordGate = ({ error, onSubmit }: PasswordGateProps) => {
                     onChange={(event) => setValue(event.target.value)}
                     placeholder={t('gate.placeholder')}
                     aria-label={t('gate.label')}
-                    className="w-40 rounded border border-cream bg-off-white px-4 py-3 text-style-paragraph-3 text-moss-green placeholder:text-moss-green/50 focus:outline-none focus-visible:ring-2 focus-visible:ring-cream focus-visible:ring-offset-2 focus-visible:ring-offset-moss-green sm:w-44"
+                    className="w-40 rounded border border-cream bg-off-white px-4 py-2 text-style-paragraph-3 text-moss-green placeholder:text-moss-green/50 focus:outline-none focus-visible:ring-2 focus-visible:ring-cream focus-visible:ring-offset-2 focus-visible:ring-offset-moss-green sm:w-44"
                     aria-invalid={error}
                     aria-describedby={error ? 'site-access-error' : undefined}
                   />
                   <button
                     type="submit"
-                    className="text-style-button shrink-0 rounded border border-cream bg-off-white px-4 py-3 text-moss-green transition-colors hover:bg-transparent hover:text-cream focus:outline-none focus-visible:ring-2 focus-visible:ring-cream focus-visible:ring-offset-2 focus-visible:ring-offset-moss-green"
+                    className="text-style-button shrink-0 rounded border border-cream bg-off-white px-4 py-2 text-moss-green transition-colors hover:bg-transparent hover:text-cream focus:outline-none focus-visible:ring-2 focus-visible:ring-cream focus-visible:ring-offset-2 focus-visible:ring-offset-moss-green"
                   >
                     {t('gate.submit')}
                   </button>
@@ -72,7 +72,7 @@ export const PasswordGate = ({ error, onSubmit }: PasswordGateProps) => {
               </form>
 
               <LanguageSwitcher
-                className="justify-center pt-8"
+                className="justify-center pt-12"
                 linkClassName="text-cream"
                 activeClassName="text-cream"
                 underlineActive
