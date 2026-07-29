@@ -1,7 +1,5 @@
-import React from 'react';
 import { GridContainer, StarField } from '@components';
 import { useTranslation } from '@i18n';
-import { LanguageSwitcher } from '../../modules/LanguageSwitcher/LanguageSwitcher';
 import { LocaleLink } from '@routing';
 
 export const NotFoundPage = () => {
