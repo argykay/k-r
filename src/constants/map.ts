@@ -14,3 +14,11 @@ export const PICKUP_MAPS_URL =
 /** Restaurant Herthadalen — wedding venue. */
 export const VENUE_MAPS_URL =
   'https://maps.app.goo.gl/NpXnyFJZWg474Fw78';
+
+/** Kalvebod Bølge — boat tour departure. */
+export const KALVEBOD_BOLGE_MAPS_URL =
+  'https://maps.app.goo.gl/kkJcszEGyF2oMkJ67';
+
+/** Reffen Street Food — boat tour drop-off. */
+export const REFFEN_MAPS_URL =
+  'https://maps.app.goo.gl/WTTHBGGjwbNWCQdo6';

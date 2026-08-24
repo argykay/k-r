@@ -5,7 +5,7 @@ export const ROUTE_SEGMENTS = {
   home: '',
   faq: 'faq',
   map: 'map',
-  rsvp: 'rsvp',
+  boatTour: 'boat-tour',
   welcomeParty: 'welcome-party',
 } as const;
 

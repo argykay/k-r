@@ -9,6 +9,11 @@ export type FaqParagraphLink = {
   ariaKey: TranslationKey;
   /** When false, opens in the same context (e.g. `tel:` links). Defaults to true. */
   openInNewTab?: boolean;
+  betweenKey?: TranslationKey;
+  secondHref?: string;
+  secondLabelKey?: TranslationKey;
+  secondAriaKey?: TranslationKey;
+  secondOpenInNewTab?: boolean;
 };
 
 export type FaqContentBlock =
@@ -131,7 +136,22 @@ export const FAQ_ITEMS: FaqItemConfig[] = [
     questionKey: 'faq.speechesQuestion',
     blocks: [
       { type: 'paragraph', key: 'faq.speechesP1' },
-      { type: 'paragraph', key: 'faq.speechesP2' },
+      {
+        type: 'paragraphLink',
+        link: {
+          href: 'tel:+37120072256',
+          beforeKey: 'faq.speechesP2Before',
+          labelKey: 'faq.speechesP2Phone',
+          betweenKey: 'faq.speechesP2Between',
+          secondHref: 'mailto:armand.sup@gmail.com',
+          secondLabelKey: 'faq.speechesP2Email',
+          afterKey: 'faq.speechesP2After',
+          ariaKey: 'faq.speechesP2PhoneAria',
+          secondAriaKey: 'faq.speechesP2EmailAria',
+          openInNewTab: false,
+          secondOpenInNewTab: false,
+        },
+      },
       { type: 'paragraph', key: 'faq.speechesP3' },
       { type: 'paragraph', key: 'faq.speechesP4' },
     ],

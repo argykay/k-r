@@ -16,12 +16,12 @@ const NAV_ROUTES: {
     | 'navigation.welcomeParty'
     | 'navigation.faq'
     | 'navigation.map'
-    | 'navigation.rsvp';
+    | 'navigation.boatTour';
 }[] = [
   { route: 'welcomeParty', labelKey: 'navigation.welcomeParty' },
   { route: 'faq', labelKey: 'navigation.faq' },
   { route: 'map', labelKey: 'navigation.map' },
-  { route: 'rsvp', labelKey: 'navigation.rsvp' },
+  { route: 'boatTour', labelKey: 'navigation.boatTour' },
 ];
 
 const NAV_LINK_CLASS =

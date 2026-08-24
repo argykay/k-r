@@ -103,6 +103,11 @@ const FaqBody = ({ blocks }: { blocks: FaqContentBlock[] }) => {
             afterKey,
             ariaKey,
             openInNewTab = true,
+            betweenKey,
+            secondHref,
+            secondLabelKey,
+            secondAriaKey,
+            secondOpenInNewTab = true,
           } = block.link;
 
           return (
@@ -118,6 +123,21 @@ const FaqBody = ({ blocks }: { blocks: FaqContentBlock[] }) => {
               >
                 {t(labelKey)}
               </a>
+              {betweenKey && secondHref && secondLabelKey && secondAriaKey ? (
+                <>
+                  {t(betweenKey)}
+                  <a
+                    href={secondHref}
+                    {...(secondOpenInNewTab
+                      ? { target: '_blank', rel: 'noopener noreferrer' }
+                      : {})}
+                    className={LINK_CLASS}
+                    aria-label={t(secondAriaKey)}
+                  >
+                    {t(secondLabelKey)}
+                  </a>
+                </>
+              ) : null}
               {t(afterKey)}
             </p>
           );

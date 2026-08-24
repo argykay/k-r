@@ -1,16 +1,23 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import { IntroRevealResetProvider } from '@components';
 import {
+  BoatTourPage,
   FaqPage,
   HomePage,
   MapPage,
   NotFoundPage,
-  RsvpPage,
   WelcomePartyPage,
 } from '@pages';
+import { useTranslation } from '@i18n';
 import { LocaleLayout } from './LocaleLayout';
+import { localizedPath } from './paths';
 import { ScrollToTop } from './ScrollToTop';
+
+const LegacyRsvpRedirect = () => {
+  const { locale } = useTranslation();
+  return <Navigate to={localizedPath(locale, 'boatTour')} replace />;
+};
 
 export const AppRouter = () => {
   return (
@@ -20,7 +27,8 @@ export const AppRouter = () => {
         {/* `/` = English (default) */}
         <Route path="/" element={<LocaleLayout />}>
           <Route index element={<HomePage />} />
-          <Route path="rsvp" element={<RsvpPage />} />
+          <Route path="boat-tour" element={<BoatTourPage />} />
+          <Route path="rsvp" element={<LegacyRsvpRedirect />} />
           <Route path="faq" element={<FaqPage />} />
           <Route path="map" element={<MapPage />} />
           <Route path="welcome-party" element={<WelcomePartyPage />} />
@@ -30,7 +38,8 @@ export const AppRouter = () => {
         {/* `/en`, `/el`, `/lv`, and nested routes */}
         <Route path="/:locale" element={<LocaleLayout />}>
           <Route index element={<HomePage />} />
-          <Route path="rsvp" element={<RsvpPage />} />
+          <Route path="boat-tour" element={<BoatTourPage />} />
+          <Route path="rsvp" element={<LegacyRsvpRedirect />} />
           <Route path="faq" element={<FaqPage />} />
           <Route path="map" element={<MapPage />} />
           <Route path="welcome-party" element={<WelcomePartyPage />} />

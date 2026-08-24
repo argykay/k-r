@@ -27,10 +27,10 @@
       "el": "Χάρτης",
       "lv": "Karte"
     },
-    "rsvp": {
-      "en": "RSVP",
-      "el": "RSVP",
-      "lv": "RSVP"
+    "boatTour": {
+      "en": "Boat Tour",
+      "el": "Boat Tour",
+      "lv": "Boat Tour"
     },
     "welcomeParty": {
       "en": "Welcome party",
@@ -218,6 +218,68 @@
       "en": "Buses return to central Copenhagen.",
       "el": "Τα λεωφορεία επιστρέφουν στο κέντρο της Κοπενχάγης.",
       "lv": "Autobusi atgriežas Kopenhāgenas centrā."
+    }
+  },
+  "boatTour": {
+    "title": {
+      "en": "One last adventure together",
+      "el": "One last adventure together",
+      "lv": "One last adventure together"
+    },
+    "p1": {
+      "en": "The celebrations don’t have to end with the wedding! As a little thank you to everyone joining us for our special weekend, we’ve rented a private boat for a 1.5-hour tour of Copenhagen’s beautiful canals on Monday, 15 September.",
+      "el": "Οι εορτασμοί δεν χρειάζεται να τελειώσουν με τον γάμο! Ως ένα μικρό ευχαριστώ σε όλους όσοι θα μοιραστούν μαζί μας αυτό το ξεχωριστό Σαββατοκύριακο, έχουμε νοικιάσει ένα ιδιωτικό σκάφος για μια 1,5 ώρας βόλτα στα όμορφα κανάλια της Κοπεγχάγης, τη Δευτέρα 15 Σεπτεμβρίου.",
+      "lv": "Svētki nebeidzas līdz ar kāzām! Kā nelielu pateicību visiem, kas būs kopā ar mums šajā īpašajā nedēļas nogalē, mēs esam noīrējuši privātu kuģīti 1,5 stundu garai ekskursijai pa skaistajiem Kopenhāgenas kanāliem pirmdien, 15. septembrī."
+    },
+    "p2Before": {
+      "en": "The boat departs at 15:00 from ",
+      "el": "Το σκάφος αναχωρεί στις 15:00 από το ",
+      "lv": "Kuģītis atiet plkst. 15.00 no "
+    },
+    "kalvebodLabel": {
+      "en": "Kalvebod Bølge",
+      "el": "Kalvebod Bølge",
+      "lv": "Kalvebod Bølge"
+    },
+    "p2After": {
+      "en": ", next to the Marriott and Nykredit buildings. We’ll enjoy the sights of Copenhagen from the water, with an English-speaking guide along the way.",
+      "el": ", δίπλα στα κτίρια Marriott και Nykredit. Θα απολαύσουμε την Κοπεγχάγη από το νερό, με έναν αγγλόφωνο ξεναγό να μας συνοδεύει στη διαδρομή.",
+      "lv": ", blakus Marriott un Nykredit ēkām. Kopā baudīsim Kopenhāgenas skatus no ūdens, un ekskursijas laikā mums pievienosies angliski runājošs gids."
+    },
+    "kalvebodMapsAria": {
+      "en": "Open Kalvebod Bølge in Google Maps",
+      "el": "Άνοιγμα του Kalvebod Bølge στο Google Maps",
+      "lv": "Atvērt Kalvebod Bølge Google Maps"
+    },
+    "p3Before": {
+      "en": "After the tour, the boat will drop us off at ",
+      "el": "Μετά τη βόλτα, το σκάφος θα μας αφήσει στο ",
+      "lv": "Pēc ekskursijas kuģītis mūs nogādās "
+    },
+    "reffenLabel": {
+      "en": "Reffen Street Food",
+      "el": "Reffen Street Food",
+      "lv": "Reffen Street Food"
+    },
+    "p3After": {
+      "en": ", where we can grab some food and drinks, relax, share stories from the weekend and say our goodbyes.",
+      "el": ", όπου μπορούμε να πάρουμε κάτι να φάμε και να πιούμε, να χαλαρώσουμε, να μοιραστούμε ιστορίες από το Σαββατοκύριακο και να πούμε τα αντίο μας.",
+      "lv": ", kur varēsim paēst, iedzert, atpūsties, dalīties pēdējos stāstos par nedēļas nogali un atvadīties."
+    },
+    "reffenMapsAria": {
+      "en": "Open Reffen Street Food in Google Maps",
+      "el": "Άνοιγμα του Reffen Street Food στο Google Maps",
+      "lv": "Atvērt Reffen Street Food Google Maps"
+    },
+    "p4": {
+      "en": "There’s no fixed schedule after we arrive — stay for as long as you like and head off whenever it suits you. You can easily get back by harbour bus, regular public transport or Uber.",
+      "el": "Δεν υπάρχει συγκεκριμένο πρόγραμμα μετά την άφιξή μας — μείνετε όσο θέλετε και φύγετε όποτε σας βολεύει. Μπορείτε εύκολα να επιστρέψετε με το harbour bus, τα υπόλοιπα μέσα μαζικής μεταφοράς ή με Uber.",
+      "lv": "Pēc ierašanās Reffen nav noteikta plāna — palieciet tik ilgi, cik vēlaties, un dodieties prom, kad jums ir ērti. Atpakaļ varēsiet viegli nokļūt ar ostas autobusu, citu sabiedrisko transportu vai Uber."
+    },
+    "p5": {
+      "en": "Everyone is welcome — we’d love for you to join us for one final Copenhagen adventure!",
+      "el": "Όλοι είναι ευπρόσδεκτοι — θα χαρούμε πολύ να σας έχουμε μαζί μας για μια τελευταία περιπέτεια στην Κοπεγχάγη!",
+      "lv": "Laipni aicināti visi — mēs būtu ļoti priecīgi, ja pievienotos mums vēl vienā kopīgā Kopenhāgenas piedzīvojumā!"
     }
   },
   "rsvp": {
@@ -551,14 +613,14 @@
       "lv": "Ja nokavējat autobusu vai vēlaties doties prom agrāk, iespējams izmantot taksometru vai Uber."
     },
     "gettingThereP5Before": {
-      "en": "If you need any assistance on the day please contact our maid of honor Kim on ",
-      "el": "Αν χρειαστείτε οποιαδήποτε βοήθεια την ημέρα του γάμου, επικοινωνήστε με την παράνυμφό μας Kim στο ",
-      "lv": "Ja jums vajadzīga jebkāda palīdzība svētku dienā, lūdzu sazinieties ar mūsu vedējmāti Kim pa tālruni "
+      "en": "If you need any assistance on the day please contact our friend Ieva on ",
+      "el": "Αν χρειαστείτε οποιαδήποτε βοήθεια την ημέρα του γάμου, επικοινωνήστε με τη φίλη μας την Ιέβα στο ",
+      "lv": "Ja jums vajadzīga jebkāda palīdzība svētku dienā, lūdzu sazinieties ar mūsu draudzeni Ievu pa tālruni "
     },
     "gettingTherePhone": {
-      "en": "+4552903718",
-      "el": "+4552903718",
-      "lv": "+4552903718"
+      "en": "+4522888494",
+      "el": "+4522888494",
+      "lv": "+4522888494"
     },
     "gettingThereP5After": {
       "en": ".",
@@ -566,9 +628,9 @@
       "lv": "."
     },
     "gettingTherePhoneAria": {
-      "en": "Call Kim at +4552903718",
-      "el": "Καλέστε την Kim στο +4552903718",
-      "lv": "Zvanīt Kim uz +4552903718"
+      "en": "Call Ieva at +4522888494",
+      "el": "Καλέστε την Ieva στο +4522888494",
+      "lv": "Zvanīt Ieva uz +4522888494"
     },
     "gettingAroundQuestion": {
       "en": "How do I get around in the city?",
@@ -725,10 +787,40 @@
       "el": "Θέλουμε να κρατήσουμε τη μέρα απλή και χαλαρή, αλλά οι προπόσεις είναι αρκετά συνηθισμένες σε διεθνείς γάμους.",
       "lv": "Mēs vēlamies, lai šī diena būtu vienkārša un nepiespiesta."
     },
-    "speechesP2": {
-      "en": "There won't be a toastmaster or a formal lineup of speeches. But if anyone feels inspired to say a few words during the day, you're more than welcome to.",
-      "el": "Δεν θα υπάρχει toastmaster (οργανωτής των προπόσεων) ούτε προκαθορισμένο πρόγραμμα ομιλιών. Αν όμως κάποιος θέλει να πει λίγα λόγια κατά τη διάρκεια της ημέρας, θα χαρούμε πολύ να το κάνει.",
-      "lv": "Nebūs ne vakara vadītāja, ne iepriekš ieplānotu runu programmas. Taču, ja kādam rodas vēlme pateikt dažus vārdus, mēs to ļoti priecāsimies dzirdēt."
+    "speechesP2Before": {
+      "en": "If you’re planning to give a speech during the wedding, please get in touch with our toastmaster and best man, Armands, beforehand so we can help make sure everything runs smoothly. You can reach him on WhatsApp at ",
+      "el": "Αν σκοπεύετε να πείτε λίγα λόγια κατά τη διάρκεια του γάμου, παρακαλούμε επικοινωνήστε εκ των προτέρων με τον κουμπάρο μας, τον Armands, ώστε να βοηθήσουμε να κυλήσουν όλα ομαλά. Μπορείτε να επικοινωνήσετε μαζί του μέσω WhatsApp στο ",
+      "lv": "Ja plānojat teikt runu kāzu laikā, lūdzu, iepriekš sazinieties ar mūsu toastmaster un vedējtēvu Armandu, lai mēs varētu palīdzēt nodrošināt, ka viss norit gludi. Jūs varat sazināties ar viņu, izmantojot WhatsApp, pa tālruni "
+    },
+    "speechesP2Phone": {
+      "en": "+371 20 072 256",
+      "el": "+371 20 072 256",
+      "lv": "+371 20 072 256"
+    },
+    "speechesP2Between": {
+      "en": " or by email at ",
+      "el": " ή με email στο ",
+      "lv": " vai e-pastu "
+    },
+    "speechesP2Email": {
+      "en": "armand.sup@gmail.com",
+      "el": "armand.sup@gmail.com",
+      "lv": "armand.sup@gmail.com"
+    },
+    "speechesP2After": {
+      "en": ".",
+      "el": ".",
+      "lv": "."
+    },
+    "speechesP2PhoneAria": {
+      "en": "Call Armands on WhatsApp at +371 20 072 256",
+      "el": "Καλέστε τον Armands στο WhatsApp στο +371 20 072 256",
+      "lv": "Zvanīt Armandam WhatsApp pa tālruni +371 20 072 256"
+    },
+    "speechesP2EmailAria": {
+      "en": "Email Armands at armand.sup@gmail.com",
+      "el": "Στείλτε email στον Armands στο armand.sup@gmail.com",
+      "lv": "Rakstīt Armandam e-pastu uz armand.sup@gmail.com"
     },
     "speechesP3": {
       "en": "As our guests come from all over the world, not everyone speaks the same language. If you're planning a speech, we'd really appreciate it if you could keep that in mind—whether that means speaking in English, keeping it short, or offering a quick summary if you're speaking in another language.",
